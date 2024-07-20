@@ -1,0 +1,23 @@
+ton,ton
+m.,metre
+kg.,kg
+m²,metrekare
+dm³,desimetreküp
+dekar,dekar
+gtr.,götürü
+plt-m,palet-metrekare
+hat-m,hat-metrekare
+adet,adet
+set,set
+Km,kilometre
+Mt,megaton
+m3,metreküp
+m2,metrekare
+Paçal,paçal
+Götürü,götürü
+adm×ay,adam × ay
+mak×ay,makine × ay
+lt.,litre
+kwh,kilowatt-hour
+ay,ay
+yıl,yıl
