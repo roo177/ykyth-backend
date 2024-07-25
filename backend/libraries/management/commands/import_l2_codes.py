@@ -28,7 +28,7 @@ class Command(BaseCommand):
                         l1_code_id = l1_code_dict.get(fields[0].upper())
                         l2_code_code = fields[1].upper()
                         l2_code_description = fields[2].upper()
-                        created_by_id = 'ee26630b-fd60-42ee-ad4a-190ef566e493'
+                        created_by_id = '12f4aa11-b6fc-482f-894d-0962ad5f4313'
 
                         if l1_code_id:
                             # Create the L2Code instance

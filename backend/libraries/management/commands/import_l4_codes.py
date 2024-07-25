@@ -4,6 +4,8 @@ from django.core.management.base import BaseCommand, CommandError
 from libraries.models import L3Code, L4Code  # Adjust as per your actual models
 from django.db import transaction
 from constants.models import Unit
+from libraries.models import ActivityType,ActivityTypeDetail
+
 class Command(BaseCommand):
     help = 'Import L2 Code from a text file'
 
@@ -18,12 +20,21 @@ class Command(BaseCommand):
             l3_code_dict = {l3_code.l2_code.l1_code.l1_code + "-" + l3_code.l2_code.l2_code + "-" + l3_code.l3_code   : str(l3_code.id) for l3_code in L3Code.objects.all()}
             # print(l3_code_dict)
             unit_dict = {unit.unit: str(unit.id) for unit in Unit.objects.all()}
+            # print(unit_dict)
+            actiivty_type_dict = {activity.description: str(activity.id) for activity in ActivityType.objects.all()}
+            activity_type_detail_dict = {activity_detail.description: str(activity_detail.id) for activity_detail in ActivityTypeDetail.objects.all()}
+
+            # print(activity_dict )
 
             with open(file_path, 'r', encoding='utf-8') as file:
+                print("opening file")
+
                 reader = csv.reader(file, delimiter='!')
                 k = 1
                 with transaction.atomic():  # Ensure atomic transaction
                     L4Code.objects.all().delete()
+
+                    
                     for line in reader:
                         fields = line
                         # print(k)
@@ -40,8 +51,9 @@ class Command(BaseCommand):
                         l4_bf_dg = fields[11] if fields[11] else None
                         l4_mk_ks = fields[12] if fields[12] else None
                         tax = fields[13].upper() == 'TRUE'
-
-                        created_by_id = 'ee26630b-fd60-42ee-ad4a-190ef566e493'
+                        activity_type = actiivty_type_dict.get(fields[14].upper())
+                        activity_type_detail = activity_type_detail_dict.get(fields[15].upper())
+                        created_by_id = '12f4aa11-b6fc-482f-894d-0962ad5f4313'
 
                         if l3_code_id:
                             # Create the L2Code instance
@@ -58,6 +70,8 @@ class Command(BaseCommand):
                                 l4_bf_dg=l4_bf_dg,
                                 l4_mk_ks=l4_mk_ks,
                                 tax=tax,
+                                activity_type_id=activity_type,
+                                activity_detail_id=activity_type_detail,
 
                                 created_by_id=created_by_id,
                                 updated_by_id=created_by_id

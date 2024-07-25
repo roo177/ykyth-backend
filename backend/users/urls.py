@@ -6,6 +6,7 @@ router = routers.DefaultRouter()
 router.register(r'user', UserViewSet, basename="user")
 router.register(r'group', GroupsViewSet)
 from rest_framework_simplejwt.views import TokenRefreshView
+
 urlpatterns = [
     path('', include(router.urls)),
     path('login/', MyObtainTokenPairView.as_view(), name='token_obtain_pair'),
