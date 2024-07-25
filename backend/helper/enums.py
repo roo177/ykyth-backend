@@ -126,7 +126,7 @@ class FileTypeEnum(GeneralEnum):
     employee_tracking = 'employee_tracking'
     pm_smu_crew_region_area = 'pm_smu_crew_region_area'
     generate_employee_data = 'generate_employee_data'
-    
+    income_qty = 'income_qty'
 class FileProcessTypeEnum(GeneralEnum):
     work_design_import = "work_design_import"
     work_design_export = "work_design_export"
@@ -149,4 +149,4 @@ class FileProcessTypeEnum(GeneralEnum):
     manpoweronsite_static_import = "manpoweronsite_static_import"
     sd_report_static_import = "sd_report_static_import"   
     employee_data_import = "employee_data_import"
-    
+    income_qty = "income_qty"

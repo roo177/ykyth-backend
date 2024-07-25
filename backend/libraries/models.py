@@ -1,10 +1,11 @@
 from django.db import models
 from common.models import Common
 from constants.models import Unit
+
 # Create your models here.
 
 class L1Code(Common):
-    
+
     l1_code = models.CharField(max_length=100)
     description = models.CharField(max_length=100)
     code_comb = models.CharField(max_length=255, editable=False, blank=True)
@@ -59,7 +60,42 @@ class L3Code(Common):
         def __str__(self):
             return self.code_comb
 
+class ActivityType(Common):
+    
+    description = models.CharField(max_length=100)
+    
+    class Meta:
+        ordering = ['description']
+        db_table = 't_act_type'
+
+
+    def __str__(self):
+        return self.description
+    
+
+class ActivityTypeDetail(Common):
+    
+    description = models.CharField(max_length=100)
+    
+    class Meta:
+        ordering = ['description']
+        db_table = 't_act_type_detail'
+
+    def __str__(self):
+        return self.description
+    
+class ActivityTypeDetailIncome(Common):
+    
+    description = models.CharField(max_length=100)
+    
+    class Meta:
+        ordering = ['description']
+        db_table = 't_act_type_detail_inc'
+
+    def __str__(self):
+        return self.description
 class L4Code(Common):
+        
         l4_code = models.CharField(max_length=100)
         l3_code = models.ForeignKey('L3Code', on_delete=models.PROTECT, verbose_name='L3 Code')
         description = models.CharField(max_length=255)
@@ -76,6 +112,11 @@ class L4Code(Common):
         aygm_group = models.CharField(max_length=100, null=True, blank=True)
         aygm_desc = models.TextField(null=True, blank=True)
         code_comb = models.CharField(max_length=255, editable=False, blank=True)
+        activity_type = models.ForeignKey(ActivityType, on_delete=models.PROTECT, verbose_name='Income Activity Type')
+        activity_detail = models.ForeignKey(ActivityTypeDetail, on_delete=models.PROTECT, verbose_name='Income Activity Type Detail')
+        l4_order_ratio = models.FloatField(null=True, blank=True)
+        l4_delivery_ratio = models.FloatField(null=True, blank=True)
+        l4_handover_ratio = models.FloatField(null=True, blank=True)
 
         def save(self, *args, **kwargs):
             if self.l3_code:
@@ -88,3 +129,5 @@ class L4Code(Common):
         class Meta:
             ordering = ['l4_code']
             db_table = 't_l4_code'
+            unique_together = ['aygm_code', 'activity_type','activity_detail','code_comb']
+

@@ -45,3 +45,19 @@ class Unit(Common):
         
     def __str__(self):
         return self.unit
+    
+
+class Month(Common):
+    
+    month = models.DateField()
+    month_no = models.IntegerField()
+    year_no = models.IntegerField()
+    class Meta:
+        ordering = ['month_no']
+        db_table = 't_month'
+
+        
+    def __str__(self):
+        return self.month
+    
+
