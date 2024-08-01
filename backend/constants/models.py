@@ -61,3 +61,15 @@ class Month(Common):
         return self.month
     
 
+class Update(Common):
+    
+    update = models.CharField(max_length=100)
+    description = models.CharField(max_length=100)
+    
+    class Meta:
+        ordering = ['update']
+        db_table = 't_update'
+
+        
+    def __str__(self):
+        return self.update
