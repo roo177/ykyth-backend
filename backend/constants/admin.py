@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Constant, RepMonth, Unit
+from .models import Constant, RepMonth, Unit,Update
 
 @admin.register(Constant)
 class ConstantsAdmin(admin.ModelAdmin):
@@ -18,3 +18,11 @@ class UnitsAdmin(admin.ModelAdmin):
     list_display = ('unit', 'description','id', 'is_active', 'is_deleted')
     search_fields = ('unit', 'description')
     list_filter = ('unit', 'description')
+
+
+class UpdateAdmin(admin.ModelAdmin):
+    list_display = ('update', 'description')
+    search_fields = ('update', 'description')
+    ordering = ('update',)
+    
+admin.site.register(Update, UpdateAdmin)

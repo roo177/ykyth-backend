@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'indexes',
     'income',
     'file_import_export',
+    'expense'
 
 ]
 

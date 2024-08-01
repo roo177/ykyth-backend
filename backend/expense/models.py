@@ -1,0 +1,142 @@
+from django.db import models
+from common.models import Common
+from constants.models import Unit, RepMonth
+from libraries.models import R4Code, L4Code
+
+class R4Price(Common):
+    PRICE_ADJUSTMENT_TYPES = [
+        ('FFK AK', 'FFK AK'),
+        ('YKT AK', 'YKT AK'),
+        ('BKM AK', 'BKM AK'),
+        ('EUR AK', 'EUR AK'),
+        ('USD AK', 'USD AK'),
+        ('-', '-'),
+    ]
+    FIN_TYPE_CHOICES = [
+        ('Sell & LB', 'Sell & LB'),
+        ('Leasing', 'Leasing'),
+        ('Nakit', 'Nakit'),
+    ]
+    CURRENCY_CHOICES = [
+        ('EUR', 'EUR'),
+        ('USD', 'USD'),
+        ('TRY', 'TRY'),
+    ]
+    ORIGIN_CHOICES = [
+        ('TR', 'TR'),
+        ('OECD', 'OECD'),
+        ('OEKB', 'OEKB'),
+        ('SACE', 'SACE'),
+        ('UKEF', 'UKEF'),
+        ('KUKE', 'KUKE'),
+        ('-', '-'),
+    ]
+    DEPRECIATION_TYPES = [
+        ('MAKİNE', 'MAKİNE'),
+        ('SABİT TESİS', 'SABİT TESİS'),
+        ('ARAÇ', 'ARAÇ'),
+        ('DİĞER EKİPMANLAR', 'DİĞER EKİPMANLAR'),
+        ('-', '-'),
+    ]
+    ENERGY_TYPES = [
+        ('ELEKTRİK', 'ELEKTRİK'),
+        ('DOĞALGAZ', 'DOĞALGAZ'),
+        ('BUHAR', 'BUHAR'),
+        ('MAZOT', 'MAZOT'),
+        ('-', '-'),
+    ]
+    rep_month = models.ForeignKey(RepMonth, on_delete=models.PROTECT, verbose_name='Reporting Month')
+    r4_code = models.ForeignKey(R4Code, on_delete=models.CASCADE, verbose_name='R4 Code', related_name='r4_prices')
+    unit = models.ForeignKey(Unit, null=True, on_delete=models.PROTECT, verbose_name='Unit')
+    currency = models.CharField(max_length=3, choices=CURRENCY_CHOICES, null=True, blank=True)
+    origin = models.CharField(max_length=100, choices=ORIGIN_CHOICES, null=True, blank=True)
+    price = models.FloatField(null=True, blank=True)
+    price_date = models.DateField(null=True, blank=True)
+    price_adjustment_type = models.CharField(max_length=100, choices=PRICE_ADJUSTMENT_TYPES,null=True, blank=True )
+    bool_depreciation = models.BooleanField(default=False)
+    depreciation_type = models.CharField(max_length=100, choices=DEPRECIATION_TYPES,null=True, blank=True )
+    depreciation_price = models.FloatField(null=True, blank=True)
+    energy_type = models.CharField(max_length=100, choices=ENERGY_TYPES,null=True, blank=True )
+    operator_r4_code = models.ForeignKey(R4Code, on_delete=models.CASCADE, verbose_name='Operator R4 Code', null=True, blank=True, related_name='operator_r4_prices')
+    fin_type = models.CharField(max_length=100, choices=FIN_TYPE_CHOICES, null=True, blank=True)
+    customs = models.BooleanField(default=False)
+    content_constant = models.FloatField(null=True, blank=True)
+    machine_id = models.CharField(max_length=100, null=True, blank=True)
+
+    class Meta:
+        ordering = ['price_date']
+        db_table = 't_r4_price'
+        unique_together = ['r4_code', 'rep_month']
+
+    def __str__(self):
+        return str(self.rep_month) + ' - ' + self.r4_code.code_comb
+    
+
+
+class ExpenseAnalysis(Common):
+    rep_month = models.ForeignKey(RepMonth, on_delete=models.PROTECT, verbose_name='Reporting Month Analysis')
+    l4_code =models.ForeignKey(L4Code, on_delete=models.PROTECT, verbose_name='L4 Code Analysis', related_name='l4_code_analysis')
+    r4_code = models.ForeignKey(R4Code, on_delete=models.PROTECT, verbose_name='R4 Code Analysis', related_name='r4_prices_analysis',null=True, blank=True)
+    r4_desc = models.CharField(max_length=100, null=True, blank=True)
+    work_ratio = models.FloatField(null=True, blank=True)
+    work_ratio_desc = models.CharField(max_length=100, null=True, blank=True)
+    output_per_unit_time = models.FloatField(null=True, blank=True)
+    output_desc = models.CharField(max_length=100, null=True, blank=True)
+    consumption_per_unit_time = models.FloatField(null=True, blank=True)
+    consumption_desc = models.CharField(max_length=100, null=True, blank=True)
+
+
+    class Meta:
+        ordering = ['rep_month', 'r4_code__code_comb']
+        db_table = 't_exp_analysis'
+
+
+    def __str__(self):
+        return str(self.rep_month) + ' - ' + self.r4_code.code_comb
+    
+
+
+class ExpenseQuantity(Common):
+    
+    rep_month = models.ForeignKey(RepMonth, on_delete=models.PROTECT, verbose_name='Expense_rep_month')
+    l4_code = models.ForeignKey(L4Code, on_delete=models.PROTECT, verbose_name='Expense_l4_code')
+    exp_month = models.DateField()
+    exp_qty = models.FloatField(default=0)
+
+    class Meta:
+        ordering = ['l4_code']
+        db_table = 't_exp_qty'
+
+    def __str__(self):
+        return self.rep_month.rep_month & "-" & self.l4_code.code_comb
+    
+
+
+class MachineryList(Common):
+
+    rep_month = models.ForeignKey(RepMonth, on_delete=models.PROTECT, verbose_name='Expense_rep_month')
+    r4_code = models.ForeignKey(R4Code, on_delete=models.PROTECT, verbose_name='Expense_r4_code')
+    machine_qty = models.FloatField(default=1)
+
+    class Meta:
+        ordering = ['r4_code']
+        db_table = 't_exp_machinery_list'
+
+    def __str__(self):
+        return self.rep_month.rep_month & "-" & self.r4_code.code_comb
+
+
+class ExpenseMachineryOperatorDistribution(Common):
+    rep_month = models.ForeignKey(RepMonth, on_delete=models.PROTECT, verbose_name='Expense_rep_month')
+    l4_code = models.ForeignKey(L4Code, on_delete=models.PROTECT, verbose_name='Expense_l4_code')
+    r4_code = models.ForeignKey(R4Code, on_delete=models.PROTECT, verbose_name='Expense_r4_code')
+    machine_r4_code = models.ForeignKey(R4Code, on_delete=models.PROTECT, verbose_name='Machine_r4_code', related_name='machine_r4_code', null=True, blank=True)
+    exp_month = models.DateField()  
+    machine_qty = models.FloatField(default=1)
+
+    class Meta:
+        ordering = ['l4_code']
+        db_table = 't_exp_mach_oper_dist'
+
+    def __str__(self):
+        return self.rep_month.rep_month & "-" & self.l4_code.code_comb & "-" & self.r4_code.code_comb
