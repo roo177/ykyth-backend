@@ -49,8 +49,9 @@ class Command(BaseCommand):
                 rep_month_id = rep_month_dict.get(str(row['Rep Month']))
 
                 # Print for debugging
-                print(f"Rep Month ID: {rep_month_id}, L4 Code ID: {l4_code_id}, Quantity: {row['qty']}")
-
+                # print(f"Rep Month ID: {rep_month_id}, L4 Code ID: {l4_code_id}, Quantity: {row['qty']}")
+                if row['qty'] == 'nan' or row['qty'] == 'NaN' or row['qty'] == 0:
+                    continue
                 if rep_month_id and l4_code_id and row['qty'] != 0 and not pd.isnull(row['qty']):
                     expense_records.append(
                         ExpenseQuantity(
