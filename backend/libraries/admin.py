@@ -8,20 +8,26 @@ class CommonAdmin(admin.ModelAdmin):
     list_filter = ('is_active', 'is_deleted', 'created_by', 'updated_by', 'deleted_by')
     search_fields = ('id',)
     list_display = ('id', 'is_active', 'is_deleted', 'created_at', 'updated_at', 'created_by', 'updated_by', 'deleted_by', 'deleted_at')
-from django.contrib import admin
 
 class L1CodesAdmin(CommonAdmin):
     list_display = ('l1_code', 'description', 'code_comb') + CommonAdmin.list_display
     search_fields = ('l1_code', 'description', 'code_comb')
     list_filter = ('is_active', 'is_deleted')
+    ordering = ('code_comb',)  # Add code_comb to ordering
+    list_editable = ('code_comb',)  # Make code_comb editable
 
 class L2CodesAdmin(CommonAdmin):
     list_display = ('l2_code', 'l1_code', 'description', 'code_comb') + CommonAdmin.list_display
     search_fields = ('l2_code', 'description', 'l1_code__l1_code')
+    ordering = ('code_comb',)  # Add code_comb to ordering
+    list_editable = ('code_comb',)  # Make code_comb editable
 
 class L3CodesAdmin(CommonAdmin):
     list_display = ('l3_code', 'l2_code', 'description', 'code_comb') + CommonAdmin.list_display
     search_fields = ('l3_code', 'description', 'l2_code__l2_code')
+    ordering = ('code_comb',)  # Add code_comb to ordering
+    list_editable = ('code_comb',)  # Make code_comb editable
+
 class L4CodesAdmin(CommonAdmin):
     list_display = (
         'l4_code', 

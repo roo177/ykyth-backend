@@ -41,7 +41,7 @@ class L1Code(Common):
 
     l1_code = models.CharField(max_length=100)
     description = models.CharField(max_length=100)
-    code_comb = models.CharField(max_length=255, editable=False, blank=True)
+    code_comb = models.CharField(max_length=255, editable=True, blank=True)
     
     class Meta:
         ordering = ['l1_code']
@@ -61,7 +61,7 @@ class L2Code(Common):
     l2_code = models.CharField(max_length=100)
     l1_code = models.ForeignKey(L1Code, on_delete=models.PROTECT, verbose_name='L1 Code')
     description = models.CharField(max_length=100)
-    code_comb = models.CharField(max_length=255, editable=False, blank=True)
+    code_comb = models.CharField(max_length=255, editable=True, blank=True)
     
     class Meta:
         ordering = ['l2_code']
@@ -81,7 +81,7 @@ class L3Code(Common):
         l3_code = models.CharField(max_length=100)
         l2_code = models.ForeignKey(L2Code, on_delete=models.PROTECT, verbose_name='L2 Code')
         description = models.CharField(max_length=100)
-        code_comb = models.CharField(max_length=255, editable=False, blank=True)
+        code_comb = models.CharField(max_length=255, editable=True, blank=True)
         
         class Meta:
             ordering = ['l3_code']
@@ -103,7 +103,7 @@ class L4Code(Common):
         l3_code = models.ForeignKey(L3Code, on_delete=models.PROTECT, verbose_name='L3 Code')
         description = models.CharField(max_length=255)
         unit = models.ForeignKey(Unit, null=True, on_delete=models.PROTECT, verbose_name='Unit')
-        mtc_dgs_nkt = models.CharField(max_length=10)
+        mtc_dgs_nkt = models.CharField(max_length=10,null=True, blank=True)
         nak_ote = models.IntegerField(null=True, blank=True)
         l4_ref = models.CharField(max_length=100, null=True, blank=True)
         l4_hkds = models.BooleanField(default=False)
@@ -114,9 +114,9 @@ class L4Code(Common):
         aygm_code = models.CharField(max_length=100, null=True, blank=True)
         aygm_group = models.CharField(max_length=100, null=True, blank=True)
         aygm_desc = models.TextField(null=True, blank=True)
-        code_comb = models.CharField(max_length=255, editable=False, blank=True)
-        activity_type = models.ForeignKey(ActivityType, on_delete=models.PROTECT, verbose_name='Income Activity Type')
-        activity_detail = models.ForeignKey(ActivityTypeDetail, on_delete=models.PROTECT, verbose_name='Income Activity Type Detail')
+        code_comb = models.CharField(max_length=255, editable=True, blank=True)
+        activity_type = models.ForeignKey(ActivityType, on_delete=models.PROTECT, verbose_name='Income Activity Type',null=True, blank=True)
+        activity_detail = models.ForeignKey(ActivityTypeDetail, on_delete=models.PROTECT, verbose_name='Income Activity Type Detail',null=True, blank=True)
         l4_order_ratio = models.FloatField(null=True, blank=True)
         l4_delivery_ratio = models.FloatField(null=True, blank=True)
         l4_handover_ratio = models.FloatField(null=True, blank=True)
@@ -138,7 +138,7 @@ class R1Code(Common):
 
     r1_code = models.CharField(max_length=5)
     description = models.CharField(max_length=100)
-    code_comb = models.CharField(max_length=255, editable=False, blank=True)
+    code_comb = models.CharField(max_length=255, editable=True, blank=True)
     
     class Meta:
         ordering = ['r1_code']
@@ -158,7 +158,7 @@ class R2Code(Common):
     r2_code = models.CharField(max_length=4)
     r1_code = models.ForeignKey(R1Code, on_delete=models.PROTECT, verbose_name='R1 Code')
     description = models.CharField(max_length=100)
-    code_comb = models.CharField(max_length=255, editable=False, blank=True)
+    code_comb = models.CharField(max_length=255, editable=True, blank=True)
     
     class Meta:
         ordering = ['r2_code']
@@ -177,7 +177,7 @@ class R3Code(Common):
         r3_code = models.CharField(max_length=4)
         r2_code = models.ForeignKey(R2Code, on_delete=models.CASCADE, verbose_name='R2 Code')
         description = models.CharField(max_length=100)
-        code_comb = models.CharField(max_length=255, editable=False, blank=True)
+        code_comb = models.CharField(max_length=255, editable=True, blank=True)
         
         class Meta:
             ordering = ['r3_code']
@@ -198,7 +198,7 @@ class R4Code(Common):
         r4_code = models.CharField(max_length=4)
         r3_code = models.ForeignKey(R3Code, on_delete=models.CASCADE, verbose_name='R3 Code')
         description = models.CharField(max_length=255)
-        code_comb = models.CharField(max_length=255, editable=False, blank=True)
+        code_comb = models.CharField(max_length=255, editable=True, blank=True)
 
         def save(self, *args, **kwargs):
             if self.r3_code:
