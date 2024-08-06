@@ -62,6 +62,9 @@ class R4Price(Common):
     customs = models.BooleanField(default=False)
     content_constant = models.FloatField(null=True, blank=True)
     machine_id = models.CharField(max_length=100, null=True, blank=True)
+    depreciation_quantity = models.FloatField(null=True, blank=True)
+    energy_consumption = models.FloatField(null=True, blank=True)
+
 
     class Meta:
         ordering = ['price_date']

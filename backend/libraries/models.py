@@ -213,3 +213,79 @@ class R4Code(Common):
             db_table = 't_r4_code'
             unique_together = ['code_comb']
 
+class Y1Code(Common):
+
+    y1_code = models.CharField(max_length=100)
+    description = models.CharField(max_length=100)
+    code_comb = models.CharField(max_length=255, editable=True, blank=True)
+    
+    class Meta:
+        ordering = ['y1_code']
+        db_table = 't_y1_code'
+        unique_together = ['code_comb']
+
+    def save(self, *args, **kwargs):
+        if self.y1_code:
+            self.code_comb = f"{self.y1_code}"
+        super().save(*args, **kwargs)
+
+    def __str__(self):
+        return self.code_comb
+    
+class Y2Code(Common):
+    
+    y2_code = models.CharField(max_length=100)
+    y1_code = models.ForeignKey(Y1Code, on_delete=models.PROTECT, verbose_name='Y1 Code')
+    description = models.CharField(max_length=100)
+    code_comb = models.CharField(max_length=255, editable=True, blank=True)
+    
+    class Meta:
+        ordering = ['y2_code']
+        db_table = 't_y2_code'
+        unique_together = ['code_comb']
+
+    def save(self, *args, **kwargs):
+        if self.y1_code:
+            self.code_comb = f"{self.y1_code.y1_code}-{self.y2_code}"
+        super().save(*args, **kwargs)
+
+    def __str__(self):
+        return self.code_comb
+class T1Code(Common):
+
+    t1_code = models.CharField(max_length=100)
+    description = models.CharField(max_length=100)
+    code_comb = models.CharField(max_length=255, editable=True, blank=True)
+    
+    class Meta:
+        ordering = ['t1_code']
+        db_table = 't_t1_code'
+        unique_together = ['code_comb']
+
+    def save(self, *args, **kwargs):
+        if self.t1_code:
+            self.code_comb = f"{self.t1_code}"
+        super().save(*args, **kwargs)
+
+    def __str__(self):
+        return self.code_comb
+    
+class T2Code(Common):
+    
+    t2_code = models.CharField(max_length=100)
+    t1_code = models.ForeignKey(T1Code, on_delete=models.PROTECT, verbose_name='Y1 Code')
+    description = models.CharField(max_length=100)
+    code_comb = models.CharField(max_length=255, editable=True, blank=True)
+    
+    class Meta:
+        ordering = ['t2_code']
+        db_table = 't_t2_code'
+        unique_together = ['code_comb']
+
+    def save(self, *args, **kwargs):
+        if self.t1_code:
+            self.code_comb = f"{self.t1_code.t1_code}-{self.t2_code}"
+        super().save(*args, **kwargs)
+
+    def __str__(self):
+        return self.code_comb
