@@ -7,7 +7,7 @@ class CommonAdmin(admin.ModelAdmin):
     readonly_fields = ('created_at', 'updated_at')
     list_filter = ('is_active', 'is_deleted', 'created_by', 'updated_by', 'deleted_by')
     search_fields = ('id',)
-    list_display = ('id', 'is_active', 'is_deleted', 'created_at', 'updated_at', 'created_by', 'updated_by', 'deleted_by', 'deleted_at')
+    list_display = ('id', 'is_active', 'is_deleted', 'created_at', 'updated_at')
 
 class L1CodesAdmin(CommonAdmin):
     list_display = ('l1_code', 'description', 'code_comb') + CommonAdmin.list_display

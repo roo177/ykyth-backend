@@ -25,8 +25,8 @@ class Command(BaseCommand):
             unit_dict = {str(unit.unit).upper(): unit for unit in Unit.objects.all()}  # Adjust 'name' to your Unit model's unique field
             rep_month_dict = {str(rep_month.rep_month).upper(): rep_month for rep_month in RepMonth.objects.all()}  # Adjust 'name' to your RepMonth model's unique field   
             # Read the Excel file using pandas
-            df = pd.read_excel(file_path, sheet_name='R4Prices', dtype={'Rep_Month': str, 'R1 Code': str, 'R2 Code': str, 'R3 Code': str, 'R4 Code': str, 'Description': str, 'Unit': str, 'Currency': str, 'Origin': str, 'Price': float, 'Price Date': str,  'Price Adjustment Type': str, ' Depreciation Price': float, 'Depreciation': bool, 'Depreciation Type': str, 'Energy Type':str,'Finance Type':str, 'Operator R4 Code': str, 'Customs': bool, 'Content Constant': float, 'Machine ID': str})
-            required_columns = {'R1 Code', 'R2 Code', 'R3 Code', 'R4 Code', 'Description', 'Unit', 'Currency', 'Origin', 'Finance Type', 'Customs', 'Price Date', 'Price', 'Price Adjustment Type', 'Depreciation', 'Depreciation Type', 'Energy Type', 'Operator R4 Code', 'Content Constant', 'Machine ID'}
+            df = pd.read_excel(file_path, sheet_name='R4Prices', dtype={'Rep_Month': str, 'R1 Code': str, 'R2 Code': str, 'R3 Code': str, 'R4 Code': str, 'Description': str, 'Unit': str, 'Currency': str, 'Origin': str, 'Price': float, 'Price Date': str,  'Price Adjustment Type': str, ' Depreciation Price': float, 'Depreciation': bool, 'Depreciation Type': str, 'Energy Type':str,'Finance Type':str, 'Operator R4 Code': str, 'Customs': bool, 'Content Constant': float, 'Machine ID': str, 'Depreciation_Qty': float,'Consumption_per_Hour': float})
+            required_columns = {'R1 Code', 'R2 Code', 'R3 Code', 'R4 Code', 'Description', 'Unit', 'Currency', 'Origin', 'Finance Type', 'Customs', 'Price Date', 'Price', 'Price Adjustment Type', 'Depreciation', 'Depreciation Type', 'Energy Type', 'Operator R4 Code', 'Content Constant', 'Machine ID','Depreciation_Qty','Consumption_per_Hour'}
             file_columns = set(df.columns)
             df['Price Date'] = pd.to_datetime(df['Price Date'], errors='coerce')
             if not required_columns.issubset(file_columns):
@@ -60,7 +60,8 @@ class Command(BaseCommand):
                     operator_r4_code = r4_name_dict.get(str(row['Operator R4 Code']).upper()) if pd.notna(row['Operator R4 Code']) else None
                     content_constant = row['Content Constant'] if pd.notna(row['Content Constant']) else None
                     machine_id = str(row['Machine ID']) if pd.notna(row['Machine ID']) else None
-
+                    depreciation_quantity = row['Depreciation_Qty'] if pd.notna(row['Depreciation_Qty']) else None
+                    energy_consumption = row['Consumption_per_Hour'] if pd.notna(row['Consumption_per_Hour']) else None
                     fin_type = str(row['Finance Type']).upper() if pd.notna(row['Finance Type']) else None
                     customs = bool(row['Customs']) if pd.notna(row['Customs']) else None
                     created_by_id = '12f4aa11-b6fc-482f-894d-0962ad5f4313'
@@ -85,6 +86,9 @@ class Command(BaseCommand):
                             customs=customs,
                             content_constant=content_constant,
                             machine_id=machine_id,
+                            depreciation_quantity=depreciation_quantity,
+                            energy_consumption=energy_consumption,
+
 
                             created_by_id=created_by_id,
                             updated_by_id=created_by_id
