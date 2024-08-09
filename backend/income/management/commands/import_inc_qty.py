@@ -52,9 +52,10 @@ class Command(BaseCommand):
                 if row['qty'] == 'nan' or row['qty'] == 'NaN' or row['qty'] == 0:
                     continue
                 
-
+                
                 if rep_month_id and l4_code_id and row['qty'] != 0 and not pd.isnull(row['qty']):
                     # print("Appending new record", row['qty'])
+
                     income_records.append(
                         IncomeQuantity(
                             rep_month_id=rep_month_id,
@@ -65,12 +66,12 @@ class Command(BaseCommand):
                         )
                     )
 
-            # Save records to the database
-                with transaction.atomic():
-                    # Delete existing records for the given rep_month_id (if needed)
-                    if income_records:
-                        IncomeQuantity.objects.filter(rep_month_id=rep_month_id).delete()
-                        IncomeQuantity.objects.bulk_create(income_records)
+        # Save records to the database
+            with transaction.atomic():
+                # Delete existing records for the given rep_month_id (if needed)
+                if income_records:
+                    IncomeQuantity.objects.filter(rep_month_id=rep_month_id).delete()
+                    IncomeQuantity.objects.bulk_create(income_records)
                     
             self.stdout.write(self.style.SUCCESS('R4 Codes imported successfully'))
 

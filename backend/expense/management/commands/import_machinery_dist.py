@@ -1,6 +1,6 @@
 import pandas as pd
 from django.core.management.base import BaseCommand, CommandError
-from libraries.models import R4Code, L4Code  # Adjust as per your actual models
+from libraries.models import R4Code, L4Code , M2Code, T1Code  # Adjust as per your actual models
 from django.db import transaction
 from datetime import datetime 
 from constants.models import RepMonth
@@ -32,7 +32,17 @@ class Command(BaseCommand):
                 for r4_code in R4Code.objects.all()
                 if r4_code.code_comb and r4_code.id is not None
             }
-            df_melted = pd.melt(df, id_vars=['Rep Month', 'L4 Code','R4 Code','Machine R4 Code'], 
+            m2_code_dict = {    
+                f"{m2_code.code_comb}".strip(): str(m2_code.id)
+                for m2_code in M2Code.objects.all()
+                if m2_code.code_comb and m2_code.id is not None
+            }
+            t1_code_dict = {
+                f"{t1_code.code_comb}".strip(): str(t1_code.id)
+                for t1_code in T1Code.objects.all()
+                if t1_code.code_comb and t1_code.id is not None
+            }
+            df_melted = pd.melt(df, id_vars=['Rep Month', 'L4 Code','R4 Code','Machine R4 Code','M2 Code','T1 Code','R4 Desc'], 
                                 var_name='month', value_name='qty')
             df.columns = df.iloc[0]  # Set headers from the first row
             # df = df[1:]  # Skip the header row
@@ -47,6 +57,10 @@ class Command(BaseCommand):
             expense_records = []
             df_melted['L4 Code'] = df_melted['L4 Code'].astype(str)
             df_melted['R4 Code'] = df_melted['R4 Code'].astype(str)
+            df_melted['Machine R4 Code'] = df_melted['Machine R4 Code'].astype(str)
+            df_melted['Rep Month'] = df_melted['Rep Month'].astype(str)
+            df_melted['M2 Code'] = df_melted['M2 Code'].astype(str)
+            df_melted['T1 Code'] = df_melted['T1 Code'].astype(str)
 
 
             for _, row in df_melted.iterrows():
@@ -55,6 +69,9 @@ class Command(BaseCommand):
                 r4_code_value = str(row['R4 Code']).strip()
                 r4_code_id = r4_code_dict.get(r4_code_value)
                 machine_r4_code_id = None
+                m2_code_id = m2_code_dict.get(str(row['M2 Code']).strip())
+                t1_code_id = t1_code_dict.get(str(row['T1 Code']).strip())
+
                 if str(row['Machine R4 Code']).strip():
                     machine_r4_code_value = str(row['Machine R4 Code']).strip()
                     machine_r4_code_id = r4_code_dict.get(machine_r4_code_value)
@@ -67,6 +84,8 @@ class Command(BaseCommand):
                             rep_month_id=rep_month_id,
                             l4_code_id=l4_code_id,
                             r4_code_id=r4_code_id,
+                            m2_code_id=m2_code_id if m2_code_id else None,
+                            t1_code_id=t1_code_id if t1_code_id else None,
                             machine_r4_code_id=machine_r4_code_id if machine_r4_code_id else None,
                             exp_month=row['month'],
                             machine_qty=row['qty']

@@ -3,6 +3,7 @@ from django.contrib import admin
 from .models import L1Code, L2Code, L3Code, L4Code,ActivityTypeDetailIncome
 from constants.models import Unit
 from .models import R1Code, R2Code, R3Code, R4Code
+from .models import M1Code, M2Code, T1Code
 class CommonAdmin(admin.ModelAdmin):
     readonly_fields = ('created_at', 'updated_at')
     list_filter = ('is_active', 'is_deleted', 'created_by', 'updated_by', 'deleted_by')
@@ -140,4 +141,22 @@ class R3CodeAdmin(CommonAdmin):
 class R4CodeAdmin(CommonAdmin):
     list_display = ('r4_code', 'r3_code', 'description', 'code_comb') + CommonAdmin.list_display
     search_fields = ('r4_code', 'r3_code__r3_code', 'description', 'code_comb')
+    list_filter = ('is_active', 'is_deleted') + CommonAdmin.list_filter
+
+@admin.register(M1Code)
+class M1CodeAdmin(CommonAdmin):
+    list_display = ('m1_code', 'description', 'code_comb') + CommonAdmin.list_display
+    search_fields = ('m1_code', 'description', 'code_comb')
+    list_filter = ('is_active', 'is_deleted') + CommonAdmin.list_filter
+
+@admin.register(M2Code)
+class M2CodeAdmin(CommonAdmin):
+    list_display = ('m2_code', 'm1_code', 'description', 'code_comb') + CommonAdmin.list_display
+    search_fields = ('m2_code', 'm1_code__m1_code', 'description', 'code_comb')
+    list_filter = ('is_active', 'is_deleted') + CommonAdmin.list_filter
+
+@admin.register(T1Code)
+class T1CodeAdmin(CommonAdmin):
+    list_display = ('t1_code', 'description', 'code_comb') + CommonAdmin.list_display
+    search_fields = ('t1_code', 'description', 'code_comb')
     list_filter = ('is_active', 'is_deleted') + CommonAdmin.list_filter
