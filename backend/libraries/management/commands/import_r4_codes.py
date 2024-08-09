@@ -18,8 +18,8 @@ class Command(BaseCommand):
             #unit_dict = {str(unit.unit).upper(): unit for unit in Unit.objects.all()}  # Adjust 'name' to your Unit model's unique field
             r4_code_dict = {r4_code.r3_code.r2_code.r1_code.r1_code + "-" + r4_code.r3_code.r2_code.r2_code + "-" + r4_code.r3_code.r3_code + "-" + r4_code.r4_code: r4_code for r4_code in R4Code.objects.all()}
             # Read the Excel file using pandas
-            df = pd.read_excel(file_path, sheet_name='R4', dtype={'R1 Code': str, 'R2 Code': str, 'R3 Code': str, 'R4 Code': str, 'Description': str})
-            required_columns = {'R1 Code', 'R2 Code', 'R3 Code', 'R4 Code', 'Description'}
+            df = pd.read_excel(file_path, sheet_name='R4', dtype={'R1 Code': str, 'R2 Code': str, 'R3 Code': str, 'R4 Code': str, 'Description': str, 'Machine ID': str})
+            required_columns = {'R1 Code', 'R2 Code', 'R3 Code', 'R4 Code', 'Description','Machine ID'}
             file_columns = set(df.columns)
 
             if not required_columns.issubset(file_columns):
@@ -34,16 +34,19 @@ class Command(BaseCommand):
                     r2_code_code = str(row['R2 Code']).upper()
                     r3_code_code = str(row['R3 Code']).upper()
                     r4_code_code = str(row['R4 Code']).upper()
+                    machine_id = str(row['Machine ID']).upper() if pd.notna(row['Machine ID']) else None
 
                     
                     try:
                         r4code_update = r4_code_dict.get(r1_code + "-" + r2_code_code + "-" + r3_code_code + "-" + r4_code_code)
                         update_obj = R4Code.objects.get(id=r4code_update.id)
                         update_obj.description = str(row['Description']).upper()
+                        update_obj.machine_id = str(row['Machine ID']).upper() if pd.notna(row['Machine ID']) else None
                         update_obj.save()
                     except:
 
                         description = str(row['Description']).upper()
+                        machine_id = str(row['Machine ID']).upper() if pd.notna(row['Machine ID']) else None
                         #unit_name = row['Unit'].upper()
                         #currency = row['Currency'].upper() if pd.notna(row['Currency']) else None
                     # origin = row['Origin'].upper() if pd.notna(row['Origin']) else None
@@ -59,7 +62,8 @@ class Command(BaseCommand):
                             R4Code.objects.create(
                                 r3_code=r3_code_instance,
                                 r4_code=r4_code_code,
-                                description=description,
+                                description=description.lstrip().rstrip(),
+                                machine_id=machine_id,
                                 #unit=unit_instance,
                                 #currency=currency,
                                 #origin=origin,

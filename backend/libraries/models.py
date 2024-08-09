@@ -199,6 +199,7 @@ class R4Code(Common):
         r3_code = models.ForeignKey(R3Code, on_delete=models.CASCADE, verbose_name='R3 Code')
         description = models.CharField(max_length=255)
         code_comb = models.CharField(max_length=255, editable=True, blank=True)
+        machine_id = models.CharField(max_length=100, null=True, blank=True)
 
         def save(self, *args, **kwargs):
             if self.r3_code:
@@ -213,40 +214,40 @@ class R4Code(Common):
             db_table = 't_r4_code'
             unique_together = ['code_comb']
 
-class Y1Code(Common):
+class M1Code(Common):
 
-    y1_code = models.CharField(max_length=100)
+    m1_code = models.CharField(max_length=100)
     description = models.CharField(max_length=100)
     code_comb = models.CharField(max_length=255, editable=True, blank=True)
     
     class Meta:
-        ordering = ['y1_code']
-        db_table = 't_y1_code'
+        ordering = ['m1_code']
+        db_table = 't_m1_code'
         unique_together = ['code_comb']
 
     def save(self, *args, **kwargs):
-        if self.y1_code:
-            self.code_comb = f"{self.y1_code}"
+        if self.m1_code:
+            self.code_comb = f"{self.m1_code}"
         super().save(*args, **kwargs)
 
     def __str__(self):
         return self.code_comb
     
-class Y2Code(Common):
+class M2Code(Common):
     
-    y2_code = models.CharField(max_length=100)
-    y1_code = models.ForeignKey(Y1Code, on_delete=models.PROTECT, verbose_name='Y1 Code')
+    m2_code = models.CharField(max_length=100)
+    m1_code = models.ForeignKey(M1Code, on_delete=models.PROTECT, verbose_name='Y1 Code')
     description = models.CharField(max_length=100)
     code_comb = models.CharField(max_length=255, editable=True, blank=True)
     
     class Meta:
-        ordering = ['y2_code']
-        db_table = 't_y2_code'
+        ordering = ['m2_code']
+        db_table = 't_m2_code'
         unique_together = ['code_comb']
 
     def save(self, *args, **kwargs):
-        if self.y1_code:
-            self.code_comb = f"{self.y1_code.y1_code}-{self.y2_code}"
+        if self.m1_code:
+            self.code_comb = f"{self.m1_code.m1_code}-{self.m2_code}"
         super().save(*args, **kwargs)
 
     def __str__(self):
@@ -265,26 +266,6 @@ class T1Code(Common):
     def save(self, *args, **kwargs):
         if self.t1_code:
             self.code_comb = f"{self.t1_code}"
-        super().save(*args, **kwargs)
-
-    def __str__(self):
-        return self.code_comb
-    
-class T2Code(Common):
-    
-    t2_code = models.CharField(max_length=100)
-    t1_code = models.ForeignKey(T1Code, on_delete=models.PROTECT, verbose_name='Y1 Code')
-    description = models.CharField(max_length=100)
-    code_comb = models.CharField(max_length=255, editable=True, blank=True)
-    
-    class Meta:
-        ordering = ['t2_code']
-        db_table = 't_t2_code'
-        unique_together = ['code_comb']
-
-    def save(self, *args, **kwargs):
-        if self.t1_code:
-            self.code_comb = f"{self.t1_code.t1_code}-{self.t2_code}"
         super().save(*args, **kwargs)
 
     def __str__(self):

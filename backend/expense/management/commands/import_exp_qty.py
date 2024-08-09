@@ -5,7 +5,7 @@ from django.db import transaction
 from datetime import datetime 
 from constants.models import RepMonth
 from expense.models import ExpenseQuantity
-from libraries.models import L4Code
+from libraries.models import L4Code, M2Code, T1Code
 
 class Command(BaseCommand):
     help = 'Import R4 Code from an Excel file'
@@ -17,7 +17,7 @@ class Command(BaseCommand):
         file_path = kwargs['file_path']
 
         try:
-            df = pd.read_excel(file_path, sheet_name='t_Aylik_Mkt_Gider')
+            df = pd.read_excel(file_path, sheet_name='Gider Miktar')
 
             file_columns = set(df.columns)
 
@@ -27,8 +27,18 @@ class Command(BaseCommand):
                 for l4_code in L4Code.objects.filter(aygm_code__isnull=True)
                 if l4_code.code_comb and l4_code.id is not None
             }
+            m2_code_dict = {  
+                f"{m2_code.code_comb}".strip(): str(m2_code.id)
+                for m2_code in M2Code.objects.all()
+                if m2_code.code_comb and m2_code.id is not None
+            }
 
-            df_melted = pd.melt(df, id_vars=['Rep Month', 'L4 Code'], 
+            t1_code_dict = {
+                f"{t1_code.code_comb}".strip(): str(t1_code.id)
+                for t1_code in T1Code.objects.all()
+                if t1_code.code_comb and t1_code.id is not None
+            }
+            df_melted = pd.melt(df, id_vars=['Rep Month', 'L4 Code', 'M2 Code', 'T1 Code'], 
                                 var_name='month', value_name='qty')
             df.columns = df.iloc[0]  # Set headers from the first row
             # df = df[1:]  # Skip the header row
@@ -42,11 +52,16 @@ class Command(BaseCommand):
             # Prepare data for bulk insertion
             expense_records = []
             df_melted['L4 Code'] = df_melted['L4 Code'].astype(str)
+            df_melted['Rep Month'] = df_melted['Rep Month'].astype(str)
+            df_melted['M2 Code'] = df_melted['M2 Code'].astype(str)
+            df_melted['T1 Code'] = df_melted['T1 Code'].astype(str)
 
             for _, row in df_melted.iterrows():
                 l4_code_value = str(row['L4 Code']).strip() 
                 l4_code_id = l4_code_dict.get(l4_code_value)
                 rep_month_id = rep_month_dict.get(str(row['Rep Month']))
+                m2_code_id = m2_code_dict.get(str(row['M2 Code']))
+                t1_code_id = t1_code_dict.get(str(row['T1 Code']))
 
                 # Print for debugging
                 # print(f"Rep Month ID: {rep_month_id}, L4 Code ID: {l4_code_id}, Quantity: {row['qty']}")
@@ -58,7 +73,9 @@ class Command(BaseCommand):
                             rep_month_id=rep_month_id,
                             l4_code_id=l4_code_id,
                             exp_month=row['month'],
-                            exp_qty=row['qty']
+                            exp_qty=row['qty'],
+                            m2_code_id=m2_code_id,
+                            t1_code_id=t1_code_id
                         )
                     )
 
