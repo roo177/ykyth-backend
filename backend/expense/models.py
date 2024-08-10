@@ -58,6 +58,8 @@ class R4Price(Common):
     depreciation_price = models.FloatField(null=True, blank=True)
     energy_type = models.CharField(max_length=100, choices=ENERGY_TYPES,null=True, blank=True )
     operator_r4_code = models.ForeignKey(R4Code, on_delete=models.CASCADE, verbose_name='Operator R4 Code', null=True, blank=True, related_name='operator_r4_prices')
+    operator_m2_code = models.ForeignKey(M2Code, on_delete=models.PROTECT, verbose_name='Operator M2 Code', null=True, blank=True, related_name='operator_m2_prices')
+    operator_t1_code = models.ForeignKey(T1Code, on_delete=models.PROTECT, verbose_name='Operator T1 Code', null=True, blank=True, related_name='operator_t1_prices')
     fin_type = models.CharField(max_length=100, choices=FIN_TYPE_CHOICES, null=True, blank=True)
     customs = models.BooleanField(default=False)
     content_constant = models.FloatField(null=True, blank=True)
@@ -67,7 +69,8 @@ class R4Price(Common):
     energy_unit = models.ForeignKey(Unit, null=True, on_delete=models.PROTECT, verbose_name='Energy Unit name', blank=True, related_name='energy_unit_r4_prices')   
     capacity = models.FloatField(null=True, blank=True)
     capacity_unit = models.ForeignKey(Unit, null=True, on_delete=models.PROTECT, verbose_name='Capacity Unit name', blank=True, related_name='capacity_unit_r4_prices')
-
+    m2_code = models.ForeignKey(M2Code, on_delete=models.PROTECT, verbose_name='M2 Code',null=True, blank=True)
+    t1_code = models.ForeignKey(T1Code, on_delete=models.PROTECT, verbose_name='T1 Code',null=True, blank=True)
 
     class Meta:
         ordering = ['price_date']

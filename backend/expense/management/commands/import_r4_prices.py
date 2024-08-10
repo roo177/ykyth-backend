@@ -1,6 +1,6 @@
 import pandas as pd
 from django.core.management.base import BaseCommand, CommandError
-from libraries.models import R4Code, Unit  # Adjust as per your actual models
+from libraries.models import R4Code, Unit,M2Code,T1Code
 from django.db import transaction
 from datetime import datetime 
 from constants.models import RepMonth
@@ -22,15 +22,17 @@ class Command(BaseCommand):
             # Create a dictionary of R3 Codes for lookup
             r4_code_dict = {str(r4_code.code_comb).upper(): r4_code for r4_code in R4Code.objects.all()}  # Adjust 'name' to your R4Code model's unique field
             r4_name_dict = {str(r4_code.description).upper(): r4_code.id for r4_code in R4Code.objects.all()}  # Adjust 'name' to your R4Code model's unique field
+            m2_code_dict = {str(m2_code.code_comb).upper(): m2_code for m2_code in M2Code.objects.all()}  # Adjust 'name' to your M2Code model's unique field
+            t1_code_dict = {str(t1_code.code_comb).upper(): t1_code for t1_code in T1Code.objects.all()}  # Adjust 'name' to your T1Code model's unique field
             # with open('output.txt', 'w', encoding='utf-8') as file:
             #     file.write(str(r4_name_dict))
             # print(r4_name_dict, 'r4_name_dict')
             unit_dict = {str(unit.unit).upper(): unit for unit in Unit.objects.all()}  # Adjust 'name' to your Unit model's unique field
             rep_month_dict = {str(rep_month.rep_month).upper(): rep_month for rep_month in RepMonth.objects.all()}  # Adjust 'name' to your RepMonth model's unique field   
             # Read the Excel file using pandas
-            df = pd.read_excel(file_path, sheet_name='R4Prices', dtype={'Rep_Month': str, 'R1 Code': str, 'R2 Code': str, 'R3 Code': str, 'R4 Code': str, 'Description': str, 'Unit': str, 'Currency': str, 'Origin': str, 'Price': float, 'Price Date': str,  'Price Adjustment Type': str, ' Depreciation Price': float, 'Depreciation': bool, 'Depreciation Type': str, 'Energy Type':str,'Finance Type':str, 'Operator R4 Code': str, 'Customs': bool, 'Content Constant': float, 'Machine ID': str, 'Depreciation_Qty': float,'Consumption': float, 'Consumption_Unit': str, 'Capacity': float, 'Capacity_Unit': str})
+            df = pd.read_excel(file_path, sheet_name='R4Prices', dtype={'Rep_Month': str, 'R1 Code': str, 'R2 Code': str, 'R3 Code': str, 'M2 Code': str, 'T1 Code': str, 'R4 Code': str, 'Description': str, 'Unit': str, 'Currency': str, 'Origin': str, 'Price': float, 'Price Date': str,  'Price Adjustment Type': str, ' Depreciation Price': float, 'Depreciation': bool, 'Depreciation Type': str, 'Energy Type':str,'Finance Type':str, 'Operator R4 Code': str, 'Customs': bool, 'Content Constant': float, 'Machine ID': str, 'Depreciation_Qty': float,'Consumption': float, 'Consumption_Unit': str, 'Capacity': float, 'Capacity_Unit': str,'Operator M2 Code': str,'Operator T1 Code': str, 'Rep Month': str})
 
-            required_columns = {'R1 Code', 'R2 Code', 'R3 Code', 'R4 Code', 'Description', 'Unit', 'Currency', 'Origin', 'Finance Type', 'Customs', 'Price Date', 'Price', 'Price Adjustment Type', 'Depreciation', 'Depreciation Type', 'Energy Type', 'Operator R4 Code', 'Content Constant', 'Machine ID','Depreciation_Qty','Consumption','Consumption_Unit','Capacity','Capacity_Unit'}
+            required_columns = {'R1 Code', 'R2 Code', 'R3 Code', 'R4 Code', 'Description', 'Unit', 'Currency', 'Origin', 'Finance Type', 'Customs', 'Price Date', 'Price', 'Price Adjustment Type', 'Depreciation', 'Depreciation Type', 'Energy Type', 'Operator R4 Code', 'Content Constant', 'Machine ID','Depreciation_Qty','Consumption','Consumption_Unit','Capacity','Capacity_Unit','M2 Code','T1 Code','Rep Month', 'Operator M2 Code', 'Operator T1 Code'}
 
             file_columns = set(df.columns)
             
@@ -51,6 +53,9 @@ class Command(BaseCommand):
                     r4_code_code = str(row['R4 Code']).upper() if pd.notna(row['R4 Code']) else None
 
                     r4_code = r4_code_dict.get(f"{r1_code}-{r2_code_code}-{r3_code_code}-{r4_code_code}") if r1_code and r2_code_code and r3_code_code and r4_code_code else None
+                    m2_code = m2_code_dict.get(str(row['M2 Code']).upper()) if pd.notna(row['M2 Code']) else None
+                    t1_code = t1_code_dict.get(str(row['T1 Code']).upper()) if pd.notna(row['T1 Code']) else None
+
                     currency = str(row['Currency']).upper() if pd.notna(row['Currency']) else None
                     unit_name = str(row['Unit']).upper() if pd.notna(row['Unit']) else None
                     unit = unit_dict.get(unit_name) if unit_name else None
@@ -64,6 +69,8 @@ class Command(BaseCommand):
                     depreciation_price = row['Depreciation Price'] if pd.notna(row['Depreciation Price']) else None
                     energy_type = str(row['Energy Type']).upper() if pd.notna(row['Energy Type']) else None
                     operator_r4_code = r4_name_dict.get(str(row['Operator R4 Code']).upper()) if pd.notna(row['Operator R4 Code']) else None
+                    operator_m2_code = m2_code_dict.get(str(row['Operator M2 Code']).upper()) if pd.notna(row['Operator M2 Code']) else None
+                    operator_t1_code = t1_code_dict.get(str(row['Operator T1 Code']).upper()) if pd.notna(row['Operator T1 Code']) else None
                     # print(operator_r4_code, 'operator_r4_code', row['Operator R4 Code'], 'Operator R4 Code',r4_code)
                     content_constant = row['Content Constant'] if pd.notna(row['Content Constant']) else None
                     machine_id = str(row['Machine ID']) if pd.notna(row['Machine ID']) else None
@@ -102,7 +109,10 @@ class Command(BaseCommand):
                             energy_unit_id=energy_unit.id if energy_unit else None,
                             capacity=capacity,
                             capacity_unit_id=capacity_unit.id if capacity_unit else None,
-
+                            m2_code_id=m2_code.id if m2_code else None,
+                            t1_code_id=t1_code.id if t1_code else None,
+                            operator_m2_code_id=operator_m2_code.id if operator_m2_code else None,
+                            operator_t1_code_id=operator_t1_code.id if operator_t1_code else None,
 
                             created_by_id=created_by_id,
                             updated_by_id=created_by_id

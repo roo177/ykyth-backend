@@ -2,6 +2,63 @@ from django.db import models
 from common.models import Common
 from constants.models import Unit, RepMonth
 
+
+class M1Code(Common):
+
+    m1_code = models.CharField(max_length=100)
+    description = models.CharField(max_length=100)
+    code_comb = models.CharField(max_length=255, editable=True, blank=True)
+    
+    class Meta:
+        ordering = ['m1_code']
+        db_table = 't_m1_code'
+        unique_together = ['code_comb']
+
+    def save(self, *args, **kwargs):
+        if self.m1_code:
+            self.code_comb = f"{self.m1_code}"
+        super().save(*args, **kwargs)
+
+    def __str__(self):
+        return self.code_comb
+    
+class M2Code(Common):
+    
+    m2_code = models.CharField(max_length=100)
+    m1_code = models.ForeignKey(M1Code, on_delete=models.PROTECT, verbose_name='Y1 Code')
+    description = models.CharField(max_length=100)
+    code_comb = models.CharField(max_length=255, editable=True, blank=True)
+    
+    class Meta:
+        ordering = ['m2_code']
+        db_table = 't_m2_code'
+        unique_together = ['code_comb']
+
+    def save(self, *args, **kwargs):
+        if self.m1_code:
+            self.code_comb = f"{self.m1_code.m1_code}-{self.m2_code}"
+        super().save(*args, **kwargs)
+
+    def __str__(self):
+        return self.code_comb
+class T1Code(Common):
+
+    t1_code = models.CharField(max_length=100)
+    description = models.CharField(max_length=100)
+    code_comb = models.CharField(max_length=255, editable=True, blank=True)
+    
+    class Meta:
+        ordering = ['t1_code']
+        db_table = 't_t1_code'
+        unique_together = ['code_comb']
+
+    def save(self, *args, **kwargs):
+        if self.t1_code:
+            self.code_comb = f"{self.t1_code}"
+        super().save(*args, **kwargs)
+
+    def __str__(self):
+        return self.code_comb
 # Create your models here.
 class ActivityType(Common):
     
@@ -121,7 +178,9 @@ class L4Code(Common):
         l4_delivery_ratio = models.FloatField(null=True, blank=True)
         l4_handover_ratio = models.FloatField(null=True, blank=True)
 
-        def save(self, *args, **kwargs):
+        def save(self, *args,
+                 
+                  **kwargs):
             if self.l3_code:
                 self.code_comb = f"{self.l3_code.l2_code.l1_code.l1_code}-{self.l3_code.l2_code.l2_code}-{self.l3_code.l3_code}-{self.l4_code}"
             super().save(*args, **kwargs)
@@ -193,7 +252,6 @@ class R3Code(Common):
 
 
 class R4Code(Common):
-        
 
         r4_code = models.CharField(max_length=4)
         r3_code = models.ForeignKey(R3Code, on_delete=models.CASCADE, verbose_name='R3 Code')
@@ -214,59 +272,3 @@ class R4Code(Common):
             db_table = 't_r4_code'
             unique_together = ['code_comb']
 
-class M1Code(Common):
-
-    m1_code = models.CharField(max_length=100)
-    description = models.CharField(max_length=100)
-    code_comb = models.CharField(max_length=255, editable=True, blank=True)
-    
-    class Meta:
-        ordering = ['m1_code']
-        db_table = 't_m1_code'
-        unique_together = ['code_comb']
-
-    def save(self, *args, **kwargs):
-        if self.m1_code:
-            self.code_comb = f"{self.m1_code}"
-        super().save(*args, **kwargs)
-
-    def __str__(self):
-        return self.code_comb
-    
-class M2Code(Common):
-    
-    m2_code = models.CharField(max_length=100)
-    m1_code = models.ForeignKey(M1Code, on_delete=models.PROTECT, verbose_name='Y1 Code')
-    description = models.CharField(max_length=100)
-    code_comb = models.CharField(max_length=255, editable=True, blank=True)
-    
-    class Meta:
-        ordering = ['m2_code']
-        db_table = 't_m2_code'
-        unique_together = ['code_comb']
-
-    def save(self, *args, **kwargs):
-        if self.m1_code:
-            self.code_comb = f"{self.m1_code.m1_code}-{self.m2_code}"
-        super().save(*args, **kwargs)
-
-    def __str__(self):
-        return self.code_comb
-class T1Code(Common):
-
-    t1_code = models.CharField(max_length=100)
-    description = models.CharField(max_length=100)
-    code_comb = models.CharField(max_length=255, editable=True, blank=True)
-    
-    class Meta:
-        ordering = ['t1_code']
-        db_table = 't_t1_code'
-        unique_together = ['code_comb']
-
-    def save(self, *args, **kwargs):
-        if self.t1_code:
-            self.code_comb = f"{self.t1_code}"
-        super().save(*args, **kwargs)
-
-    def __str__(self):
-        return self.code_comb
