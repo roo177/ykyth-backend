@@ -23,7 +23,7 @@ class M1Code(Common):
         return self.code_comb
     
 class M2Code(Common):
-    
+
     m2_code = models.CharField(max_length=100)
     m1_code = models.ForeignKey(M1Code, on_delete=models.PROTECT, verbose_name='Y1 Code')
     description = models.CharField(max_length=100)
@@ -41,16 +41,29 @@ class M2Code(Common):
 
     def __str__(self):
         return self.code_comb
+    
 class T1Code(Common):
+    PRICE_ADJUSTMENT_TYPES = [
+        ('FFK AK', 'FFK AK'),
+        ('YKT AK', 'YKT AK'),
+        ('BKM AK', 'BKM AK'),
+        ('EUR AK', 'EUR AK'),
+        ('USD AK', 'USD AK'),
+        ('DGS.01', 'DGS.01'),
+        ('DGS.02', 'DGS.02'),
+        ('-', '-'),
+    ]  
 
     t1_code = models.CharField(max_length=100)
     description = models.CharField(max_length=100)
     code_comb = models.CharField(max_length=255, editable=True, blank=True)
+    price_adjustment = models.CharField(max_length=100, choices=PRICE_ADJUSTMENT_TYPES, null=True, blank=True)
+    contract_no = models.CharField(max_length=100, null=True, blank=True)
     
     class Meta:
         ordering = ['t1_code']
         db_table = 't_t1_code'
-        unique_together = ['code_comb']
+        unique_together = ['t1_code','price_adjustment']
 
     def save(self, *args, **kwargs):
         if self.t1_code:
@@ -59,6 +72,7 @@ class T1Code(Common):
 
     def __str__(self):
         return self.code_comb
+    
 # Create your models here.
 class ActivityType(Common):
     
