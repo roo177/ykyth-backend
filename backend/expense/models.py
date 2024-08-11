@@ -75,7 +75,7 @@ class R4Price(Common):
     class Meta:
         ordering = ['price_date']
         db_table = 't_r4_price'
-        unique_together = ['r4_code', 'rep_month']
+        unique_together = ['r4_code', 'rep_month', 'm2_code', 't1_code', 'price_adjustment_type']
 
     def __str__(self):
         return str(self.rep_month) + ' - ' + self.r4_code.code_comb
