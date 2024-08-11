@@ -10,7 +10,7 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.DeleteModel(
-            name='T2Code',
-        ),
+        # migrations.DeleteModel(
+        #     name='T2Code',
+        # ),
     ]
