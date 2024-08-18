@@ -23,7 +23,7 @@ class Command(BaseCommand):
             r4_code_dict = {str(r4_code.code_comb).upper(): r4_code for r4_code in R4Code.objects.all()}  # Adjust 'name' to your R4Code model's unique field
             r4_name_dict = {str(r4_code.description).upper(): r4_code.id for r4_code in R4Code.objects.all()}  # Adjust 'name' to your R4Code model's unique field
             m2_code_dict = {str(m2_code.code_comb).upper(): m2_code for m2_code in M2Code.objects.all()}  # Adjust 'name' to your M2Code model's unique field
-            t1_code_dict = {str(t1_code.code_comb).upper(): t1_code for t1_code in T1Code.objects.all()}  # Adjust 'name' to your T1Code model's unique field
+            t1_code_dict = {str(t1_code.code_comb).upper() + "-" + t1_code.price_adjustment: t1_code for t1_code in T1Code.objects.all()}  # Adjust 'name' to your T1Code model's unique field
             # with open('output.txt', 'w', encoding='utf-8') as file:
             #     file.write(str(r4_name_dict))
             # print(r4_name_dict, 'r4_name_dict')
@@ -53,8 +53,20 @@ class Command(BaseCommand):
                     r4_code_code = str(row['R4 Code']).upper() if pd.notna(row['R4 Code']) else None
 
                     r4_code = r4_code_dict.get(f"{r1_code}-{r2_code_code}-{r3_code_code}-{r4_code_code}") if r1_code and r2_code_code and r3_code_code and r4_code_code else None
-                    m2_code = m2_code_dict.get(str(row['M2 Code']).upper()) if pd.notna(row['M2 Code']) else None
-                    t1_code = t1_code_dict.get(str(row['T1 Code']).upper()) if pd.notna(row['T1 Code']) else None
+                    if pd.notna(row['M2 Code']):
+                        m2_code = m2_code_dict.get(str(row['M2 Code']).upper())
+                        if m2_code is None:
+                            raise CommandError(f'M2 Code {row["M2 Code"]} not found.')
+                    else:
+                        raise CommandError(f'M2 Code {row["M2 Code"]} is missing.')
+
+                    if pd.notna(row['T1 Code']):
+                        t1_code_key = str(row['T1 Code']).upper() + "-" + str(row['Price Adjustment Type'])
+                        t1_code = t1_code_dict.get(t1_code_key)
+                        if t1_code is None:
+                            raise CommandError(f'T1 Code {row["T1 Code"]} with Price Adjustment Type {row["Price Adjustment Type"]} not found.')
+                    else:
+                        raise CommandError(f'T1 Code {row["T1 Code"]} is missing.')
 
                     currency = str(row['Currency']).upper() if pd.notna(row['Currency']) else None
                     unit_name = str(row['Unit']).upper() if pd.notna(row['Unit']) else None
@@ -84,9 +96,8 @@ class Command(BaseCommand):
 
                     created_by_id = '12f4aa11-b6fc-482f-894d-0962ad5f4313'
 
-                    if r4_code:
                         # Create the R4Price instance
-                        R4Price.objects.create(
+                    R4Price.objects.create(
                             rep_month_id=rep_month.id if rep_month else None,
                             r4_code_id=r4_code.id if r4_code else None,
                             unit_id=unit.id if unit else None,
@@ -117,9 +128,8 @@ class Command(BaseCommand):
                             created_by_id=created_by_id,
                             updated_by_id=created_by_id
                         )
-                    else:
-                        missing_code = r4_code is None and f'R Code {r1_code + "-" + r2_code_code + "-" + r3_code_code + "-" + r4_code_code}' or f'Unit {unit_name}'
-                        raise CommandError(f'{missing_code} not found.')
+                        #print(f'R4 Code {r1_code + "-" + r2_code_code + "-" + r3_code_code + "-" + r4_code_code+" / "+m2_code.code_comb + "/" + t1_code.code_comb + "-" +t1_code.price_adjustment} imported successfully')
+
 
                 self.stdout.write(self.style.SUCCESS('R4 Codes imported successfully'))
         except FileNotFoundError:

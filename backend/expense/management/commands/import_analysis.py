@@ -29,16 +29,16 @@ class Command(BaseCommand):
                 if m2_code.code_comb and m2_code.id is not None
             }
             t1_code_dict = {
-                f"{t1_code.code_comb}".strip(): str(t1_code.id)
+                f"{t1_code.code_comb}".strip()+"-"+str(t1_code.price_adjustment): str(t1_code.id)
                 for t1_code in T1Code.objects.all()
                 if t1_code.code_comb and t1_code.id is not None
             }
             r3_code_dict = {str(r3_code.code_comb).upper(): r3_code for r3_code in R3Code.objects.all()}  # Adjust 'name' to your R3Code model's unique field
             # Read the Excel file using pandas
-            df = pd.read_excel(file_path, sheet_name='Analysis', dtype={'Rep Month': str, 'R1 Code': str, 'L4 Code': str, 'R3 Code': str,'R4 Code': str, 'M2 Code': str, 'T1 Code': str, 'R4 Desc': str, 'Description': str, 'Work Ratio': float, 'Work Ratio Desc': str, 'Output Unit Time': float, 'Output Desc': str, 'Cons Unit Time': float, 'Cons Desc': str})
+            df = pd.read_excel(file_path, sheet_name='Analysis', dtype={'Rep Month': str, 'R1 Code': str, 'L4 Code': str, 'R3 Code': str,'R4 Code': str, 'M2 Code': str, 'T1 Code': str, 'R4 Desc': str, 'Description': str, 'Work Ratio': float, 'Work Ratio Desc': str, 'Output Unit Time': float, 'Output Desc': str, 'Cons Unit Time': float, 'Cons Desc': str, 'FFAK': str})
 
 
-            required_columns = {'Rep Month', 'L4 Code',  'R3 Code','R4 Code','M2 Code', 'T1 Code', 'R4 Desc', 'Work Ratio', 'Work Ratio Desc', 'Output Unit Time', 'Output Desc', 'Cons Unit Time', 'Cons Desc'}
+            required_columns = {'Rep Month', 'L4 Code',  'R3 Code','R4 Code','M2 Code', 'T1 Code', 'FFAK', 'R4 Desc', 'Work Ratio', 'Work Ratio Desc', 'Output Unit Time', 'Output Desc', 'Cons Unit Time', 'Cons Desc'}
             file_columns = set(df.columns)
 
             if not required_columns.issubset(file_columns):
@@ -63,7 +63,7 @@ class Command(BaseCommand):
                     consumption_per_unit_time = row['Cons Unit Time'] if pd.notna(row['Cons Unit Time']) else None
                     consumption_desc = str(row['Cons Desc']).lower() if pd.notna(row['Cons Desc']) else None
                     m2_code = m2_code_dict.get(str(row['M2 Code']).upper()) if pd.notna(row['M2 Code']) else None
-                    t1_code = t1_code_dict.get(str(row['T1 Code']).upper()) if pd.notna(row['T1 Code']) else None
+                    t1_code = t1_code_dict.get(str(row['T1 Code']).upper()+"-"+str(row['FFAK']).upper()) if pd.notna(row['T1 Code']) else None
                     r3_code = r3_code_dict.get(str(row['R3 Code']).upper()) if pd.notna(row['R3 Code']) else None
                     created_by_id = '12f4aa11-b6fc-482f-894d-0962ad5f4313'
 
@@ -73,7 +73,7 @@ class Command(BaseCommand):
                             rep_month_id=rep_month.id,
                             l4_code_id=l4_code.id if l4_code else None,
                             r4_code_id=r4_code.id if r4_code else None,
-                            r4_desc=r4_desc,
+                            r4_desc=r4_desc if r4_desc else None,
                             work_ratio=work_ratio,
                             work_ratio_desc=work_ratio_desc,
                             output_per_unit_time=output_per_unit_time,

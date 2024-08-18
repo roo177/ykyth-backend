@@ -97,6 +97,7 @@ class ExpenseAnalysis(Common):
     m2_code = models.ForeignKey(M2Code, on_delete=models.PROTECT, verbose_name='M2 Code', related_name='m2_code_analysis',null=True, blank=True)
     t1_code = models.ForeignKey(T1Code, on_delete=models.PROTECT, verbose_name='T1 Code', related_name='t1_code_analysis',null=True, blank=True)
     r3_code_machine = models.ForeignKey(R3Code, on_delete=models.PROTECT, verbose_name='R3 Code Machine', related_name='r3_code_machine',null=True, blank=True)
+    r3_currency = models.CharField(max_length=3, choices=R4Price.CURRENCY_CHOICES, null=True, blank=True)
 
     class Meta:
         ordering = ['rep_month', 'r4_code__code_comb']
@@ -114,8 +115,9 @@ class ExpenseQuantity(Common):
     l4_code = models.ForeignKey(L4Code, on_delete=models.PROTECT, verbose_name='Expense_l4_code')
     exp_month = models.DateField()
     exp_qty = models.FloatField(default=0)
-    m2_code = models.ForeignKey(M2Code, on_delete=models.PROTECT, verbose_name='M2 Code', related_name='m2_code_expense_qty',null=True, blank=True)
-    t1_code = models.ForeignKey(T1Code, on_delete=models.PROTECT, verbose_name='T1 Code', related_name='t1_code_expense_qty',null=True, blank=True)
+    m2_code = models.ForeignKey(M2Code, on_delete=models.PROTECT, verbose_name='M2 Code', related_name='m2_code_expense_qty')
+    t1_code = models.ForeignKey(T1Code, on_delete=models.PROTECT, verbose_name='T1 Code', related_name='t1_code_expense_qty')
+
     class Meta:
         ordering = ['l4_code']
         db_table = 't_exp_qty'
@@ -135,20 +137,35 @@ class ExpenseMachineryOperatorDistribution(Common):
     class Meta:
         ordering = ['l4_code']
         db_table = 't_exp_mach_oper_dist'
-
+        
     def __str__(self):
         return self.rep_month.rep_month & "-" & self.l4_code.code_comb & "-" & self.r4_code.code_comb
     
-
-class MachineryList(Common):
-
+class Expense(Common):
+    CURRENCY = [
+        ('TRY', 'TRY'),
+        ('EUR', 'EUR'),
+        ('USD', 'USD'),
+    ]
+ 
     rep_month = models.ForeignKey(RepMonth, on_delete=models.PROTECT, verbose_name='Expense_rep_month')
-    r4_code = models.ForeignKey(R4Code, on_delete=models.PROTECT, verbose_name='Expense_r4_code')
-    machine_qty = models.FloatField(default=1)
-
+    l4_code = models.ForeignKey(L4Code, on_delete=models.PROTECT, verbose_name='Expense_l4_code')
+    r3_code = models.ForeignKey(R3Code, on_delete=models.PROTECT, verbose_name='Expense_r3_code',null=True, blank=False)
+    r4_code = models.ForeignKey(R4Code, on_delete=models.PROTECT, verbose_name='Expense_r4_code',null=True, blank=False)
+    m2_code = models.ForeignKey(M2Code, on_delete=models.PROTECT, verbose_name='M2 Code', related_name='m2_code_expense',null=False, blank=False)
+    t1_code = models.ForeignKey(T1Code, on_delete=models.PROTECT, verbose_name='T1 Code', related_name='t1_code_expense',null=False, blank=False)
+    exp_month = models.DateField()
+    exp_qty = models.FloatField(default=0)
+    exp_unit = models.ForeignKey(Unit, on_delete=models.PROTECT, verbose_name='Expense Unit', related_name='exp_unit',null=True, blank=True)
+    exp = models.FloatField(default=0)
+    currency = models.CharField(max_length=3, choices=CURRENCY, null=True, blank=True)
+    bool_depriciation = models.BooleanField(default=False)
+ 
     class Meta:
-        ordering = ['r4_code']
-        db_table = 't_exp_machinery_list'
+        ordering = ['l4_code__code_comb', 'm2_code__code_comb', 't1_code__code_comb','exp_month']
+        db_table = 't_exp'
+        unique_together = ['rep_month', 'r3_code', 'r4_code', 'm2_code', 't1_code', 'exp_month','currency']
 
     def __str__(self):
-        return self.rep_month.rep_month & "-" & self.r4_code.code_comb
+        return self.rep_month.rep_month & "-" & self.l4_code.code_comb & "-" & self.m2_code.code_comb & "-" & self.t1_code.code_comb
+ 
