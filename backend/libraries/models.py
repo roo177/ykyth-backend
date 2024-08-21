@@ -51,6 +51,12 @@ class T1Code(Common):
         ('USD AK', 'USD AK'),
         ('DGS.01', 'DGS.01'),
         ('DGS.02', 'DGS.02'),
+        ('PTS.01', 'PTS.01'),
+        ('PTS.02', 'PTS.02'),
+        ('RYS.01', 'RYS.01'),
+        ('RYS.02', 'RYS.02'),
+        ('OZD.01', 'OZD.01'),
+        ('OZD.02', 'OZD.02'),
         ('-', '-'),
     ]  
 
@@ -214,7 +220,7 @@ class R1Code(Common):
     code_comb = models.CharField(max_length=255, editable=True, blank=True)
     
     class Meta:
-        ordering = ['r1_code']
+        ordering = ['code_comb']
         db_table = 't_r1_code'
         unique_together = ['code_comb']
 
@@ -234,7 +240,7 @@ class R2Code(Common):
     code_comb = models.CharField(max_length=255, editable=True, blank=True)
     
     class Meta:
-        ordering = ['r2_code']
+        ordering = ['code_comb']
         db_table = 't_r2_code'
         unique_together = ['code_comb']
     def save(self, *args, **kwargs):
@@ -253,7 +259,7 @@ class R3Code(Common):
         code_comb = models.CharField(max_length=255, editable=True, blank=True)
         
         class Meta:
-            ordering = ['r3_code']
+            ordering = ['code_comb']
             db_table = 't_r3_code'
             unique_together = ['code_comb']
         def save(self, *args, **kwargs):

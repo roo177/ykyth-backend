@@ -17,24 +17,31 @@ class L1CodesAdmin(CommonAdmin):
     ordering = ('code_comb',)  # Add code_comb to ordering
     list_editable = ('code_comb',)  # Make code_comb editable
 
+    ordering = ('-created_at',)  # Add code_comb to ordering
 class L2CodesAdmin(CommonAdmin):
     list_display = ('l2_code', 'l1_code', 'description', 'code_comb') + CommonAdmin.list_display
     search_fields = ('l2_code', 'description', 'l1_code__l1_code')
     ordering = ('code_comb',)  # Add code_comb to ordering
     list_editable = ('code_comb',)  # Make code_comb editable
 
+    ordering = ('-created_at',)  # Add code_comb to ordering
 class L3CodesAdmin(CommonAdmin):
     list_display = ('l3_code', 'l2_code', 'description', 'code_comb') + CommonAdmin.list_display
     search_fields = ('l3_code', 'description', 'l2_code__l2_code')
     ordering = ('code_comb',)  # Add code_comb to ordering
     list_editable = ('code_comb',)  # Make code_comb editable
 
+    ordering = ('-created_at',)  # Add code_comb to ordering
 class L4CodesAdmin(CommonAdmin):
     list_display = (
+        'code_comb', 
+        'description', 
+
+
+        'unit', 
+
         'l4_code', 
         'l3_code', 
-        'description', 
-        'unit', 
         'mtc_dgs_nkt', 
         'nak_ote', 
         'l4_ref', 
@@ -46,7 +53,7 @@ class L4CodesAdmin(CommonAdmin):
         'aygm_code', 
         'aygm_group', 
         'aygm_desc', 
-        'code_comb', 
+
         'activity_type', 
         'activity_detail', 
         'l4_order_ratio', 
@@ -55,33 +62,19 @@ class L4CodesAdmin(CommonAdmin):
     ) + CommonAdmin.list_display
 
     search_fields = (
-        'l4_code', 
+        'l4_code',  # Remove __code_comb
         'description', 
-        'l3_code__l3_code', 
-        'unit__name', 
-        'mtc_dgs_nkt', 
-        'nak_ote', 
-        'l4_ref', 
-        'l4_calc_method', 
         'aygm_code', 
         'aygm_group', 
-        'activity_type__name', 
-        'activity_detail__name'
     )
+
 
     list_filter = (
-        'is_active', 
-        'is_deleted', 
-        'created_by', 
-        'updated_by', 
-        'deleted_by', 
         'unit', 
-        'l4_hkds', 
-        'tax', 
-        'activity_type', 
-        'activity_detail'
+        'l3_code__code_comb',
     )
 
+    ordering = ('-created_at',)  # Add code_comb to ordering
 
 
 admin.site.register(L4Code, L4CodesAdmin)
@@ -125,24 +118,28 @@ class R1CodeAdmin(CommonAdmin):
     search_fields = ('r1_code', 'description', 'code_comb')
     list_filter = ('is_active', 'is_deleted') + CommonAdmin.list_filter
 
+    ordering = ('-created_at',)  # Add code_comb to ordering
 @admin.register(R2Code)
 class R2CodeAdmin(CommonAdmin):
     list_display = ('r2_code', 'r1_code', 'description', 'code_comb') + CommonAdmin.list_display
     search_fields = ('r2_code', 'r1_code__r1_code', 'description', 'code_comb')
     list_filter = ('is_active', 'is_deleted') + CommonAdmin.list_filter
 
+    ordering = ('-created_at',)  # Add code_comb to ordering
 @admin.register(R3Code)
 class R3CodeAdmin(CommonAdmin):
     list_display = ('r3_code', 'r2_code', 'description', 'code_comb') + CommonAdmin.list_display
     search_fields = ('r3_code', 'r2_code__r2_code', 'description', 'code_comb')
     list_filter = ('is_active', 'is_deleted') + CommonAdmin.list_filter
 
+    ordering = ('-created_at',)  # Add code_comb to ordering
 @admin.register(R4Code)
 class R4CodeAdmin(CommonAdmin):
     list_display = ('r4_code', 'r3_code', 'description', 'code_comb') + CommonAdmin.list_display
     search_fields = ('r4_code', 'r3_code__r3_code', 'description', 'code_comb')
     list_filter = ('is_active', 'is_deleted') + CommonAdmin.list_filter
 
+    ordering = ('-created_at',)  # Add code_comb to ordering
 @admin.register(M1Code)
 class M1CodeAdmin(CommonAdmin):
     list_display = ('m1_code', 'description', 'code_comb') + CommonAdmin.list_display

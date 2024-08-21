@@ -38,11 +38,12 @@ class Command(BaseCommand):
                 if m2_code.code_comb and m2_code.id is not None
             }
             t1_code_dict = {
-                f"{t1_code.code_comb}".strip(): str(t1_code.id)
+                f"{t1_code.code_comb}".strip() + "-" + t1_code.price_adjustment : str(t1_code.id)
                 for t1_code in T1Code.objects.all()
                 if t1_code.code_comb and t1_code.id is not None
             }
-            df_melted = pd.melt(df, id_vars=['Rep Month', 'L4 Code','R4 Code','Machine R4 Code','M2 Code','T1 Code','R4 Desc'], 
+
+            df_melted = pd.melt(df, id_vars=['Rep Month', 'L4 Code','R4 Code','Machine R4 Code','M2 Code','T1 Code','FFAK','R4 Desc'], 
                                 var_name='month', value_name='qty')
             df.columns = df.iloc[0]  # Set headers from the first row
             # df = df[1:]  # Skip the header row
@@ -61,6 +62,7 @@ class Command(BaseCommand):
             df_melted['Rep Month'] = df_melted['Rep Month'].astype(str)
             df_melted['M2 Code'] = df_melted['M2 Code'].astype(str)
             df_melted['T1 Code'] = df_melted['T1 Code'].astype(str)
+            df_melted['FFAK'] = df_melted['FFAK'].astype(str)
 
 
             for _, row in df_melted.iterrows():
@@ -70,7 +72,7 @@ class Command(BaseCommand):
                 r4_code_id = r4_code_dict.get(r4_code_value)
                 machine_r4_code_id = None
                 m2_code_id = m2_code_dict.get(str(row['M2 Code']).strip())
-                t1_code_id = t1_code_dict.get(str(row['T1 Code']).strip())
+                t1_code_id = t1_code_dict.get(str(row['T1 Code']+"-"+row['FFAK']).strip())
 
                 if str(row['Machine R4 Code']).strip():
                     machine_r4_code_value = str(row['Machine R4 Code']).strip()
@@ -84,22 +86,22 @@ class Command(BaseCommand):
                             rep_month_id=rep_month_id,
                             l4_code_id=l4_code_id,
                             r4_code_id=r4_code_id,
-                            m2_code_id=m2_code_id if m2_code_id else None,
-                            t1_code_id=t1_code_id if t1_code_id else None,
+                            m2_code_id=m2_code_id,
+                            t1_code_id=t1_code_id,
                             machine_r4_code_id=machine_r4_code_id if machine_r4_code_id else None,
                             exp_month=row['month'],
                             machine_qty=row['qty']
                         )
                     )
 
-
+            print(f'Number of records to be inserted: {len(expense_records)}')
             with transaction.atomic():
                 # Delete existing records for the given rep_month_id (if needed)
                 if expense_records:
                     ExpenseMachineryOperatorDistribution.objects.filter(rep_month_id=rep_month_id).delete()
                     ExpenseMachineryOperatorDistribution.objects.bulk_create(expense_records)
                     
-                    self.stdout.write(self.style.SUCCESS('R4 Codes imported successfully'))
+                self.stdout.write(self.style.SUCCESS('R4 Codes imported successfully'))
 
         except FileNotFoundError:
             raise CommandError(f'File not found at {file_path}')
