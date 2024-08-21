@@ -158,7 +158,7 @@ class Expense(Common):
     exp_qty = models.FloatField(default=0)
     exp_unit = models.ForeignKey(Unit, on_delete=models.PROTECT, verbose_name='Expense Unit', related_name='exp_unit',null=True, blank=True)
     exp = models.FloatField(default=0)
-    currency = models.CharField(max_length=3, choices=CURRENCY, null=True, blank=True)
+    currency = models.CharField(max_length=5, choices=CURRENCY, null=True, blank=True)
     bool_depriciation = models.BooleanField(default=False)
  
     class Meta:

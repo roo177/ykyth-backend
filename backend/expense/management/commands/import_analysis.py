@@ -35,10 +35,10 @@ class Command(BaseCommand):
             }
             r3_code_dict = {str(r3_code.code_comb).upper(): r3_code for r3_code in R3Code.objects.all()}  # Adjust 'name' to your R3Code model's unique field
             # Read the Excel file using pandas
-            df = pd.read_excel(file_path, sheet_name='Analysis', dtype={'Rep Month': str, 'R1 Code': str, 'L4 Code': str, 'R3 Code': str,'R4 Code': str, 'M2 Code': str, 'T1 Code': str, 'R4 Desc': str, 'Description': str, 'Work Ratio': float, 'Work Ratio Desc': str, 'Output Unit Time': float, 'Output Desc': str, 'Cons Unit Time': float, 'Cons Desc': str, 'FFAK': str})
+            df = pd.read_excel(file_path, sheet_name='Analysis', dtype={'Rep Month': str, 'R1 Code': str, 'L4 Code': str, 'R3 Code': str,'R4 Code': str, 'M2 Code': str, 'T1 Code': str, 'R4 Desc': str, 'Description': str, 'Work Ratio': float, 'Work Ratio Desc': str, 'Output Unit Time': float, 'Output Desc': str, 'Cons Unit Time': float, 'Cons Desc': str, 'FFAK': str, 'R3 Currency': str})
 
 
-            required_columns = {'Rep Month', 'L4 Code',  'R3 Code','R4 Code','M2 Code', 'T1 Code', 'FFAK', 'R4 Desc', 'Work Ratio', 'Work Ratio Desc', 'Output Unit Time', 'Output Desc', 'Cons Unit Time', 'Cons Desc'}
+            required_columns = {'Rep Month', 'L4 Code',  'R3 Code','R4 Code','M2 Code', 'T1 Code', 'FFAK', 'R4 Desc', 'Work Ratio', 'Work Ratio Desc', 'Output Unit Time', 'Output Desc', 'Cons Unit Time', 'Cons Desc','R3 Currency'}
             file_columns = set(df.columns)
 
             if not required_columns.issubset(file_columns):
@@ -65,6 +65,8 @@ class Command(BaseCommand):
                     m2_code = m2_code_dict.get(str(row['M2 Code']).upper()) if pd.notna(row['M2 Code']) else None
                     t1_code = t1_code_dict.get(str(row['T1 Code']).upper()+"-"+str(row['FFAK']).upper()) if pd.notna(row['T1 Code']) else None
                     r3_code = r3_code_dict.get(str(row['R3 Code']).upper()) if pd.notna(row['R3 Code']) else None
+                    r3_currecy = str(row['R3 Currency']).upper() if pd.notna(row['R3 Currency']) else None
+                    
                     created_by_id = '12f4aa11-b6fc-482f-894d-0962ad5f4313'
 
                     if r4_code or r3_code:
@@ -83,6 +85,7 @@ class Command(BaseCommand):
                             m2_code_id=m2_code,
                             t1_code_id=t1_code,
                             r3_code_machine_id=r3_code.id if r3_code else None,
+                            r3_currency=r3_currecy if r3_currecy else None,
                             created_by_id=created_by_id,
                             updated_by_id=created_by_id
 

@@ -55,6 +55,8 @@ class T1Code(Common):
         ('PTS.02', 'PTS.02'),
         ('RYS.01', 'RYS.01'),
         ('RYS.02', 'RYS.02'),
+        ('OZD.01', 'OZD.01'),
+        ('OZD.02', 'OZD.02'),
         ('-', '-'),
     ]  
 
