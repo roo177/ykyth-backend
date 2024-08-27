@@ -94,14 +94,15 @@ class ExpenseAnalysis(Common):
     output_desc = models.CharField(max_length=100, null=True, blank=True)
     consumption_per_unit_time = models.FloatField(null=True, blank=True)
     consumption_desc = models.CharField(max_length=100, null=True, blank=True)
-    m2_code = models.ForeignKey(M2Code, on_delete=models.PROTECT, verbose_name='M2 Code', related_name='m2_code_analysis',null=True, blank=True)
-    t1_code = models.ForeignKey(T1Code, on_delete=models.PROTECT, verbose_name='T1 Code', related_name='t1_code_analysis',null=True, blank=True)
+    m2_code = models.ForeignKey(M2Code, on_delete=models.PROTECT, verbose_name='M2 Code', related_name='m2_code_analysis')
+    t1_code = models.ForeignKey(T1Code, on_delete=models.PROTECT, verbose_name='T1 Code', related_name='t1_code_analysis')
     r3_code_machine = models.ForeignKey(R3Code, on_delete=models.PROTECT, verbose_name='R3 Code Machine', related_name='r3_code_machine',null=True, blank=True)
     r3_currency = models.CharField(max_length=3, choices=R4Price.CURRENCY_CHOICES, null=True, blank=True)
 
     class Meta:
         ordering = ['rep_month', 'r4_code__code_comb']
         db_table = 't_exp_analysis'
+        unique_together = ['rep_month', 'l4_code', 'r4_code', 'r4_desc', 'r3_code_machine', 'm2_code', 't1_code']
 
 
     def __str__(self):
@@ -129,6 +130,7 @@ class ExpenseMachineryOperatorDistribution(Common):
     rep_month = models.ForeignKey(RepMonth, on_delete=models.PROTECT, verbose_name='Expense_rep_month')
     l4_code = models.ForeignKey(L4Code, on_delete=models.PROTECT, verbose_name='Expense_l4_code')
     r4_code = models.ForeignKey(R4Code, on_delete=models.PROTECT, verbose_name='Expense_r4_code')
+    r4_usage_desc = models.CharField(max_length=100, null=True, blank=True)
     machine_r4_code = models.ForeignKey(R4Code, on_delete=models.PROTECT, verbose_name='Machine_r4_code', related_name='machine_r4_code', null=True, blank=True)
     exp_month = models.DateField()  
     machine_qty = models.FloatField(default=0)
