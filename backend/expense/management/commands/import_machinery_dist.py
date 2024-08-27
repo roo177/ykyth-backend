@@ -43,7 +43,7 @@ class Command(BaseCommand):
                 if t1_code.code_comb and t1_code.id is not None
             }
 
-            df_melted = pd.melt(df, id_vars=['Rep Month', 'L4 Code','R4 Code','Machine R4 Code','M2 Code','T1 Code','FFAK','R4 Desc'], 
+            df_melted = pd.melt(df, id_vars=['Rep Month', 'L4 Code','R4 Code','Machine R4 Code','M2 Code','T1 Code','FFAK','R4 Desc','R4 Desc2'], 
                                 var_name='month', value_name='qty')
             df.columns = df.iloc[0]  # Set headers from the first row
             # df = df[1:]  # Skip the header row
@@ -63,6 +63,9 @@ class Command(BaseCommand):
             df_melted['M2 Code'] = df_melted['M2 Code'].astype(str)
             df_melted['T1 Code'] = df_melted['T1 Code'].astype(str)
             df_melted['FFAK'] = df_melted['FFAK'].astype(str)
+            df_melted['R4 Desc'] = df_melted['R4 Desc'].astype(str)
+            df_melted['R4 Desc2'] = df_melted['R4 Desc2'].astype(str)
+
 
 
             for _, row in df_melted.iterrows():
@@ -73,6 +76,7 @@ class Command(BaseCommand):
                 machine_r4_code_id = None
                 m2_code_id = m2_code_dict.get(str(row['M2 Code']).strip())
                 t1_code_id = t1_code_dict.get(str(row['T1 Code']+"-"+row['FFAK']).strip())
+                r4_usage_desc = str(row['R4 Desc2']).strip()
 
                 if str(row['Machine R4 Code']).strip():
                     machine_r4_code_value = str(row['Machine R4 Code']).strip()
@@ -81,6 +85,10 @@ class Command(BaseCommand):
 
 
                 if rep_month_id and l4_code_id and row['qty'] != 0 and not pd.isnull(row['qty']):
+                    r4_usage_desc = row['R4 Desc2']
+                    if r4_usage_desc == 'nan' or r4_usage_desc == 'NaN' or r4_usage_desc == 'Nan':
+                        r4_usage_desc = None
+
                     expense_records.append(
                         ExpenseMachineryOperatorDistribution(
                             rep_month_id=rep_month_id,
@@ -90,7 +98,8 @@ class Command(BaseCommand):
                             t1_code_id=t1_code_id,
                             machine_r4_code_id=machine_r4_code_id if machine_r4_code_id else None,
                             exp_month=row['month'],
-                            machine_qty=row['qty']
+                            machine_qty=row['qty'],
+                            r4_usage_desc=r4_usage_desc if r4_usage_desc else None
                         )
                     )
 
