@@ -15,7 +15,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **kwargs):
         file_path = kwargs['file_path']
-
+        print("File Path: ", file_path)
         try:
             df = pd.read_excel(file_path, sheet_name='Expense', usecols=lambda col: col not in ['L4 Desc', 'R4 Desc', 'R4 Subc Code'])
 
@@ -80,7 +80,7 @@ class Command(BaseCommand):
             df['T1 Code'] = df['T1 Code'].astype(str)
             df['FFAK'] = df['FFAK'].astype(str)
             
-
+            print("Expense Quantity to be appended: ", len(df))
             for _, row in df.iterrows():
                 l4_code_value = str(row['L4 Code']).strip() 
                 l4_code_id = l4_code_dict.get(l4_code_value)
@@ -93,7 +93,7 @@ class Command(BaseCommand):
 
                 # Print for debugging
                 # print(f"Rep Month ID: {rep_month_id}, L4 Code ID: {l4_code_id}, Quantity: {row['qty']}")
-                if row['Qty'] == 'nan' or row['Qty'] == 'NaN' or row['Qty'] == 0 or row['Expense'] == 'nan' or row['Expense'] == 'NaN' or row['Expense'] == 0:
+                if row['Qty'] == 'nan' or row['Qty'] == 'NaN' or row['Expense'] == 'nan' or row['Expense'] == 'NaN' or row['Expense'] == 0:
                     continue
                 if rep_month_id and l4_code_id:
                     expense_records.append(
@@ -116,6 +116,7 @@ class Command(BaseCommand):
 
             with transaction.atomic():
                 # Delete existing records for the given rep_month_id (if needed)
+                print("Expense Quantity to be appended: ", len(expense_records))
                 if expense_records:
                     Expense.objects.filter(rep_month_id=rep_month_id).delete()
                     Expense.objects.bulk_create(expense_records)

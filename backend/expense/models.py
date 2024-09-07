@@ -2,6 +2,7 @@ from django.db import models
 from common.models import Common
 from constants.models import Unit, RepMonth
 from libraries.models import R4Code, L4Code, M2Code, T1Code,R3Code
+from django.db.models import Q
 
 class R4Price(Common):
     PRICE_ADJUSTMENT_TYPES = [
@@ -102,7 +103,17 @@ class ExpenseAnalysis(Common):
     class Meta:
         ordering = ['rep_month', 'r4_code__code_comb']
         db_table = 't_exp_analysis'
-        unique_together = ['rep_month', 'l4_code', 'r4_code', 'r4_desc', 'r3_code_machine', 'm2_code', 't1_code']
+        constraints = [
+            models.UniqueConstraint(
+                fields=['rep_month', 'l4_code', 'r4_code', 'r4_desc', 'm2_code', 't1_code'],
+                name='unique_expense_analysis_no_r3_code_machine'
+            ),
+            models.UniqueConstraint(
+                fields=['rep_month', 'l4_code', 'r4_code', 'r4_desc', 'r3_code_machine', 'm2_code', 't1_code'],
+                condition=Q(r3_code_machine__isnull=False),
+                name='unique_expense_analysis_with_r3_code_machine'
+            )
+        ]
 
 
     def __str__(self):
@@ -122,6 +133,7 @@ class ExpenseQuantity(Common):
     class Meta:
         ordering = ['l4_code']
         db_table = 't_exp_qty'
+        unique_together = ['rep_month', 'l4_code', 'm2_code', 't1_code', 'exp_month']
 
     def __str__(self):
         return self.rep_month.rep_month & "-" & self.l4_code.code_comb

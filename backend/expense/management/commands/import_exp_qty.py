@@ -82,11 +82,12 @@ class Command(BaseCommand):
 
             with transaction.atomic():
                 # Delete existing records for the given rep_month_id (if needed)
+                print("Expense Quantity to be appended: ", len(expense_records))
                 if expense_records:
                     ExpenseQuantity.objects.filter(rep_month_id=rep_month_id).delete()
                     ExpenseQuantity.objects.bulk_create(expense_records)
                     
-                    self.stdout.write(self.style.SUCCESS('R4 Codes imported successfully'))
+                self.stdout.write(self.style.SUCCESS('Exp Quantity Data imported successfully'))
 
         except FileNotFoundError:
             raise CommandError(f'File not found at {file_path}')
