@@ -154,6 +154,6 @@ class M2CodeAdmin(CommonAdmin):
 
 @admin.register(T1Code)
 class T1CodeAdmin(CommonAdmin):
-    list_display = ('t1_code', 'description', 'code_comb') + CommonAdmin.list_display
-    search_fields = ('t1_code', 'description', 'code_comb')
+    list_display = ('t1_code', 'description', 'price_adjustment', 'code_comb') + CommonAdmin.list_display
+    search_fields = ('t1_code', 'description', 'price_adjustment', 'code_comb')
     list_filter = ('is_active', 'is_deleted') + CommonAdmin.list_filter

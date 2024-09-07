@@ -55,6 +55,7 @@ class T1Code(Common):
         ('PTS.02', 'PTS.02'),
         ('RYS.01', 'RYS.01'),
         ('RYS.02', 'RYS.02'),
+        ('RYS.03', 'RYS.03'),
         ('OZD.01', 'OZD.01'),
         ('OZD.02', 'OZD.02'),
         ('-', '-'),
@@ -67,9 +68,10 @@ class T1Code(Common):
     contract_no = models.CharField(max_length=100, null=True, blank=True)
     
     class Meta:
-        ordering = ['t1_code']
+        ordering =['t1_code','price_adjustment']
         db_table = 't_t1_code'
         unique_together = ['t1_code','price_adjustment']
+
 
     def save(self, *args, **kwargs):
         if self.t1_code:

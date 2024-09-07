@@ -43,7 +43,7 @@ class Command(BaseCommand):
                 if t1_code.code_comb and t1_code.id is not None
             }
 
-            df_melted = pd.melt(df, id_vars=['Rep Month', 'L4 Code','R4 Code','Machine R4 Code','M2 Code','T1 Code','FFAK','R4 Desc','R4 Desc2'], 
+            df_melted = pd.melt(df, id_vars=['Rep Month', 'L4 Code','R4 Code','Machine R4 Code','M2 Code','T1 Code','FFAK','R4 Desc','R4 Desc2','OPERATÖR R4 Code'], 
                                 var_name='month', value_name='qty')
             df.columns = df.iloc[0]  # Set headers from the first row
             # df = df[1:]  # Skip the header row
@@ -110,7 +110,7 @@ class Command(BaseCommand):
                     ExpenseMachineryOperatorDistribution.objects.filter(rep_month_id=rep_month_id).delete()
                     ExpenseMachineryOperatorDistribution.objects.bulk_create(expense_records)
                     
-                self.stdout.write(self.style.SUCCESS('R4 Codes imported successfully'))
+                self.stdout.write(self.style.SUCCESS('Machinery Dist - Operator Data imported successfully'))
 
         except FileNotFoundError:
             raise CommandError(f'File not found at {file_path}')

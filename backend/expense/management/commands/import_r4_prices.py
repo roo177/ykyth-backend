@@ -131,7 +131,7 @@ class Command(BaseCommand):
                         #print(f'R4 Code {r1_code + "-" + r2_code_code + "-" + r3_code_code + "-" + r4_code_code+" / "+m2_code.code_comb + "/" + t1_code.code_comb + "-" +t1_code.price_adjustment} imported successfully')
 
 
-                self.stdout.write(self.style.SUCCESS('R4 Codes imported successfully'))
+                self.stdout.write(self.style.SUCCESS('R4 Prices imported successfully'))
         except FileNotFoundError:
             raise CommandError(f'File not found at {file_path}')
         except Exception as e:
