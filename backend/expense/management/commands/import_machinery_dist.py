@@ -69,18 +69,23 @@ class Command(BaseCommand):
 
 
             for _, row in df_melted.iterrows():
+                
                 l4_code_value = str(row['L4 Code']).strip() 
                 l4_code_id = l4_code_dict.get(l4_code_value)
                 r4_code_value = str(row['R4 Code']).strip()
                 r4_code_id = r4_code_dict.get(r4_code_value)
+
                 machine_r4_code_id = None
                 m2_code_id = m2_code_dict.get(str(row['M2 Code']).strip())
                 t1_code_id = t1_code_dict.get(str(row['T1 Code']+"-"+row['FFAK']).strip())
                 r4_usage_desc = str(row['R4 Desc2']).strip()
+                if not r4_code_id:
+                    raise CommandError(f'R4 Code not found: {r4_code_value} for L4 Code: {l4_code_value} at row: {row.name}')
 
                 if str(row['Machine R4 Code']).strip():
                     machine_r4_code_value = str(row['Machine R4 Code']).strip()
                     machine_r4_code_id = r4_code_dict.get(machine_r4_code_value)
+
                 rep_month_id = rep_month_dict.get(str(row['Rep Month']))
 
 

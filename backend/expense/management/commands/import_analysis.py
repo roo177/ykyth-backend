@@ -35,7 +35,7 @@ class Command(BaseCommand):
             }
             r3_code_dict = {str(r3_code.code_comb).upper(): r3_code for r3_code in R3Code.objects.all()}  # Adjust 'name' to your R3Code model's unique field
             # Read the Excel file using pandas
-            df = pd.read_excel(file_path, sheet_name='Analysis', dtype={'Rep Month': str, 'R1 Code': str, 'L4 Code': str, 'R3 Code': str,'R4 Code': str, 'M2 Code': str, 'T1 Code': str, 'R4 Desc': str, 'Description': str, 'Work Ratio': float, 'Work Ratio Desc': str, 'Output Unit Time': float, 'Output Desc': str, 'Cons Unit Time': float, 'Cons Desc': str, 'FFAK': str, 'R3 Currency': str})
+            df = pd.read_excel(file_path, sheet_name='Analysis', dtype={'Rep Month': str, 'R1 Code': str, 'L4 Code': str, 'R3 Code': str,'R4 Code': str, 'M2 Code': str, 'T1 Code': str, 'R4 Desc': str, 'Description': str, 'Work Ratio': float, 'Work Ratio Desc': str, 'Output Unit Time': float, 'Output Desc': str, 'Cons Unit Time': float, 'Cons Desc': str, 'FFAK': str, 'R3 Currency': str })
 
 
             required_columns = {'Rep Month', 'L4 Code',  'R3 Code','R4 Code','M2 Code', 'T1 Code', 'FFAK', 'R4 Desc', 'Work Ratio', 'Work Ratio Desc', 'Output Unit Time', 'Output Desc', 'Cons Unit Time', 'Cons Desc','R3 Currency'}
@@ -54,6 +54,8 @@ class Command(BaseCommand):
 
                     rep_month = rep_month_dict.get(str(row['Rep Month']).upper()) if pd.notna(row['Rep Month']) else None
                     l4_code = l4_code_dict.get(str(row['L4 Code']).upper()) if pd.notna(row['L4 Code']) else None
+                    if l4_code is None:
+                        raise CommandError(f'L4 Code {str(row["L4 Code"]).upper()} not found.')
                     r4_code = r4_code_dict.get(str(row['R4 Code']).upper()) if pd.notna(row['R4 Code']) else None
                     r4_desc = str(row['R4 Desc']).upper() if pd.notna(row['R4 Desc']) else None
                     work_ratio = row['Work Ratio'] if pd.notna(row['Work Ratio']) else None
@@ -94,7 +96,7 @@ class Command(BaseCommand):
                         missing_code = r4_code is None and f'Code {str(row['L4 Code']).upper() + "-" + str(row['R4 Code']).upper() }'
                         raise CommandError(f'{missing_code} not found.')
 
-                self.stdout.write(self.style.SUCCESS('Codes imported successfully'))
+                self.stdout.write(self.style.SUCCESS('Analysis Data has been imported successfully'))
         except FileNotFoundError:
             raise CommandError(f'File not found at {file_path}')
         except Exception as e:
