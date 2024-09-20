@@ -151,7 +151,7 @@ class ExpenseMachineryOperatorDistribution(Common):
     class Meta:
         ordering = ['l4_code']
         db_table = 't_exp_mach_oper_dist'
-        
+
     def __str__(self):
         return self.rep_month.rep_month & "-" & self.l4_code.code_comb & "-" & self.r4_code.code_comb
     

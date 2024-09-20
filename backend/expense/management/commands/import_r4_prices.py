@@ -135,4 +135,4 @@ class Command(BaseCommand):
         except FileNotFoundError:
             raise CommandError(f'File not found at {file_path}')
         except Exception as e:
-            raise CommandError(f'Error: {str(e)}')
+            raise CommandError(f'Error: {str(e) + " " + str(index)+ " " + f"{r1_code}-{r2_code_code}-{r3_code_code}-{r4_code_code}"}')
