@@ -1,0 +1,1533 @@
+001!A!01.ALT!01.TPR!Kazı - Yarma ve Yan Ariyet!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!62.4!33827371.37!FALSE!İMALAT!YAPILACAK
+002!A!01.ALT!01.TPR!Kazı - Ariyet Ocağı!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!117.26!9854032.5!FALSE!İMALAT!YAPILACAK
+003!A!01.ALT!01.TPR!Kazı - Sıyırma!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!106!1028257.2!FALSE!İMALAT!YAPILACAK
+004!A!01.ALT!01.TPR!Dolgu - İstifsiz Taş - Taban İyileştirme!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!220!1627815.6!FALSE!İMALAT!YAPILACAK
+005!A!01.ALT!01.TPR!Dolgu - Alttemel. Yaklaşım!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!150!1710000!FALSE!İMALAT!YAPILACAK
+006!A!01.ALT!01.TPR!Dolgu - Çimentolu. Yaklaşım!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!190!180000!FALSE!İMALAT!YAPILACAK
+001!A!01.ALT!02.SNT!Kazı - Sanat Yapısı (Köprü hariç)!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!92!397500.5!FALSE!İMALAT!YAPILACAK
+002!A!01.ALT!02.SNT!Beton - Demirsiz - Temel - Köprü Harici!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!426!58878.9!FALSE!İMALAT!YAPILACAK
+003!A!01.ALT!02.SNT!Beton - Drenaj Hendeği. Tünel Dolgu!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!438!244625.4!FALSE!İMALAT!YAPILACAK
+004!A!01.ALT!02.SNT!Beton - Açıkta - Demirli!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!624!390928.5!FALSE!İMALAT!YAPILACAK
+005!A!01.ALT!02.SNT!Nervürlü Çelik Zati Bedeli!ton!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!13000!83862!FALSE!İMALAT!YAPILACAK
+006!A!01.ALT!02.SNT!Moloz Taş İnşaat - Hazır Beton harcıyla!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!729!27099!FALSE!İMALAT!YAPILACAK
+007!A!01.ALT!02.SNT!Dolgu - Kırmataş!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!150!176456.7!FALSE!İMALAT!YAPILACAK
+008!A!01.ALT!02.SNT!Tünel Tipi Drenaj Borusu Döşenmesi!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!100!135000!FALSE!İMALAT!YAPILACAK
+009!A!01.ALT!02.SNT!Prefabrik Drenaj ve Kontrol Bacası yap.!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!1158.15!2700!FALSE!İMALAT!YAPILACAK
+011!A!01.ALT!02.SNT!Koruge Drenaj Borusu - ø 400 mm!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!437.65!18000!FALSE!İMALAT!YAPILACAK
+015!A!01.ALT!02.SNT!Fonttan Izgara. Kapak. Garguy!kg!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!26.41!2299.5!FALSE!İMALAT!YAPILACAK
+018!A!01.ALT!02.SNT!Püskürtme Betonu Yapılması!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!1412.4!83794.5!FALSE!İMALAT!YAPILACAK
+021!A!01.ALT!02.SNT!Dökme Kazık - Ø 120 cm. - Köprü Hariç!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!1258.33!27000!FALSE!İMALAT!YAPILACAK
+023!A!01.ALT!02.SNT!Kırmataş Kolon - Ø 70 cm.!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!250!934982.1!FALSE!İMALAT!YAPILACAK
+029!A!01.ALT!02.SNT!Hasır Çelik Temini ve İşçiliği!ton!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!16000!7200!FALSE!İMALAT!YAPILACAK
+030!A!01.ALT!02.SNT!Soilmixing Kolon - Ø 80 cm.!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!636!1660000!FALSE!İMALAT!YAPILACAK
+033!A!01.ALT!02.SNT!Dolgu - İstifsiz Taş!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!285.25!135000!FALSE!İMALAT!YAPILACAK
+034!A!01.ALT!02.SNT!Su Tutucu Temini ve Yerine Konulması!kg!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!93!29324.7!FALSE!İMALAT!YAPILACAK
+037!A!01.ALT!02.SNT!Zemin Çivisi ve Yerine Yerleştirilmesi!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!407.36!630000!FALSE!İMALAT!YAPILACAK
+043!A!01.ALT!02.SNT!Barbakan Deliği - Geotekstil Sarımlı!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!155!153188.88!FALSE!İMALAT!YAPILACAK
+001!A!01.ALT!03.KPR!Köprü Temeli Kazılması!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!110!170196.48!FALSE!İMALAT!YAPILACAK
+008!A!01.ALT!03.KPR!Dökme Kazık - Ø 120 cm. - Köprü!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!1305!37395.9!FALSE!İMALAT!YAPILACAK
+010!A!01.ALT!03.KPR!Beton - Demirsiz - Temel - Köprü!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!490!4545!FALSE!İMALAT!YAPILACAK
+011!A!01.ALT!03.KPR!Beton - Demirli - Köprü - C 30/37!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!848.31!112310.1!FALSE!İMALAT!YAPILACAK
+013!A!01.ALT!03.KPR!Beton - Öngermeli Köprü Kirişlerinde!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!1800!21953.7!FALSE!İMALAT!YAPILACAK
+014!A!01.ALT!03.KPR!Öngerme Çeliği Temin ve Yerine Koyma!ton!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!33000!1095.3!FALSE!İMALAT!YAPILACAK
+015!A!01.ALT!03.KPR!Köprülerde Membran ile Su Yalıtımı!m²!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!55!23948.1!FALSE!İMALAT!YAPILACAK
+016!A!01.ALT!03.KPR!Katran Badana Yapılması!m²!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!50!250839.9!FALSE!İMALAT!YAPILACAK
+017!A!01.ALT!03.KPR!Köprülerde Genleşme Derzi ( Mlz. + İşç. )!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!3000!1451.7!FALSE!İMALAT!YAPILACAK
+018!A!01.ALT!03.KPR!Neopren Mesnet Temini ve Montajı!dm³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!301.25!10033.2!FALSE!İMALAT!YAPILACAK
+019!A!01.ALT!03.KPR!Köprü Korkuluk - Profilden ( Mlz. + İşç. )!ton!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!22580!323.42!FALSE!İMALAT!YAPILACAK
+022!A!01.ALT!03.KPR!Köprülerde Prekast Cephe Paneli (Mlz.+İşç.)!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!2100!878.4!FALSE!İMALAT!YAPILACAK
+001!A!01.ALT!04.TNL!Tünel Kazısı Yapılması!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!400!1822176.14!FALSE!İMALAT!YAPILACAK
+002!A!01.ALT!04.TNL!Tünellerde Çelik İksa Yapılması (Mlz.+İşç.)!ton!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!34248.07!17100!FALSE!İMALAT!YAPILACAK
+003!A!01.ALT!04.TNL!Süren - Tünel - Ø 3.5" - K. Delgili + Enjeks.!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!1440!843750!FALSE!İMALAT!YAPILACAK
+004!A!01.ALT!04.TNL!Süren - Tünel - Çelik Boru + Enjeks.!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!125!421875!FALSE!İMALAT!YAPILACAK
+005!A!01.ALT!04.TNL!Tünelde Hasır Çelik ile İksa!ton!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!28258.35!12600!FALSE!İMALAT!YAPILACAK
+006!A!01.ALT!04.TNL!Tünelde Püskürtme Betonu Yapılması!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!2038.34!167241.6!FALSE!İMALAT!YAPILACAK
+007!A!01.ALT!04.TNL!Tünellerde SN Kaya Bulonu Yapılması!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!163!363756.4!FALSE!İMALAT!YAPILACAK
+009!A!01.ALT!04.TNL!Tünellerde IBO Bulonu Yapılması (Mlz.+İşç.)!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!250!2503800!FALSE!İMALAT!YAPILACAK
+010!A!01.ALT!04.TNL!Su Yalıtımı  - Tünellerde!m²!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!213!527532.24!FALSE!İMALAT!YAPILACAK
+011!A!01.ALT!04.TNL!Tünellerde Nihai Beton Kaplaması - C25/30!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!1360!365372.1!FALSE!İMALAT!YAPILACAK
+013!A!01.ALT!04.TNL!Prekast Kablo Kanalı Yapılması!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!1050!23383.8!FALSE!İMALAT!YAPILACAK
+016!A!01.ALT!04.TNL!Tünelde Enjeksiyon Yapılması!ton!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!1050!54000!FALSE!İMALAT!YAPILACAK
+017!A!01.ALT!04.TNL!Enjeksiyon Amaçlı Delik Açılması!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!250!198000!FALSE!İMALAT!YAPILACAK
+018!A!01.ALT!04.TNL!Beton - Demirsiz - Boşluk / Poroz!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!430.4!2700!FALSE!İMALAT!YAPILACAK
+001!A!01.ALT!05.TKP!Plentmiks Alttemel ve Plentmiks Temel!ton!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!318.72!198000!FALSE!İMALAT!YAPILACAK
+002!A!01.ALT!05.TKP!Bitümlü Sıcak Temel Yapılması!ton!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!690!10032.49!FALSE!İMALAT!YAPILACAK
+003!A!01.ALT!05.TKP!Binder Tabakası Yapılması ( Bitüm yüklenici )!ton!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!720!11031.23!FALSE!İMALAT!YAPILACAK
+004!A!01.ALT!05.TKP!Aşınma Tabakası Yapılması!ton!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!745!8729.51!FALSE!İMALAT!YAPILACAK
+005!A!01.ALT!05.TKP!İki Tabaka Astarlı Bitümlü Sathi Kaplama Yp.!dekar!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!53000!133.29!FALSE!İMALAT!YAPILACAK
+001!A!01.ALT!06.AAK!Altyapı Aktarımları!götürü!IN.03!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!72500000!1!FALSE!İMALAT!YAPILACAK
+001!A!01.ALT!07.SRT!Altyapı Hat Emniyeti Sertifikasyonu!götürü!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!381040722.05!1!FALSE!İMALAT!YAPILACAK
+010!A!02.UST!01.GNL!Seçme Malz.nin Havalandırılması ve Serimi!plt-m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!82!48379.45!FALSE!İMALAT!REZERV
+020!A!02.UST!01.GNL!Balastaltı (Subbalast) Temini ve Serilmesi!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!207.5!376065.02!FALSE!İMALAT!REZERV
+030!A!02.UST!01.GNL!Asfalt Betonu Binder Tabakası ( Mlz.+İşç. )!m²!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!201!160414.69!FALSE!İMALAT!REZERV
+040!A!02.UST!01.GNL!BAM Temini ve Serilmesi!m²!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!839!24864!FALSE!İMALAT!REZERV
+051!A!02.UST!01.GNL!Balast Temini ve Serilmesi - 1!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!410!329195.32!FALSE!İMALAT!REZERV
+052!A!02.UST!01.GNL!Balast Temini ve Serilmesi - 2!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!445!282591.28!FALSE!İMALAT!REZERV
+071!A!02.UST!01.GNL!RAY - Balastlı Demiryolu Yapılması!hat-m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!4487!129236.63!FALSE!İMALAT!REZERV
+072!A!02.UST!01.GNL!TRAVERS - Balastlı Demiryolu Yapılması!hat-m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!4487!129236.63!FALSE!İMALAT!REZERV
+080!A!02.UST!01.GNL!Balastsız Demiryolu Yapılması!hat-m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!7410!32392!FALSE!İMALAT!REZERV
+090!A!02.UST!01.GNL!Seviye Ayarlama Tabakası Yap. (C25/30)!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!804!35416!FALSE!İMALAT!REZERV
+130!A!02.UST!01.GNL!Makas - 120 km/sa - Temin ve Ferş!adet!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!4942000!24!FALSE!İMALAT!REZERV
+140!A!02.UST!01.GNL!Makas - 120 km/sa - Temini!adet!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!4224000!8!FALSE!İMALAT!REZERV
+150!A!02.UST!01.GNL!Makas - 120 km/sa - Dil Takımı & Göbek!set!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!2832000!8!FALSE!İMALAT!REZERV
+160!A!02.UST!01.GNL!Makas - 100 km/sa - Temin ve Ferş!adet!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!3732000!17!FALSE!İMALAT!REZERV
+170!A!02.UST!01.GNL!Makas - 100 km/sa - Temini!adet!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!3201000!5!FALSE!İMALAT!REZERV
+180!A!02.UST!01.GNL!Makas - 100 km/sa - Dil Takımı & Göbek!set!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!2270000!5!FALSE!İMALAT!REZERV
+340!A!02.UST!01.GNL!Hat Muayenesi ve Raporlanması!hat-m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!5.23!290865.26!FALSE!İMALAT!REZERV
+350!A!02.UST!01.GNL!Ray Taşlama Makinesi ile Taşlama Yap.!hat-m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!42.55!290865.26!FALSE!İMALAT!REZERV
+360!A!02.UST!01.GNL!Hattın Yol Ölçüm Makinesi ile Ölçülmesi!hat-m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!41.28!290865.26!FALSE!İMALAT!REZERV
+370!A!02.UST!01.GNL!Hattın Periyodik Bakımı!götürü!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!31795109.38!1!FALSE!İMALAT!REZERV
+380!A!02.UST!01.GNL!Mevcut Demiryolu Hattının Sökülmesi!hat-m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!62!2500!FALSE!İMALAT!REZERV
+390!A!02.UST!01.GNL!Mevcut Makasların Sökülmesi!adet!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!40321!6!FALSE!İMALAT!REZERV
+400!A!02.UST!01.GNL!Geçici Balastlı Demiryolu Yapımı!hat-m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!1807!2500!FALSE!İMALAT!REZERV
+410!A!02.UST!01.GNL!Plentmiks Temel ve Sathi Kapl. - Servis Yolu!m²!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!49!1209486.3!FALSE!İMALAT!REZERV
+420!A!02.UST!01.GNL!Her Çeşit İhata Yapılması!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!375!241897.26!FALSE!İMALAT!REZERV
+001!A!02.UST!02.SRT!Üstyapı Hat Emniyeti Sertifikasyonu!götürü!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!69536770.04!1!FALSE!İMALAT!REZERV
+001!A!03.IST!01.IST!Yenifakılı İstasyonu!götürü!IN.01!2!!TRUE!-!39475000!1!FALSE!İMALAT!REZERV
+002!A!03.IST!01.IST!Şefaatli İstasyonu!götürü!IN.01!2!!TRUE!-!39475000!1!FALSE!İMALAT!REZERV
+001!A!03.IST!02.SRT!İstasyon Hat Emniyeti Ölçme & Test & Sertifikasyonu!götürü!IN.01!2!!TRUE!-!2372447.5!1!FALSE!İMALAT!REZERV
+001!A!04.ELK!01.KAT!1 ST - 1 PT - 1 Dİ!adet!IN.01!2!!TRUE!-!38755.92!2269!FALSE!İMALAT!REZERV
+002!A!04.ELK!01.KAT!2 ST - 2 PT - 1 Dİ!adet!IN.01!2!!TRUE!-!40694.48!999!FALSE!İMALAT!REZERV
+003!A!04.ELK!01.KAT!1 ST - 1 PT - 1 Dİ - 1 Kataner Ankrajı!adet!IN.01!2!!TRUE!-!42648.18!508!FALSE!İMALAT!REZERV
+004!A!04.ELK!01.KAT!1 ST - 1 PT - 1 Dİ - FT!adet!IN.01!2!!TRUE!-!43829.48!149!FALSE!İMALAT!REZERV
+005!A!04.ELK!01.KAT!1 ST - 1 PT - 1 Dİ Ankrajı!adet!IN.01!2!!TRUE!-!33500.63!4!FALSE!İMALAT!REZERV
+006!A!04.ELK!01.KAT!1ST - 1PT - 1Dİ - 1 Antişöminman Ankrajı!adet!IN.01!2!!TRUE!-!37695.78!456!FALSE!İMALAT!REZERV
+007!A!04.ELK!01.KAT!2ST - 2PT - 1Dİ - 1 Antişöminman Ankrajı!adet!IN.01!2!!TRUE!-!41754.62!17!FALSE!İMALAT!REZERV
+008!A!04.ELK!01.KAT!1ST - 1PT - 1Dİ - FT - 1 Antişöminman Ankrajı!adet!IN.01!2!!TRUE!-!46616.15!50!FALSE!İMALAT!REZERV
+009!A!04.ELK!01.KAT!2ST - 2PT - 1Dİ - FT - 1 Antişöminman Ankrajı!adet!IN.01!2!!TRUE!-!49690.58!5!FALSE!İMALAT!REZERV
+010!A!04.ELK!01.KAT!2 ST - 2 PT - 1 Dİ - FT!adet!IN.01!2!!TRUE!-!49251.37!175!FALSE!İMALAT!REZERV
+011!A!04.ELK!01.KAT!1 ST - 1 PT - 1 Dİ - FT - 1 Kataner Ankrajı!adet!IN.01!2!!TRUE!-!46994.78!79!FALSE!İMALAT!REZERV
+012!A!04.ELK!01.KAT!2 ST - 2 PT - 1 Dİ ANKRAJI!adet!IN.01!2!!TRUE!-!45874.05!2!FALSE!İMALAT!REZERV
+013!A!04.ELK!01.KAT!3 ST - 3 PT  -  FT!adet!IN.01!2!!TRUE!-!47752.02!2!FALSE!İMALAT!REZERV
+014!A!04.ELK!01.KAT!4ST - 4 PT - 1Dİ!adet!IN.01!2!!TRUE!-!45495.43!4!FALSE!İMALAT!REZERV
+015!A!04.ELK!01.KAT!Kataner Donanımı - Seksiyoner!adet!IN.01!2!!TRUE!-!46252.67!47!FALSE!İMALAT!REZERV
+016!A!04.ELK!01.KAT!Hertz Direği!adet!IN.01!2!!TRUE!-!86023.31!42!FALSE!İMALAT!REZERV
+017!A!04.ELK!01.KAT!Portal için Direk!adet!IN.01!2!!TRUE!-!74058.8!52!FALSE!İMALAT!REZERV
+018!A!04.ELK!01.KAT!2 ST - 2 PT - 1 Dİ - FT - 1 Kataner Ankrajı!adet!IN.01!2!!TRUE!-!44753.32!4!FALSE!İMALAT!REZERV
+019!A!04.ELK!01.KAT!1 ST - 1 PT -  1 Dİ -  FT Ankrajı!adet!IN.01!2!!TRUE!-!45874.05!26!FALSE!İMALAT!REZERV
+020!A!04.ELK!01.KAT!2 ST - 2 PT - FT!adet!IN.01!2!!TRUE!-!51114.2!2!FALSE!İMALAT!REZERV
+021!A!04.ELK!01.KAT!2 ST - 2 PT -  1 Dİ - FT Ankrajı!adet!IN.01!2!!TRUE!-!51795.73!11!FALSE!İMALAT!REZERV
+022!A!04.ELK!01.KAT!3 ST - 3 PT -  1 Dİ - FT - 1 Kataner Ankrajı!adet!IN.01!2!!TRUE!-!52689.28!2!FALSE!İMALAT!REZERV
+023!A!04.ELK!01.KAT!2 Dİ - 4 FT!adet!IN.01!2!!TRUE!-!53143.63!10!FALSE!İMALAT!REZERV
+024!A!04.ELK!01.KAT!2 Dİ - 4 FT Ankrajı!adet!IN.01!2!!TRUE!-!53749.42!4!FALSE!İMALAT!REZERV
+025!A!04.ELK!01.KAT!Yükseltilmiş Ankraj Direği!adet!IN.01!2!!TRUE!-!13342.7!24!FALSE!İMALAT!REZERV
+026!A!04.ELK!01.KAT!Portaller için Şez Konstrüksiyonları!adet!IN.01!2!!TRUE!-!9374.72!52!FALSE!İMALAT!REZERV
+027!A!04.ELK!01.KAT!Tüneller için Şez Konstrüksiyonları!adet!IN.01!2!!TRUE!-!14857.2!976!FALSE!İMALAT!REZERV
+028!A!04.ELK!01.KAT!Ankraj Temelleri!m³!IN.01!2!!TRUE!-!2695.8!2966.7!FALSE!İMALAT!REZERV
+029!A!04.ELK!01.KAT!Toprak Zemin Üzerine Çelik Direk Temeli!m³!IN.01!2!!TRUE!-!2847.25!12057.1!FALSE!İMALAT!REZERV
+030!A!04.ELK!01.KAT!Beton Zemin Üzerinde Çelik Direk Kaideleri!set!IN.01!2!!TRUE!-!3256.16!146!FALSE!İMALAT!REZERV
+031!A!04.ELK!01.KAT!Beton Zemin Üzerine Ankraj Temeli Kaideleri!set!IN.01!2!!TRUE!-!3241.02!24!FALSE!İMALAT!REZERV
+032!A!04.ELK!01.KAT!Menhol!set!IN.01!2!!TRUE!-!7860.23!28!FALSE!İMALAT!REZERV
+033!A!04.ELK!01.KAT!Seyir Teli (120 Mm2) (Cu Ag 0.1)!m!IN.01!2!!TRUE!-!227.02!355296!FALSE!İMALAT!REZERV
+034!A!04.ELK!01.KAT!Portör Teli (70 Mm2) (Bz II)!m!IN.01!2!!TRUE!-!130.25!355296!FALSE!İMALAT!REZERV
+035!A!04.ELK!01.KAT!Dönüş İletkeni 152/25 (176.9 mm2) AL/St Ostrıch!m!IN.01!2!!TRUE!-!54.17!285605!FALSE!İMALAT!REZERV
+036!A!04.ELK!01.KAT!Y Halatı (35 mm2) (Bz II) (14 M)!set!IN.01!2!!TRUE!-!1896.38!1828!FALSE!İMALAT!REZERV
+037!A!04.ELK!01.KAT!Y Halatı (35 mm2) (Bz II) (18 M)!set!IN.01!2!!TRUE!-!2044.9!2831!FALSE!İMALAT!REZERV
+038!A!04.ELK!01.KAT!Pandül (16 mm2) (Bz II)!set!IN.01!2!!TRUE!-!357.53!42853!FALSE!İMALAT!REZERV
+039!A!04.ELK!01.KAT!Fider İletkeni 242/39 (280.84) mm2 Al/St Hawk!m!IN.01!2!!TRUE!-!67.82!79200!FALSE!İMALAT!REZERV
+040!A!04.ELK!01.KAT!İzoleli Fider İletkeni 1x240 Mm2 (Bakır)!m!IN.01!2!!TRUE!-!560.36!1500!FALSE!İMALAT!REZERV
+041!A!04.ELK!01.KAT!Kablo Başlığı (1x240 mm2 Kablo İçin)!adet!IN.01!2!!TRUE!-!3407.61!8!FALSE!İMALAT!REZERV
+042!A!04.ELK!01.KAT!Besleme İrtibatı 50 mm2!set!IN.01!2!!TRUE!-!1105.58!10!FALSE!İMALAT!REZERV
+043!A!04.ELK!01.KAT!İki Katener Arası Elektriki İrtibat 120 mm2!set!IN.01!2!!TRUE!-!1921.89!654!FALSE!İMALAT!REZERV
+044!A!04.ELK!01.KAT!Fider ve Seksiyoner İçin Katener İrtibatı 120 mm2!set!IN.01!2!!TRUE!-!3066.85!134!FALSE!İMALAT!REZERV
+045!A!04.ELK!01.KAT!Topraklama İrtibatı 8 mm (Alüminyum Filmaşin)!m!IN.01!2!!TRUE!-!121.16!384!FALSE!İMALAT!REZERV
+046!A!04.ELK!01.KAT!10 mm Çaplı İletkenle Topraklama İrtibatları!m!IN.01!2!!TRUE!-!136.3!3678!FALSE!İMALAT!REZERV
+047!A!04.ELK!01.KAT!Geri Dönüş İletkenlerinin Paralellenmesi!set!IN.01!2!!TRUE!-!2135.44!94!FALSE!İMALAT!REZERV
+048!A!04.ELK!01.KAT!Geri Dönüş İletkeni Ray Arası Bağlantı İletkeni Nyy 1x50 mm2!set!IN.01!2!!TRUE!-!1257.03!197!FALSE!İMALAT!REZERV
+049!A!04.ELK!01.KAT!Topraklama İstasyonu!set!IN.01!2!!TRUE!-!5103.85!197!FALSE!İMALAT!REZERV
+050!A!04.ELK!01.KAT!Konsol-Hoban Takımı!set!IN.01!2!!TRUE!-!7542.18!5986!FALSE!İMALAT!REZERV
+051!A!04.ELK!01.KAT!Yükselen Katener İçin Konsol-Hoban Takımı!set!IN.01!2!!TRUE!-!7496.75!598!FALSE!İMALAT!REZERV
+052!A!04.ELK!01.KAT!Sabit Seyir Teli Ankrajı!set!IN.01!2!!TRUE!-!3180.44!13!FALSE!İMALAT!REZERV
+053!A!04.ELK!01.KAT!Sabit Portör Teli Ankrajı!set!IN.01!2!!TRUE!-!2892.69!13!FALSE!İMALAT!REZERV
+054!A!04.ELK!01.KAT!Dönüş İletkeni Ankrajı!set!IN.01!2!!TRUE!-!2710.95!118!FALSE!İMALAT!REZERV
+055!A!04.ELK!01.KAT!Fider Hattı Ankrajı!set!IN.01!2!!TRUE!-!4725.22!196!FALSE!İMALAT!REZERV
+056!A!04.ELK!01.KAT!Açık Hat İçin Antişöminman Tesisi!set!IN.01!2!!TRUE!-!17840.75!256!FALSE!İMALAT!REZERV
+057!A!04.ELK!01.KAT!Tünel İçi Antişöminman Tesisi!set!IN.01!2!!TRUE!-!22081.34!24!FALSE!İMALAT!REZERV
+058!A!04.ELK!01.KAT!Ankraj Direği İçin Lente!adet!IN.01!2!!TRUE!-!2998.7!1676!FALSE!İMALAT!REZERV
+059!A!04.ELK!01.KAT!Açık Hat İçin Otomatik Gergi Cihazı Seti (Pt ve St Ayrı Ayrı Regülarize. 500'er Kg Beton Karşı Ağırlık 1:3 Çevirme Oranlı)!set!IN.01!2!!TRUE!-!41648.61!501!FALSE!İMALAT!REZERV
+060!A!04.ELK!01.KAT!Açık Hat İçin Otomatik Gergi Cihazı Seti (Pt ve St Ayrı Ayrı Regülarize. 500'er Kg Dökme Demir Karşı Ağırlık 1:3 Çevirme Oranlı)!set!IN.01!2!!TRUE!-!65002.12!24!FALSE!İMALAT!REZERV
+061!A!04.ELK!01.KAT!Yaylı Otomatik Gergi Cihazı (Gerilme Kuvveti 1500 Kg)!set!IN.01!2!!TRUE!-!134790.05!96!FALSE!İMALAT!REZERV
+062!A!04.ELK!01.KAT!Ara İzolasyonlar!adet!IN.01!2!!TRUE!-!3347.03!82!FALSE!İMALAT!REZERV
+063!A!04.ELK!01.KAT!Seksiyon İzolatörü (Is) (160 Km/H)!adet!IN.01!2!!TRUE!-!73301.55!27!FALSE!İMALAT!REZERV
+064!A!04.ELK!01.KAT!Geçiş Barası (Kruvazman Çubuğu)!adet!IN.01!2!!TRUE!-!7466.46!54!FALSE!İMALAT!REZERV
+065!A!04.ELK!01.KAT!1'den Fazla Fider Hattı İçin Fider Konsolu!set!IN.01!2!!TRUE!-!3786.24!720!FALSE!İMALAT!REZERV
+066!A!04.ELK!01.KAT!Çelik Konstrüksiyonlar!kg!IN.01!2!!TRUE!-!37.86!182000!FALSE!İMALAT!REZERV
+067!A!04.ELK!01.KAT!E 11 İçin "Açma" Katener İşareti!adet!IN.01!2!!TRUE!-!1014.71!24!FALSE!İMALAT!REZERV
+068!A!04.ELK!01.KAT!E 12 İçin "Kapama" Katener İşareti!adet!IN.01!2!!TRUE!-!1014.71!24!FALSE!İMALAT!REZERV
+069!A!04.ELK!01.KAT!Çelik Direk Ve Şezler İçin Numaralandırma!adet!IN.01!2!!TRUE!-!151.45!5943!FALSE!İMALAT!REZERV
+070!A!04.ELK!01.KAT!Topraklama Şeridi!set!IN.01!2!!TRUE!-!2922.98!72!FALSE!İMALAT!REZERV
+071!A!04.ELK!01.KAT!Koruma Panoları (Antivandalizm)!m²!IN.01!2!!TRUE!-!1363.05!1008!FALSE!İMALAT!REZERV
+072!A!04.ELK!01.KAT!Nötr Bölge Postaları Bara. İletken ve Topraklama Bağlantısı!set!IN.01!2!!TRUE!-!109755.45!4!FALSE!İMALAT!REZERV
+073!A!04.ELK!01.KAT!Nötr Bölge Postaları Güç ve Kumanda Kablajı!set!IN.01!2!!TRUE!-!146618.25!4!FALSE!İMALAT!REZERV
+074!A!04.ELK!01.KAT!Nötr Bölge Koruma Panosu!adet!IN.01!2!!TRUE!-!314590.88!3!FALSE!İMALAT!REZERV
+075!A!04.ELK!01.KAT!İstasyon Postaları Bara. İletken ve Topraklama Bağlantısı!set!IN.01!2!!TRUE!-!126475.47!3!FALSE!İMALAT!REZERV
+076!A!04.ELK!01.KAT!İstasyon Postaları Güç ve Kumanda Kablajı!set!IN.01!2!!TRUE!-!153857.54!3!FALSE!İMALAT!REZERV
+077!A!04.ELK!01.KAT!Makas Postaları Bara. İletken ve Topraklama Bağlantısı!set!IN.01!2!!TRUE!-!140045.34!1!FALSE!İMALAT!REZERV
+078!A!04.ELK!01.KAT!Makas Postaları Güç ve Kumanda Kablajı!set!IN.01!2!!TRUE!-!168230.09!1!FALSE!İMALAT!REZERV
+079!A!04.ELK!01.KAT!Tünel Topraklama Sistemi Güç. Kumanda ve Topraklama Bağlantıları!set!IN.01!2!!TRUE!-!163080.81!9!FALSE!İMALAT!REZERV
+080!A!04.ELK!01.KAT!Nötr Bölge Postası. İstasyon Postası ve Makas Postası İçin Posta Binası!set!IN.01!2!!TRUE!-!168002.92!8!FALSE!İMALAT!REZERV
+081!A!04.ELK!01.KAT!Tünel Topraklama Sistemi için Harici Kabin!set!IN.01!2!!TRUE!-!88219.33!5!FALSE!İMALAT!REZERV
+082!A!04.ELK!01.KAT!Posta Binaları iİçin Klima!adet!IN.01!2!!TRUE!-!21339.23!13!FALSE!İMALAT!REZERV
+083!A!04.ELK!01.KAT!230 VAC Harici Dağıtım Panosu!adet!IN.01!2!!TRUE!-!16523.14!13!FALSE!İMALAT!REZERV
+084!A!04.ELK!01.KAT!230 VAC Dahili Dağıtım Panosu!adet!IN.01!2!!TRUE!-!9950.23!13!FALSE!İMALAT!REZERV
+085!A!04.ELK!01.KAT!Tünel Topraklama Sistemi için Kontrol-Kumanda Paneli!set!IN.01!2!!TRUE!-!82630.84!9!FALSE!İMALAT!REZERV
+086!A!04.ELK!01.KAT!Tünel Topraklama Sistemi için Lokal Kumanda-İkaz Paneli!adet!IN.01!2!!TRUE!-!46267.82!18!FALSE!İMALAT!REZERV
+087!A!04.ELK!01.KAT!Yardımcı Servis Transformatörü (25 Kv / 230 v - 5 Kva)!adet!IN.01!2!!TRUE!-!55203.34!5!FALSE!İMALAT!REZERV
+088!A!04.ELK!01.KAT!Yardımcı Servis Transformatörü (25 Kv / 230 v - 30 Kva)!adet!IN.01!2!!TRUE!-!67622.2!9!FALSE!İMALAT!REZERV
+089!A!04.ELK!01.KAT!Cer Postaları için 230v Ac/110v DC Redresör!adet!IN.01!2!!TRUE!-!47994.34!17!FALSE!İMALAT!REZERV
+090!A!04.ELK!01.KAT!Cer Postaları için 110 VDC Akü Grubu!set!IN.01!2!!TRUE!-!47994.34!17!FALSE!İMALAT!REZERV
+091!A!04.ELK!01.KAT!Hdpe Kablo Muhafaza Borusu Ø75!m!IN.01!2!!TRUE!-!242.32!1222!FALSE!İMALAT!REZERV
+101!A!04.ELK!01.KAT!Beton Direk Demontajı!adet!IN.01!2!!TRUE!-!2620.08!10!FALSE!İMALAT!REZERV
+102!A!04.ELK!01.KAT!Komple Katener Hattı Demontajı!m!IN.01!2!!TRUE!-!45.43!2400!FALSE!İMALAT!REZERV
+103!A!04.ELK!01.KAT!Çelik Portal Demontajı!adet!IN.01!2!!TRUE!-!6981.82!1!FALSE!İMALAT!REZERV
+104!A!04.ELK!01.KAT!Çelik Şez Konstrüksiyonları Demontajı!adet!IN.01!2!!TRUE!-!1317.61!1!FALSE!İMALAT!REZERV
+105!A!04.ELK!01.KAT!Dönüş İletkeni ya da Topraklama İletkeni Demontajı!m!IN.01!2!!TRUE!-!30.29!1000!FALSE!İMALAT!REZERV
+106!A!04.ELK!01.KAT!Konsol-Hoban Takımı Demontajı!set!IN.01!2!!TRUE!-!1317.61!40!FALSE!İMALAT!REZERV
+107!A!04.ELK!01.KAT!Elektromekanik Cihaz Demontajı (Ayırıcı. Kesici. Ölçü Transformatörleri. Yst v.b.)!adet!IN.01!2!!TRUE!-!1317.61!5!FALSE!İMALAT!REZERV
+108!A!04.ELK!01.KAT!Ankraj Direği için Lente Demontajı!adet!IN.01!2!!TRUE!-!272.61!8!FALSE!İMALAT!REZERV
+109!A!04.ELK!01.KAT!Otomatik Gergi Cihazı Seti Demontajı!set!IN.01!2!!TRUE!-!3665.08!8!FALSE!İMALAT!REZERV
+110!A!04.ELK!01.KAT!Seksiyon İzolatörü (IS) Demontajı!adet!IN.01!2!!TRUE!-!1317.61!1!FALSE!İMALAT!REZERV
+001!A!04.ELK!02.TRF!Transformatör Merkezleri için 230 v Ac/110 VDC Redresör!adet!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!40134.11!2!FALSE!İMALAT!REZERV
+002!A!04.ELK!02.TRF!Transformatör Merkezleri için 110 VDC Akü Grubu!set!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!28790.55!2!FALSE!İMALAT!REZERV
+003!A!04.ELK!02.TRF!Elle Kumandalı Ayırıcı (Tek Kutuplu 27.5 Kv. 1250 A)!adet!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!22687.13!13!FALSE!İMALAT!REZERV
+004!A!04.ELK!02.TRF!Motor Kumandalı Topraklamalı Ayırıcı (Tek Kutuplu 27.5 Kv. 1250 A)!adet!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!43602.31!36!FALSE!İMALAT!REZERV
+005!A!04.ELK!02.TRF!Motor Kumandalı Ayırıcı (Tek Kutuplu 27.5 Kv. 1250 A)!adet!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!40134.11!26!FALSE!İMALAT!REZERV
+006!A!04.ELK!02.TRF!Yük Ayırıcısı (Tek Kutuplu 27.5 Kv. 1250 A)!adet!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!69757.64!49!FALSE!İMALAT!REZERV
+007!A!04.ELK!02.TRF!Yük Ayırıcısı (Ana Kontakları Vakum Hücresinde. Tek Kutuplu. 27.5 Kv. 1250 A)!adet!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!165761.47!8!FALSE!İMALAT!REZERV
+008!A!04.ELK!02.TRF!Akım Transformatörü (27.5 Kv. 1200/1-1 A)!adet!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!52356.09!6!FALSE!İMALAT!REZERV
+009!A!04.ELK!02.TRF!Akım Transformatörü (27.5 Kv. 1200 A/1-1-1 A)!adet!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!55839.43!8!FALSE!İMALAT!REZERV
+010!A!04.ELK!02.TRF!Gerilim Transformatörü (25 Kv)!adet!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!41739.48!120!FALSE!İMALAT!REZERV
+011!A!04.ELK!02.TRF!Parafudr (27.5 Kv Tarafı)!adet!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!8738.64!13!FALSE!İMALAT!REZERV
+012!A!04.ELK!02.TRF!Devre Kesici (Tek Kutuplu. 27.5 Kv. 1250 A)!adet!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!177983.44!14!FALSE!İMALAT!REZERV
+013!A!04.ELK!02.TRF!Baralar. İletkenler ve İzolatörler!set!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!209378.92!2!FALSE!İMALAT!REZERV
+014!A!04.ELK!02.TRF!Transformatör Merkezi Kablajı!set!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!352453.25!2!FALSE!İMALAT!REZERV
+015!A!04.ELK!02.TRF!Transformatör Merkezi Tadilatı!set!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!35333.17!3!FALSE!İMALAT!REZERV
+016!A!04.ELK!02.TRF!Trafo Merkezi Katener Hattı Arası Enerji Nakil Hattı!km!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!776451.25!3.2!FALSE!İMALAT!REZERV
+017!A!04.ELK!02.TRF!Dönüş Akımı Kabloları (1x240 mm2 NYY)!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!363.48!1000!FALSE!İMALAT!REZERV
+018!A!04.ELK!02.TRF!Topraklama Sistemi Modifikasyonu!set!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!357693.41!2!FALSE!İMALAT!REZERV
+019!A!04.ELK!02.TRF!Koruma Paneli!set!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!488560.91!2!FALSE!İMALAT!REZERV
+020!A!04.ELK!02.TRF!25 Kv Tarafı İçin Saha Dağıtım Panosu!set!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!21823.87!4!FALSE!İMALAT!REZERV
+021!A!04.ELK!02.TRF!Demir Donatılı Beton Temeller!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!742.1!380!FALSE!İMALAT!REZERV
+022!A!04.ELK!02.TRF!Kireç ve Mıcır Serilmesi!m²!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!45.43!3750!FALSE!İMALAT!REZERV
+023!A!04.ELK!02.TRF!Drenaj Sistemi!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!272.61!1000!FALSE!İMALAT!REZERV
+024!A!04.ELK!02.TRF!İhata. İstinat ve Kademe Duvarının Yapılması!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!742.1!160!FALSE!İMALAT!REZERV
+025!A!04.ELK!02.TRF!Duvar Üzeri Panel Çit İmalatı ve Montajı!m²!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!439.2!700!FALSE!İMALAT!REZERV
+026!A!04.ELK!02.TRF!Transformatör Şalt Sahası Etrafına Panel Çit İmalatı ve Montajı!m²!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!106.01!500!FALSE!İMALAT!REZERV
+027!A!04.ELK!02.TRF!İç İhata Kapısı!adet!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!2271.74!4!FALSE!İMALAT!REZERV
+028!A!04.ELK!02.TRF!Dış İhata Kapısı!adet!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!2271.74!4!FALSE!İMALAT!REZERV
+029!A!04.ELK!02.TRF!K2 Tipi Kablo Kanalı ve Betonarme Kapaklarının Yapılması!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!1272.18!140!FALSE!İMALAT!REZERV
+030!A!04.ELK!02.TRF!K4 Tipi Kablo Kanalı ve Betonarme Kapaklarının Yapılması!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!1226.74!50!FALSE!İMALAT!REZERV
+031!A!04.ELK!02.TRF!K25 Tipi Kablo Kanalı ve Betonarme Kapaklarının Yapılması!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!378.62!90!FALSE!İMALAT!REZERV
+032!A!04.ELK!02.TRF!K40 Tipi Kablo Kanalı ve Betonarme Kapaklarının Yapılması!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!1075.29!40!FALSE!İMALAT!REZERV
+033!A!04.ELK!02.TRF!Geri Dönüş Barası Menholü!adet!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!1317.61!2!FALSE!İMALAT!REZERV
+034!A!04.ELK!02.TRF!Trafo Sahası Tesviyesinin Yapılması (Kazı) (Yumuşak ve Sert Toprak)!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!45.43!5000!FALSE!İMALAT!REZERV
+035!A!04.ELK!02.TRF!Trafo Merkezi Sahasına Dolgu Yapılması!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!30.29!5000!FALSE!İMALAT!REZERV
+001!A!04.ELK!03.UZK!Elektrifikasyon Sistemleri Sunucuları (Serverlar)!set!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!221600.89!1!FALSE!İMALAT!REZERV
+002!A!04.ELK!03.UZK!Tünel Elektromekanik Sistemleri Sunucuları (Serverlar)!set!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!136107.66!1!FALSE!İMALAT!REZERV
+003!A!04.ELK!03.UZK!Led Monitör!adet!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!31410.62!4!FALSE!İMALAT!REZERV
+004!A!04.ELK!03.UZK!Uzaktan Kumanda Merkezi Kablajı ve Kablo Kanalları!set!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!122144.01!2!FALSE!İMALAT!REZERV
+005!A!04.ELK!03.UZK!İstasyon Postaları Uzak Uç Birimleri (RTU) Ve Teçhizatı!set!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!88991.72!3!FALSE!İMALAT!REZERV
+006!A!04.ELK!03.UZK!Nötr Bölge Uzak Uç Birimleri (RTU) ve Teçhizatı!set!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!88991.72!4!FALSE!İMALAT!REZERV
+007!A!04.ELK!03.UZK!Makas Postaları Uzak Uç Birimleri (RTU) ve Teçhizatı!set!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!88991.72!1!FALSE!İMALAT!REZERV
+008!A!04.ELK!03.UZK!Uzaktan Kumanda Merkezi Tefrişatı!set!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!196051.37!1!FALSE!İMALAT!REZERV
+009!A!04.ELK!03.UZK!Veri İletim Ekipmanları için Kesintisiz Güç Kaynağı!set!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!43632.6!10!FALSE!İMALAT!REZERV
+010!A!04.ELK!03.UZK!Mevcut Telekomanda Entegrasyon!set!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!97715.21!2!FALSE!İMALAT!REZERV
+001!A!04.ELK!04.TUE!Tünel Aydınlatma İşleri (Km:5+800 6+270 - 470 Metre)!set!IN.01!2!!TRUE!-!503569.56!1!FALSE!İMALAT!REZERV
+002!A!04.ELK!04.TUE!Tünel Aydınlatma. Yangın Algılama ve Yangın Söndürme İşleri (Km:7+046 8+066 - 1020 Metre)!set!IN.01!2!!TRUE!-!4222790.41!1!FALSE!İMALAT!REZERV
+003!A!04.ELK!04.TUE!Tünel Acil Yönlendirme İşleri (Km:10+865 11+195 - 330 Metre)!set!IN.01!2!!TRUE!-!125173!1!FALSE!İMALAT!REZERV
+004!A!04.ELK!04.TUE!Tünel Aydınlatma. Yangın Algılama ve Yangın Söndürme İşleri (Km:13+405 15+365 - 1960 Metre)!set!IN.01!2!!TRUE!-!7496749.77!1!FALSE!İMALAT!REZERV
+005!A!04.ELK!04.TUE!Tünel Aydınlatma İşleri (Km:14+500 15+400 900 Metre)!set!IN.01!2!!TRUE!-!1079077.62!1!FALSE!İMALAT!REZERV
+006!A!04.ELK!04.TUE!Tünel Aydınlatma İşleri (Km:15+515 15+965 - 450 Metre)!set!IN.01!2!!TRUE!-!492210.84!1!FALSE!İMALAT!REZERV
+007!A!04.ELK!04.TUE!Tünel Aydınlatma İşleri (Km:17+598 18+045 - 447 Metre)!set!IN.01!2!!TRUE!-!530073.22!1!FALSE!İMALAT!REZERV
+008!A!04.ELK!04.TUE!Tünel Aydınlatma İşleri (Km:21+000 21+830 - 830 Metre)!set!IN.01!2!!TRUE!-!530073.22!1!FALSE!İMALAT!REZERV
+009!A!04.ELK!04.TUE!Tünel Aydınlatma İşleri (Km:50+665 51+255 - 590 Metre)!set!IN.01!2!!TRUE!-!530073.22!1!FALSE!İMALAT!REZERV
+010!A!04.ELK!04.TUE!Tünel Aydınlatma İşleri (Km:62+465 63+285 - 820 Metre)!set!IN.01!2!!TRUE!-!530073.22!1!FALSE!İMALAT!REZERV
+011!A!04.ELK!04.TUE!Tünel Aydınlatma İşleri (Km:66+980 67+890 - 910 Metre)!set!IN.01!2!!TRUE!-!530073.22!1!FALSE!İMALAT!REZERV
+012!A!04.ELK!04.TUE!Tünel Acil Yönlendirme İşleri (Km:102+990 103+103 - 113 Metre)!set!IN.01!2!!TRUE!-!81782.72!1!FALSE!İMALAT!REZERV
+013!A!04.ELK!04.TUE!Tünel Aydınlatma. Yangın Algılama ve Yangın Söndürme İşleri (Km:107+930 111+282 - 3352 Metre)!set!IN.01!2!!TRUE!-!13484002.47!1!FALSE!İMALAT!REZERV
+014!A!04.ELK!04.TUE!Tünel Acil Yönlendirme İşleri (Km:109+300 109+668 338 Metre)!set!IN.01!2!!TRUE!-!1135871.18!1!FALSE!İMALAT!REZERV
+015!A!04.ELK!04.TUE!Tünel Acil Yönlendirme İşleri (Km:110+400 110+602 202 Metre)!set!IN.01!2!!TRUE!-!1135871.18!1!FALSE!İMALAT!REZERV
+016!A!04.ELK!04.TUE!Tünel Aydınlatma. Yangın Algılama ve Yangın Söndürme İşleri (Km:127+798 129+527 - 1729 Metre)!set!IN.01!2!!TRUE!-!7527039.67!2!FALSE!İMALAT!REZERV
+017!A!04.ELK!04.TUE!Tünel Aydınlatma İşleri (Km:128+600 129+174 574 Metre)!set!IN.01!2!!TRUE!-!1135871.18!1!FALSE!İMALAT!REZERV
+018!A!04.ELK!04.TUE!Tünel Aydınlatma. Yangın Algılama ve Yangın Söndürme İşleri (Km:132+662 136+942 - 3280 Metre)!set!IN.01!2!!TRUE!-!13423422.68!3!FALSE!İMALAT!REZERV
+019!A!04.ELK!04.TUE!Tünel Acil Yönlendirme İşleri (Km:134+700 134+908 208 Metre)!set!IN.01!2!!TRUE!-!1135871.18!1!FALSE!İMALAT!REZERV
+020!A!04.ELK!04.TUE!Tünel Aydınlatma İşleri (Km:135+800 136+236 436 Metre)!set!IN.01!2!!TRUE!-!1135871.18!1!FALSE!İMALAT!REZERV
+021!A!04.ELK!04.TUE!Su Temini için Artezyen Kuyu!set!IN.01!2!!TRUE!-!87234.91!5!FALSE!İMALAT!REZERV
+022!A!04.ELK!04.TUE!Artezyen Su Kuyusu Açılması!m!IN.01!2!!TRUE!-!87.24!1000!FALSE!İMALAT!REZERV
+023!A!04.ELK!04.TUE!Tünel Elektromekanik Sistemleri İçin Enerji Nakil Hattı!km!IN.01!2!!TRUE!-!636087.86!45!FALSE!İMALAT!REZERV
+001!A!04.ELK!05.SRT!Elektrifikasyon Hat Emniyeti Ölçme. Test & Sertifikasyonu!götürü!IN.01!2!!TRUE!-!21255646.37!1!FALSE!İMALAT!REZERV
+001!A!05.SNY!01.GNL!Yedekli CTC Sunucu Sistemi!set!IN.01!2!!TRUE!-!2485129.18!1!FALSE!İMALAT!REZERV
+002!A!05.SNY!01.GNL!CTC Sistemi Yazılımı!set!IN.01!2!!TRUE!-!173782.34!1!FALSE!İMALAT!REZERV
+003!A!05.SNY!01.GNL!Süpervizör Konsolu!set!IN.01!2!!TRUE!-!456630.24!1!FALSE!İMALAT!REZERV
+004!A!05.SNY!01.GNL!Operatör Konsolu!set!IN.01!2!!TRUE!-!456630.24!2!FALSE!İMALAT!REZERV
+005!A!05.SNY!01.GNL!Teşhis Sistemleri!set!IN.01!2!!TRUE!-!1960579.91!1!FALSE!İMALAT!REZERV
+006!A!05.SNY!01.GNL!Sıfır Çerçeve LCD LED Video Wall (Montaja ilişkin tüm bileşenler dahil)!set!IN.01!2!!TRUE!-!56209.45!12!FALSE!İMALAT!REZERV
+007!A!05.SNY!01.GNL!LCD LED Video Wall için Kontrol Bilgisayarı!set!IN.01!2!!TRUE!-!47853.19!1!FALSE!İMALAT!REZERV
+008!A!05.SNY!01.GNL!LCD Monitörler!götürü!IN.01!2!!TRUE!-!296333.29!1!FALSE!İMALAT!REZERV
+009!A!05.SNY!01.GNL!CTC için Bilgi İletim Sistemi!set!IN.01!2!!TRUE!-!335156.01!1!FALSE!İMALAT!REZERV
+010!A!05.SNY!01.GNL!Protokol Kayıt Sistemi (Yazıcısı dahil)!set!IN.01!2!!TRUE!-!8507.4!1!FALSE!İMALAT!REZERV
+011!A!05.SNY!01.GNL!Trengraf Sistemi (Yazıcısı dahil)!set!IN.01!2!!TRUE!-!287477.26!1!FALSE!İMALAT!REZERV
+012!A!05.SNY!01.GNL!Olay Görüntüleyici (Moviola)!set!IN.01!2!!TRUE!-!140629.85!1!FALSE!İMALAT!REZERV
+013!A!05.SNY!01.GNL!Elektronik Ekipman Kabinleri!götürü!IN.01!2!!TRUE!-!129718.83!1!FALSE!İMALAT!REZERV
+014!A!05.SNY!01.GNL!CTC İçin Klimalar!set!IN.01!2!!TRUE!-!380968.72!1!FALSE!İMALAT!REZERV
+015!A!05.SNY!01.GNL!CTC Sisteminin Tesis Edileceği Odaların Düzenlemesi (Tadilat. boya. aydınlatma. yükseltilmiş döşeme v.b.)!set!IN.01!2!!TRUE!-!16503.56!1!FALSE!İMALAT!REZERV
+016!A!05.SNY!01.GNL!CTC Odası Tefrişatı!set!IN.01!2!!TRUE!-!13698.69!1!FALSE!İMALAT!REZERV
+017!A!05.SNY!01.GNL!CTC Sisteminin Projelendirilmesi!götürü!IN.01!2!!TRUE!-!93221.98!1!FALSE!İMALAT!REZERV
+018!A!05.SNY!01.GNL!Diğer CTC Sistemi Ekipmanları ve İşleri!götürü!IN.01!2!!TRUE!-!5028340.1!1!FALSE!İMALAT!REZERV
+001!A!05.SNY!02.ANK!Anklaşman Bölgesi-1 Ana Anklaşmanı!set!IN.01!2!!TRUE!-!1581454.75!1!FALSE!İMALAT!REZERV
+002!A!05.SNY!02.ANK!Anklaşman Bölgesi-1 Yardımcı Anklaşmanı!götürü!IN.01!2!!TRUE!-!7586653.56!1!FALSE!İMALAT!REZERV
+003!A!05.SNY!02.ANK!Anklaşman Bölgesi-2 Ana Anklaşmanı!set!IN.01!2!!TRUE!-!1581454.75!1!FALSE!İMALAT!REZERV
+004!A!05.SNY!02.ANK!Anklaşman Bölgesi-2 Yardımcı Anklaşmanı!götürü!IN.01!2!!TRUE!-!10677797.41!1!FALSE!İMALAT!REZERV
+005!A!05.SNY!02.ANK!Anklaşman Bölgesi-3 Ana Anklaşmanı!set!IN.01!2!!TRUE!-!1581454.75!1!FALSE!İMALAT!REZERV
+006!A!05.SNY!02.ANK!Anklaşman Bölgesi-3 Yardımcı Anklaşmanı!götürü!IN.01!2!!TRUE!-!11796342.76!1!FALSE!İMALAT!REZERV
+007!A!05.SNY!02.ANK!Anklaşman Sistemi Yazılımı (Ana anklaşman ve yardımcı anklaşmanlar dahil)!set!IN.01!2!!TRUE!-!8876398.75!3!FALSE!İMALAT!REZERV
+008!A!05.SNY!02.ANK!Elektronik Ekipman Kabinleri (Ana anklaşman ve yardımcı anklaşman binaları dahil)!götürü!IN.01!2!!TRUE!-!9821625.31!1!FALSE!İMALAT!REZERV
+009!A!05.SNY!02.ANK!Röle Grupları. Röle Tabanları.  Röle Rakları. Röle Çatıları. Kabloları (her bir anklaşman için yardımcı anklaşmanları dahil olmak üzere)!götürü!IN.01!2!!TRUE!-!4508829.26!1!FALSE!İMALAT!REZERV
+010!A!05.SNY!02.ANK!Lokal Operatör Konsolu!set!IN.01!2!!TRUE!-!840943.09!3!FALSE!İMALAT!REZERV
+011!A!05.SNY!02.ANK!Anklaşman Bakım Destek Sistemi!set!IN.01!2!!TRUE!-!140864.89!3!FALSE!İMALAT!REZERV
+012!A!05.SNY!02.ANK!Bilgi İletim Sistemi (her bir anklaşman için yardımcı anklaşmanları dahil olmak üzere)!götürü!IN.01!2!!TRUE!-!42475.38!1!FALSE!İMALAT!REZERV
+013!A!05.SNY!02.ANK!Lokal Operatör Odası için Mobilya (Masa. sandalye v.s.)!set!IN.01!2!!TRUE!-!218.12!3!FALSE!İMALAT!REZERV
+014!A!05.SNY!02.ANK!Anklaşman Sisteminin Projelendirilmesi (Tüm Hat)!götürü!IN.01!2!!TRUE!-!327971.94!1!FALSE!İMALAT!REZERV
+011!A!05.SNY!03.MHY!Her tip Makas için Makas Tahrik. Kilitleme ve Tahkik Ekipmanı  (Montaja ilişkin tüm bileşenler dahil)!set!IN.01!2!!TRUE!-!1376986.36!41!FALSE!İMALAT!REZERV
+012!A!05.SNY!03.MHY!Derayman Tahrik Sistemi (Montaja ilişkin tüm bileşenler dahil)!set!IN.01!2!!TRUE!-!302788.64!1!FALSE!İMALAT!REZERV
+013!A!05.SNY!03.MHY!Makas Tahrik. Kilitleme ve Tahkik Sistemlerinin Projelendirilmesi (Tüm Hat)!götürü!IN.01!2!!TRUE!-!25953.86!1!FALSE!İMALAT!REZERV
+021!A!05.SNY!03.MHY!Her tip Makas için Makas Isıtıcı Sistemi (Montaja ilişkin tüm bileşenler dahil)!set!IN.01!2!!TRUE!-!137181.47!41!FALSE!İMALAT!REZERV
+022!A!05.SNY!03.MHY!Makas ısıtıcı sistemi için enerji temini (trafo. direk ve tüm yardımcı/koruma ekipmanları dahil)!götürü!IN.01!2!!TRUE!-!929067.71!1!FALSE!İMALAT!REZERV
+023!A!05.SNY!03.MHY!Makas Isıtıcılarının Projelendirilmesi (Tüm Hat)!götürü!IN.01!2!!TRUE!-!25477.18!1!FALSE!İMALAT!REZERV
+031!A!05.SNY!03.MHY!Anklaşman Bölgesi-1 Anklaşman Bölgesi için Dahili Ray Devresi Ekipmanları (Ana anklaşman ve tüm yardımcı anklaşman bölgesindeki ray devreleri dahil)!götürü!IN.01!2!!TRUE!-!7247499.49!1!FALSE!İMALAT!REZERV
+032!A!05.SNY!03.MHY!Anklaşman Bölgesi-1 Anklaşman Bölgesi için Harici Ray Devresi Ekipmanları (Ana anklaşman ve tüm yardımcı anklaşman bölgesindeki ray devreleri dahil)!götürü!IN.01!2!!TRUE!-!5280349.03!1!FALSE!İMALAT!REZERV
+033!A!05.SNY!03.MHY!Anklaşman Bölgesi-2 Anklaşman Bölgesi için Dahili Ray Devresi Ekipmanları (Ana anklaşman ve tüm yardımcı anklaşman bölgesindeki ray devreleri dahil)!götürü!IN.01!2!!TRUE!-!8301906.47!1!FALSE!İMALAT!REZERV
+034!A!05.SNY!03.MHY!Anklaşman Bölgesi-2 Anklaşman Bölgesi için Harici Ray Devresi Ekipmanları (Ana anklaşman ve tüm yardımcı anklaşman bölgesindeki ray devreleri dahil)!götürü!IN.01!2!!TRUE!-!5852568.28!1!FALSE!İMALAT!REZERV
+035!A!05.SNY!03.MHY!Anklaşman Bölgesi-3 Anklaşman Bölgesi için Dahili Ray Devresi Ekipmanları (Ana anklaşman ve tüm yardımcı anklaşman bölgesindeki ray devreleri dahil)!götürü!IN.01!2!!TRUE!-!8002038.64!1!FALSE!İMALAT!REZERV
+036!A!05.SNY!03.MHY!Anklaşman Bölgesi-3 Anklaşman Bölgesi için Harici Ray Devresi Ekipmanları (Ana anklaşman ve tüm yardımcı anklaşman bölgesindeki ray devreleri dahil)!götürü!IN.01!2!!TRUE!-!5682809.86!1!FALSE!İMALAT!REZERV
+037!A!05.SNY!03.MHY!Hat Serbestliği Tespit Sistemlerinin Projelendirilmesi (Tüm Hat)!götürü!IN.01!2!!TRUE!-!52119.58!1!FALSE!İMALAT!REZERV
+041!A!05.SNY!03.MHY!4'lü Yüksek LED'li Yolboyu Sinyali (Sinyal başlıkları. armatürleri. siperlikleri. kilitleri. kimlik paneli. sinyal temeli. merdiveni ve temeli. sinyal bakım platformu. korkuluğu ve sinyal iç kablajı dahil)!set!IN.01!2!!TRUE!-!27260.58!73!FALSE!İMALAT!REZERV
+042!A!05.SNY!03.MHY!3'lü Yüksek LED'li Yolboyu Sinyali (Sinyal başlıkları. armatürleri. siperlikleri. kilitleri.  kimlik paneli. sinyal temeli. merdiveni ve temeli. sinyal bakım platformu. korkuluğu ve sinyal iç kablajı dahil)!set!IN.01!2!!TRUE!-!22165.14!31!FALSE!İMALAT!REZERV
+043!A!05.SNY!03.MHY!3'lü Cüce LED'li Yolboyu Sinyali (Sinyal başlıkları. armatürleri. siperlikleri. kilitleri.  kimlik paneli. sinyal temeli. komple iç kablajı dahil)!set!IN.01!2!!TRUE!-!16220.47!13!FALSE!İMALAT!REZERV
+044!A!05.SNY!03.MHY!4'lü Yüksek Sinyal Led Tipi Konsol Üzerinde (Tüm bağlantı bileşenleri dahil)!set!IN.01!2!!TRUE!-!174151.96!2!FALSE!İMALAT!REZERV
+045!A!05.SNY!03.MHY!3'lü Yüksek Sinyal Led Tipi Konsol Üzerinde (Tüm bağlantı bileşenleri dahil)!set!IN.01!2!!TRUE!-!171180.05!2!FALSE!İMALAT!REZERV
+046!A!05.SNY!03.MHY!Hızı Gösterir Alfanümerik (Fiberoptik) Sinyal!set!IN.01!2!!TRUE!-!72523.68!27!FALSE!İMALAT!REZERV
+047!A!05.SNY!03.MHY!Sinyal Köprüsü Taşıyıcı Konsolu (4 Yol) (Kilitleri. konsol temelleri. merdiveni. sinyal bakım platformu. konsol yürüme platformu. yürüme paltformu korkuluğu ve montaja ilişkin tüm bileşenleri dahil)!set!IN.01!2!!TRUE!-!208982.36!6!FALSE!İMALAT!REZERV
+048!A!05.SNY!03.MHY!Sanal Sinyal Levhası (temel ve direği dahil)!adet!IN.01!2!!TRUE!-!6539.14!416!FALSE!İMALAT!REZERV
+049!A!05.SNY!03.MHY!Yaklaşma Levhası ( KBS sinyalleri için)!adet!IN.01!2!!TRUE!-!9966.25!54!FALSE!İMALAT!REZERV
+050!A!05.SNY!03.MHY!Yol Boyu Sinyallerinin Projelendirilmesi (Tüm Hat)!götürü!IN.01!2!!TRUE!-!152460.38!1!FALSE!İMALAT!REZERV
+051!A!05.SNY!03.MHY!50 Terminalli Bağlantı Kutusu (temel ve montaja ilişkin tüm bileşenler dahil)!adet!IN.01!2!!TRUE!-!2314.11!385!FALSE!İMALAT!REZERV
+052!A!05.SNY!03.MHY!100 Terminalli Bağlantı Kutusu (temel ve montaja ilişkin tüm bileşenler dahil)!adet!IN.01!2!!TRUE!-!3150.56!165!FALSE!İMALAT!REZERV
+001!A!05.SNY!04.GKS!Katener Trafosu 27.5/0.23 KV (direği ve tüm yardımcı/koruma ekipmanları dahil)!set!IN.01!2!!TRUE!-!178789.62!1!FALSE!İMALAT!REZERV
+002!A!05.SNY!04.GKS!Şebeke Trafosu (direği ve tüm yardımcı/koruma ekipmanları dahil)!set!IN.01!2!!TRUE!-!178789.62!1!FALSE!İMALAT!REZERV
+003!A!05.SNY!04.GKS!Katener İzolasyon Trafosu!adet!IN.01!2!!TRUE!-!49117.87!1!FALSE!İMALAT!REZERV
+004!A!05.SNY!04.GKS!Şebeke İzolasyon Trafosu!adet!IN.01!2!!TRUE!-!49117.87!1!FALSE!İMALAT!REZERV
+005!A!05.SNY!04.GKS!Güç Faktörü Kompanzasyon Sistemi!set!IN.01!2!!TRUE!-!139986.47!1!FALSE!İMALAT!REZERV
+006!A!05.SNY!04.GKS!Katener Enerjisi İçin Stabilizatör!adet!IN.01!2!!TRUE!-!49117.87!1!FALSE!İMALAT!REZERV
+007!A!05.SNY!04.GKS!Şebeke Enerjisi İçin Stabilizatör!adet!IN.01!2!!TRUE!-!49117.87!1!FALSE!İMALAT!REZERV
+008!A!05.SNY!04.GKS!UPS Sistemi için Katener ve Şebeke Besleme (Her türlü pano. koruma ve yardımcı ekipmanlar dahil)!set!IN.01!2!!TRUE!-!112969.48!1!FALSE!İMALAT!REZERV
+009!A!05.SNY!04.GKS!Yedekli UPS!set!IN.01!2!!TRUE!-!458026.56!1!FALSE!İMALAT!REZERV
+010!A!05.SNY!04.GKS!Akü Grubu!set!IN.01!2!!TRUE!-!730632.35!1!FALSE!İMALAT!REZERV
+011!A!05.SNY!04.GKS!UPS Dağıtım Panosu/Panoları!set!IN.01!2!!TRUE!-!71835.02!1!FALSE!İMALAT!REZERV
+012!A!05.SNY!04.GKS!Katener Filtresi!adet!IN.01!2!!TRUE!-!62748.16!1!FALSE!İMALAT!REZERV
+013!A!05.SNY!04.GKS!Telekom Güç Kaynağı ve Panosu/Panoları!set!IN.01!2!!TRUE!-!30944.16!1!FALSE!İMALAT!REZERV
+014!A!05.SNY!04.GKS!Enerji Besleme ve Dağıtım Sistemlerinin Projelendirilmesi (Tüm Hat)!set!IN.01!2!!TRUE!-!8492.39!1!FALSE!İMALAT!REZERV
+021!A!05.SNY!04.GKS!Şebeke Enerjisi Temini!set!IN.01!2!!TRUE!-!308209.58!3!FALSE!İMALAT!REZERV
+022!A!05.SNY!04.GKS!Katener Trafosu 27.5/0.23 KV (direği ve tüm yardımcı/koruma ekipmanları dahil)!set!IN.01!2!!TRUE!-!103368.69!3!FALSE!İMALAT!REZERV
+023!A!05.SNY!04.GKS!Şebeke Trafosu (direği ve tüm yardımcı/koruma ekipmanları dahil)!adet!IN.01!2!!TRUE!-!87921.03!3!FALSE!İMALAT!REZERV
+024!A!05.SNY!04.GKS!Katerner İzolasyon Trafosu!adet!IN.01!2!!TRUE!-!33742.91!3!FALSE!İMALAT!REZERV
+025!A!05.SNY!04.GKS!Şebeke İzolasyon Trafosu!set!IN.01!2!!TRUE!-!41957.43!3!FALSE!İMALAT!REZERV
+026!A!05.SNY!04.GKS!Güç faktörü kompanzasyon sistemi!set!IN.01!2!!TRUE!-!58204.73!3!FALSE!İMALAT!REZERV
+027!A!05.SNY!04.GKS!Konvertör (Makas motorları için)!adet!IN.01!2!!TRUE!-!64277.02!3!FALSE!İMALAT!REZERV
+028!A!05.SNY!04.GKS!Katener Enerjisi için Stabilizatör!adet!IN.01!2!!TRUE!-!32452.57!3!FALSE!İMALAT!REZERV
+029!A!05.SNY!04.GKS!Şebeke Enerjisi için Stabilizatör!set!IN.01!2!!TRUE!-!36141.84!3!FALSE!İMALAT!REZERV
+030!A!05.SNY!04.GKS!UPS için Katener ve Şebeke Besleme (Her türlü pano. koruma ve yardımcı ekipmanlar dahil)!set!IN.01!2!!TRUE!-!112969.48!3!FALSE!İMALAT!REZERV
+031!A!05.SNY!04.GKS!Yedekli UPS!set!IN.01!2!!TRUE!-!196797.52!3!FALSE!İMALAT!REZERV
+032!A!05.SNY!04.GKS!Akü Grubu!set!IN.01!2!!TRUE!-!424877.7!3!FALSE!İMALAT!REZERV
+033!A!05.SNY!04.GKS!UPS Dağıtım Panosu!adet!IN.01!2!!TRUE!-!58095.69!3!FALSE!İMALAT!REZERV
+034!A!05.SNY!04.GKS!Katener Filtresi!set!IN.01!2!!TRUE!-!20839.57!3!FALSE!İMALAT!REZERV
+035!A!05.SNY!04.GKS!Telekom Güç Kaynağı ve Panosu!set!IN.01!2!!TRUE!-!30944.16!3!FALSE!İMALAT!REZERV
+036!A!05.SNY!04.GKS!Yükseltici Trafo (Her türlü koruma ekipmanları. kabin ve kabin'den dağıtımına ilişkin tüm bileşenler dahil)!götürü!IN.01!2!!TRUE!-!152140.36!1!FALSE!İMALAT!REZERV
+037!A!05.SNY!04.GKS!İndirici Trafo (Her türlü koruma ekipmanları. dolap ve dolaptan dağıtımına ilişkin tüm bileşenler dahil)!götürü!IN.01!2!!TRUE!-!465637.02!1!FALSE!İMALAT!REZERV
+038!A!05.SNY!04.GKS!Enerji Besleme ve Dağıtım Sistemlerinin Projelendirilmesi (Tüm Hat)!götürü!IN.01!2!!TRUE!-!16984.79!1!FALSE!İMALAT!REZERV
+041!A!05.SNY!04.GKS!Şebeke Enerjisi Temini!götürü!IN.01!2!!TRUE!-!1811085.3!1!FALSE!İMALAT!REZERV
+042!A!05.SNY!04.GKS!Katener Trafosu 27.5/0.23 KV (direği ve tüm yardımcı/koruma ekipmanları dahil)!götürü!IN.01!2!!TRUE!-!1277256.92!1!FALSE!İMALAT!REZERV
+043!A!05.SNY!04.GKS!Şebeke Trafosu (direği ve tüm yardımcı/koruma ekipmanları dahil)!götürü!IN.01!2!!TRUE!-!1091884.98!1!FALSE!İMALAT!REZERV
+044!A!05.SNY!04.GKS!Katerner İzolasyon Trafosu!götürü!IN.01!2!!TRUE!-!357009.33!1!FALSE!İMALAT!REZERV
+045!A!05.SNY!04.GKS!Şebeke İzolasyon Trafosu!götürü!IN.01!2!!TRUE!-!525588.75!1!FALSE!İMALAT!REZERV
+046!A!05.SNY!04.GKS!Güç faktörü kompanzasyon sistemi!götürü!IN.01!2!!TRUE!-!720556.41!1!FALSE!İMALAT!REZERV
+047!A!05.SNY!04.GKS!Konvertör (Makas motorları için)!götürü!IN.01!2!!TRUE!-!763955.25!1!FALSE!İMALAT!REZERV
+048!A!05.SNY!04.GKS!Katener Enerjisi için Stabilizatör!götürü!IN.01!2!!TRUE!-!343270!1!FALSE!İMALAT!REZERV
+049!A!05.SNY!04.GKS!Şebeke Enerjisi için Stabilizatör!götürü!IN.01!2!!TRUE!-!455801.67!1!FALSE!İMALAT!REZERV
+050!A!05.SNY!04.GKS!UPS için Katener ve Şebeke Besleme (Her türlü pano. koruma ve yardımcı ekipmanlar dahil)!götürü!IN.01!2!!TRUE!-!1488236.96!1!FALSE!İMALAT!REZERV
+051!A!05.SNY!04.GKS!Yedekli UPS!götürü!IN.01!2!!TRUE!-!2383669.82!1!FALSE!İMALAT!REZERV
+052!A!05.SNY!04.GKS!Akü Grubu!götürü!IN.01!2!!TRUE!-!4427995.16!1!FALSE!İMALAT!REZERV
+053!A!05.SNY!04.GKS!UPS Dağıtım Panosu!götürü!IN.01!2!!TRUE!-!719247.9!1!FALSE!İMALAT!REZERV
+054!A!05.SNY!04.GKS!Katener Filtresi!götürü!IN.01!2!!TRUE!-!260615.92!1!FALSE!İMALAT!REZERV
+055!A!05.SNY!04.GKS!Telekom Güç Kaynağı ve Panosu!götürü!IN.01!2!!TRUE!-!393429.46!1!FALSE!İMALAT!REZERV
+056!A!05.SNY!04.GKS!Yükseltici Trafo (Her türlü koruma ekipmanları. kabin ve kabin'den dağıtımına ilişkin tüm bileşenler dahil)!götürü!IN.01!2!!TRUE!-!597883.81!1!FALSE!İMALAT!REZERV
+057!A!05.SNY!04.GKS!İndirici Trafo (Her türlü koruma ekipmanları. dolap ve dolaptan dağıtımına ilişkin tüm bileşenler dahil)!götürü!IN.01!2!!TRUE!-!1810979.57!1!FALSE!İMALAT!REZERV
+058!A!05.SNY!04.GKS!Enerji Besleme ve Dağıtım Sistemlerinin Projelendirilmesi (Tüm Hat)!götürü!IN.01!2!!TRUE!-!25477.18!1!FALSE!İMALAT!REZERV
+061!A!05.SNY!04.GKS!Telekom Güç Kaynağı ve Panosu!götürü!IN.01!2!!TRUE!-!703764.54!1!FALSE!İMALAT!REZERV
+062!A!05.SNY!04.GKS!İndirici Trafo (Her türlü koruma ekipmanları ve kabin'den dağıtımına ilişkin tüm bileşenler dahil)!götürü!IN.01!2!!TRUE!-!547249.76!1!FALSE!İMALAT!REZERV
+063!A!05.SNY!04.GKS!Enerji Besleme ve Dağıtım Sistemlerinin Projelendirilmesi (Tüm Hat)!götürü!IN.01!2!!TRUE!-!25477.18!1!FALSE!İMALAT!REZERV
+064!A!05.SNY!04.GKS!Diğer Enerji Besleme. Dağıtım Sistemleri Ekipmanları ve İşleri!götürü!IN.01!2!!TRUE!-!8492.39!1!FALSE!İMALAT!REZERV
+011!A!05.SNY!05.TBN!Teknik Bina İnşaası (Güç Odası. Akü Odası. Sinylizasyon Ekipmanları Odası. Haberleşme Ekipmanları Odası. Operatör Odası)!adet!IN.01!2!!TRUE!-!1030104.1!3!FALSE!İMALAT!REZERV
+012!A!05.SNY!05.TBN!Teknik Bina Çevre Düzenlemesi!adet!IN.01!2!!TRUE!-!36815.65!3!FALSE!İMALAT!REZERV
+013!A!05.SNY!05.TBN!Teknik Bina İçin Klimalar!set!IN.01!2!!TRUE!-!122791.92!3!FALSE!İMALAT!REZERV
+014!A!05.SNY!05.TBN!Teknik Bina İnşaası ve İnşaat İşlerinin Projelendirilmesi (Tüm Hat)!götürü!IN.01!2!!TRUE!-!8051!1!FALSE!İMALAT!REZERV
+015!A!05.SNY!05.TBN!Diğer Teknik Bina İnşaası ve İnşaat İşleri!götürü!IN.01!2!!TRUE!-!67939.14!1!FALSE!İMALAT!REZERV
+021!A!05.SNY!05.TBN!Teknik Bina İnşaası (Güç Odası. Akü Odası. Sinyalizasyon Ekipmanları Odası. Haberleşme Ekipmanları Odası)!adet!IN.01!2!!TRUE!-!724377.99!13!FALSE!İMALAT!REZERV
+022!A!05.SNY!05.TBN!Teknik Bina Çevre Düzenlemesi!adet!IN.01!2!!TRUE!-!36815.65!13!FALSE!İMALAT!REZERV
+023!A!05.SNY!05.TBN!Teknik Bina İçin Klimalar!adet!IN.01!2!!TRUE!-!122791.92!13!FALSE!İMALAT!REZERV
+024!A!05.SNY!05.TBN!Teknik Bina İnşaası ve İnşaat İşlerinin Projelendirilmesi (Tüm Hat)!götürü!IN.01!2!!TRUE!-!101908.7!1!FALSE!İMALAT!REZERV
+025!A!05.SNY!05.TBN!Diğer Teknik Bina İnşaası ve İnşaat İşleri!götürü!IN.01!2!!TRUE!-!339695.69!1!FALSE!İMALAT!REZERV
+031!A!05.SNY!05.TBN!Teknik Bina İnşaası!adet!IN.01!2!!TRUE!-!35911.02!14!FALSE!İMALAT!REZERV
+032!A!05.SNY!05.TBN!Teknik Bina Çevre Düzenlemesi!adet!IN.01!2!!TRUE!-!2264.67!14!FALSE!İMALAT!REZERV
+033!A!05.SNY!05.TBN!Teknik Bina İçin Klimalar!set!IN.01!2!!TRUE!-!15878.31!14!FALSE!İMALAT!REZERV
+034!A!05.SNY!05.TBN!Teknik Bina İnşaası ve İnşaat İşlerinin Projelendirilmesi (Tüm Hat)!götürü!IN.01!2!!TRUE!-!2076.32!1!FALSE!İMALAT!REZERV
+001!A!05.SNY!06.ARY!Mevcut Yol Boyu Sinyalizasyon Sistemleri ile Yapılacak Çift Hat - Tek Hat Arayüzü (Projelendirilmesi dahil)!set!IN.01!2!!TRUE!-!1610794.49!1!FALSE!İMALAT!REZERV
+002!A!05.SNY!06.ARY!Sinyalizasyon. ERTMS/ETCS Seviye 1 ve ERTMS/ETCS Seviye 2 Sistemleri ile Yapılacak Çift Hat -Çift Hat Arayüzü (Projelendirilmesi dahil)!set!IN.01!2!!TRUE!-!295282.85!2!FALSE!İMALAT!REZERV
+003!A!05.SNY!06.ARY!GSM-R Sistemi. Ağ İletişim Sistemi ve Destek Sistemleri ile Yapılacak Arayüz (Projelendirilmesi dahil)!set!IN.01!2!!TRUE!-!191311.37!3!FALSE!İMALAT!REZERV
+004!A!05.SNY!06.ARY!CTC'de. Tünel Aydınlatma Sistemi ile Yapılacak Arayüz (Projelendirme dahil)!götürü!IN.01!2!!TRUE!-!161210.96!1!FALSE!İMALAT!REZERV
+005!A!05.SNY!06.ARY!CTC'de. Deprem Erken Uyarı Sistemi ile Yapılacak Arayüz (Projelendirme dahil)!götürü!IN.01!2!!TRUE!-!175958.88!1!FALSE!İMALAT!REZERV
+006!A!05.SNY!06.ARY!Ankara'da Tesis Edilen Yolcu Bilgilendirme Yönetim Sistemi ile Arayüz (Projelendirme dahil)!götürü!IN.01!2!!TRUE!-!53953.48!1!FALSE!İMALAT!REZERV
+007!A!05.SNY!06.ARY!İstasyon Yolcu Bilgilendirme Sistemi ile Arayüz (Projelendirme dahil)!set!IN.01!2!!TRUE!-!27139.05!2!FALSE!İMALAT!REZERV
+008!A!05.SNY!06.ARY!Arayüzler İçin Diğer Ekipmanlar ve İşler!götürü!IN.01!2!!TRUE!-!88840.23!1!FALSE!İMALAT!REZERV
+001!A!05.SNY!07.ETC!ERTMS/ETCS Radyo Blok Merkezi (RBC)!set!IN.01!2!!TRUE!-!13530039.97!2!FALSE!İMALAT!REZERV
+002!A!05.SNY!07.ETC!Anklaşman Bölgesi-1 Anklaşman Bölgesi (Yardımcı Anklaşmanları Dahil) İçin Teknik Bina İçi ETCS Ekipmanları!götürü!IN.01!2!!TRUE!-!9981453.94!1!FALSE!İMALAT!REZERV
+003!A!05.SNY!07.ETC!Anklaşman Bölgesi-2 Anklaşman Bölgesi (Yardımcı Anklaşmanları Dahil) İçin Teknik Bina İçi ETCS Ekipmanları!götürü!IN.01!2!!TRUE!-!10713026.51!1!FALSE!İMALAT!REZERV
+004!A!05.SNY!07.ETC!Anklaşman Bölgesi-3 Anklaşman Bölgesi (Yardımcı Anklaşmanları Dahil) İçin Teknik Bina İçi ETCS Ekipmanları!götürü!IN.01!2!!TRUE!-!9225546.66!1!FALSE!İMALAT!REZERV
+005!A!05.SNY!07.ETC!Sabit Baliz (Montaja ilişkin tüm bileşenler dahil)!adet!IN.01!2!!TRUE!-!11624.38!1!FALSE!İMALAT!REZERV
+006!A!05.SNY!07.ETC!Sinyal Baliz Grubu (Sabit ve programlanabilir balizler. montaja ilişkin tüm bileşenler dahil)!set!IN.01!2!!TRUE!-!39234.86!117!FALSE!İMALAT!REZERV
+007!A!05.SNY!07.ETC!İnfill Baliz Grubu (Sabit ve programlanabilir balizler. montaja ilişkin tüm bileşenler dahil)!set!IN.01!2!!TRUE!-!13805.23!34!FALSE!İMALAT!REZERV
+008!A!05.SNY!07.ETC!Baliz Kablosu!m!IN.01!2!!TRUE!-!52.66!280000!FALSE!İMALAT!REZERV
+009!A!05.SNY!07.ETC!Baliz Bağlantı Kutusu (temel ve montaja ilişkin tüm bileşenler dahil)!adet!IN.01!2!!TRUE!-!1378.3!155!FALSE!İMALAT!REZERV
+010!A!05.SNY!07.ETC!Baliz programlama cihazı!adet!IN.01!2!!TRUE!-!1705730.74!2!FALSE!İMALAT!REZERV
+011!A!05.SNY!07.ETC!ETCS Bakım Destek Sistemi!set!IN.01!2!!TRUE!-!1709623.77!3!FALSE!İMALAT!REZERV
+012!A!05.SNY!07.ETC!RBC Bakım Destek Sistemi!set!IN.01!2!!TRUE!-!454342.98!2!FALSE!İMALAT!REZERV
+013!A!05.SNY!07.ETC!Lokal Kumanda Merkezinden ERTMS/ETCS Seviye 1 ve Seviye 2 için Dinamik Geçici Hız Kısıtlamasının Uygulanabilmesine ait Ekipmanlar (Teknik bina içi tüm ekipmanlar. entegrasyon. haberleşme. montaj ve tüm diğer bileşenleri dahil)!set!IN.01!2!!TRUE!-!384996.2!3!FALSE!İMALAT!REZERV
+014!A!05.SNY!07.ETC!CTC Kumanda Merkezinden ERTMS/ETCS Seviye 1 ve Seviye 2 için Dinamik Geçici Hız Kısıtlamasının Uygulanabilmesine ait Ekipmanlar (CTC Kumanda Merkezi içi tüm ekipmanlar. entegrasyon. haberleşme. montaj ve tüm diğer bileşenleri dahil)!set!IN.01!2!!TRUE!-!3058391.39!1!FALSE!İMALAT!REZERV
+015!A!05.SNY!07.ETC!ETCS Seviye 2 Adli Kayıt Ünitesi!set!IN.01!2!!TRUE!-!217658.82!2!FALSE!İMALAT!REZERV
+016!A!05.SNY!07.ETC!Yol Boyu ETCS Sisteminin Projelendirilmesi!götürü!IN.01!2!!TRUE!-!93887.85!1!FALSE!İMALAT!REZERV
+017!A!05.SNY!07.ETC!Hayati Bilgisayar (EVC)!set!IN.01!2!!TRUE!-!1012030.61!3!FALSE!İMALAT!REZERV
+018!A!05.SNY!07.ETC!Makinist Makine Arayüzü (DMI)!set!IN.01!2!!TRUE!-!684562.65!3!FALSE!İMALAT!REZERV
+019!A!05.SNY!07.ETC!Baliz Aktarım Modülü. Anten dahil!set!IN.01!2!!TRUE!-!459321.86!3!FALSE!İMALAT!REZERV
+020!A!05.SNY!07.ETC!Hız ve Mesafe Sensörleri!set!IN.01!2!!TRUE!-!250169.74!3!FALSE!İMALAT!REZERV
+021!A!05.SNY!07.ETC!Adli Kayıt Cihazı (JRU)!set!IN.01!2!!TRUE!-!266258.37!3!FALSE!İMALAT!REZERV
+022!A!05.SNY!07.ETC!ETCS Seviye 2 Haberleşme Ekipmanı!set!IN.01!2!!TRUE!-!1398878.74!3!FALSE!İMALAT!REZERV
+023!A!05.SNY!07.ETC!Tren ile ETCS sistemi arasındaki tren arayüzü!set!IN.01!2!!TRUE!-!588030.9!3!FALSE!İMALAT!REZERV
+024!A!05.SNY!07.ETC!Araç Üstü ETCS Sistemi Güç Kaynağı!set!IN.01!2!!TRUE!-!81239.12!3!FALSE!İMALAT!REZERV
+025!A!05.SNY!07.ETC!Araç Üstü ETCS Sistemi Ekipmanlarının Projelendirilmesi!götürü!IN.01!2!!TRUE!-!50848.34!1!FALSE!İMALAT!REZERV
+001!A!05.SNY!08.TDS!Tekerlek Aşırı Isınma Tespit Sistemi!set!IN.01!2!!TRUE!-!1437884.46!2!FALSE!İMALAT!REZERV
+002!A!05.SNY!08.TDS!Tekerlek Yüzeyi Aşınması Algılama Sistemi!set!IN.01!2!!TRUE!-!1222172.27!2!FALSE!İMALAT!REZERV
+003!A!05.SNY!08.TDS!Yönetim ve Teşhis Sistemi!götürü!IN.01!2!!TRUE!-!1368638.39!1!FALSE!İMALAT!REZERV
+001!A!05.SNY!09.KBL!Beton Kablo Kanalı Yapılması!m!IN.01!2!!TRUE!-!59.03!245000!FALSE!İMALAT!REZERV
+002!A!05.SNY!09.KBL!Beton Kablo Kanallarının Kapakları Dahil Üzerinin Kapatılması ve Sıkıştırılması!m!IN.01!2!!TRUE!-!33.12!245000!FALSE!İMALAT!REZERV
+003!A!05.SNY!09.KBL!Rayaltı Geçişi İçin Mehhol!set!IN.01!2!!TRUE!-!2632.65!345!FALSE!İMALAT!REZERV
+004!A!05.SNY!09.KBL!Fiber Kablo Ek Menholü!set!IN.01!2!!TRUE!-!2123.1!280!FALSE!İMALAT!REZERV
+005!A!05.SNY!09.KBL!Sac Kanal Döşenmesi!m!IN.01!2!!TRUE!-!340.54!3400!FALSE!İMALAT!REZERV
+006!A!05.SNY!09.KBL!Demiryolu ve Karayolu Altından Geçiş Yapılması (HDPE Boru ile)!m!IN.01!2!!TRUE!-!127.38!13000!FALSE!İMALAT!REZERV
+007!A!05.SNY!09.KBL!Topraklama Menholü!götürü!IN.01!2!!TRUE!-!594.47!1!FALSE!İMALAT!REZERV
+008!A!05.SNY!09.KBL!Çelik Spiralli Boru (Ekipman ile kablo kanalı/menhol arasında)!götürü!IN.01!2!!TRUE!-!12946.35!1!FALSE!İMALAT!REZERV
+011!A!05.SNY!09.KBL!Anklaşman Bölgesi-1 Anklaşman Bölgesi (Yardımcı Anklaşmanları Dahil) İçin Tüm Sinyal Kablolarının Temini ve Döşenmesi!m!IN.01!2!!TRUE!-!126.91!256179!FALSE!İMALAT!REZERV
+012!A!05.SNY!09.KBL!Anklaşman Bölgesi-2 Anklaşman Bölgesi (Yardımcı Anklaşmanları Dahil) İçin Tüm Sinyal Kablolarının Temini ve Döşenmesi!m!IN.01!2!!TRUE!-!126.91!331000!FALSE!İMALAT!REZERV
+013!A!05.SNY!09.KBL!Anklaşman Bölgesi-3 Anklaşman Bölgesi (Yardımcı Anklaşmanları Dahil) İçin Tüm Sinyal Kablolarının Temini ve Döşenmesi!m!IN.01!2!!TRUE!-!126.91!240000!FALSE!İMALAT!REZERV
+014!A!05.SNY!09.KBL!25 mm2 3 Faz Enerji Kablosu!m!IN.01!2!!TRUE!-!164.78!60000!FALSE!İMALAT!REZERV
+015!A!05.SNY!09.KBL!16 mm2 3 Faz Enerji Kablosu!m!IN.01!2!!TRUE!-!108.45!60000!FALSE!İMALAT!REZERV
+016!A!05.SNY!09.KBL!10 mm2 3 Faz Enerji Kablosu!m!IN.01!2!!TRUE!-!77!50000!FALSE!İMALAT!REZERV
+017!A!05.SNY!09.KBL!Tali Enerji Kabloları!m!IN.01!2!!TRUE!-!36.39!10000!FALSE!İMALAT!REZERV
+018!A!05.SNY!09.KBL!Sinyal Kablolarının Eki!götürü!IN.01!2!!TRUE!-!1104.01!1!FALSE!İMALAT!REZERV
+019!A!05.SNY!09.KBL!Enerji Kablolarının Eki!götürü!IN.01!2!!TRUE!-!382.15!1!FALSE!İMALAT!REZERV
+020!A!05.SNY!09.KBL!Sinyal Kablolarının Terminasyonu!götürü!IN.01!2!!TRUE!-!764.32!1!FALSE!İMALAT!REZERV
+021!A!05.SNY!09.KBL!Enerji Kablolarının Terminasyonu!götürü!IN.01!2!!TRUE!-!297.24!1!FALSE!İMALAT!REZERV
+022!A!05.SNY!09.KBL!Sinyal ve Enerji Kablolarının Teknik Binada Yüksek Gerilimden Korunması!götürü!IN.01!2!!TRUE!-!616123.05!1!FALSE!İMALAT!REZERV
+023!A!05.SNY!09.KBL!Tüm Sinyalizasyon ve Telekominikasyon Sistemlerinin Topraklanması (Topraklama kablosu ve ekipmanlar dahil)!götürü!IN.01!2!!TRUE!-!44839.83!1!FALSE!İMALAT!REZERV
+031!A!05.SNY!09.KBL!216  Damarlı FO Kablo!m!IN.01!2!!TRUE!-!40.95!350000!FALSE!İMALAT!REZERV
+032!A!05.SNY!09.KBL!24 Damarlı FO Kablo!m!IN.01!2!!TRUE!-!17.07!225000!FALSE!İMALAT!REZERV
+033!A!05.SNY!09.KBL!216 Damarlı Fiber Optik Kablo Ek ve Terminasyonu (Pig tail. ardışık bağlantı. orta ayar manşonu. fiber düz ek. patch cord. patch panel. ODF ve gerekli ise diğer malzemeler ile ek ve terminasyon yapılması)!götürü!IN.01!2!!TRUE!-!11143.71!1!FALSE!İMALAT!REZERV
+034!A!05.SNY!09.KBL!24 Damarlı Fiber Optik Kablo Ek ve Terminasyonu (Pig tail. ardışık bağlantı. orta ayar manşonu. fiber düz ek. patch cord. patch panel. Mini ODF ve gerekli ise diğer malzemeler ile ek ve terminasyon yapılması)!götürü!IN.01!2!!TRUE!-!1416.44!1!FALSE!İMALAT!REZERV
+001!A!05.SNY!12.HBR!IP/MPLS Tip-1 Cihazı!adet!IN.01!2!!TRUE!-!65551.08!9!FALSE!İMALAT!REZERV
+002!A!05.SNY!12.HBR!IP/MPLS Tip-2 Cihazı!adet!IN.01!2!!TRUE!-!65551.08!26!FALSE!İMALAT!REZERV
+003!A!05.SNY!12.HBR!İstasyon Anahtarı Tip-1!adet!IN.01!2!!TRUE!-!14532.18!67!FALSE!İMALAT!REZERV
+004!A!05.SNY!12.HBR!İstasyon Anahtarı Tip-2!adet!IN.01!2!!TRUE!-!14532.18!9!FALSE!İMALAT!REZERV
+005!A!05.SNY!12.HBR!Kamera ve Güvenlik İzleme Sistemi Ağ Anahtarı!adet!IN.01!2!!TRUE!-!248656.57!2!FALSE!İMALAT!REZERV
+006!A!05.SNY!12.HBR!Endüstriyel Ethernet Özellikli İstasyon Anahtarı Tip-1!adet!IN.01!2!!TRUE!-!17813.64!45!FALSE!İMALAT!REZERV
+007!A!05.SNY!12.HBR!Endüstriyel Ethernet Özellikli İstasyon Anahtarı Tip-2!adet!IN.01!2!!TRUE!-!17813.64!442!FALSE!İMALAT!REZERV
+008!A!05.SNY!12.HBR!Saat Kaynağı PRC (Primary Rate Clock)!adet!IN.01!2!!TRUE!-!95318.61!1!FALSE!İMALAT!REZERV
+009!A!05.SNY!12.HBR!Saha Dolabı!adet!IN.01!2!!TRUE!-!10921.22!487!FALSE!İMALAT!REZERV
+010!A!05.SNY!12.HBR!Ağ İletişim Sistemi Yönetimi!set!IN.01!2!!TRUE!-!381102.55!1!FALSE!İMALAT!REZERV
+011!A!05.SNY!12.HBR!Ağ İletişim Sistemi Projelendirmesi!götürü!IN.01!2!!TRUE!-!4246.19!1!FALSE!İMALAT!REZERV
+001!A!05.SNY!13.TEL!Telefon Santrali!adet!IN.01!2!!TRUE!-!85218.05!1!FALSE!İMALAT!REZERV
+002!A!05.SNY!13.TEL!Konsol!adet!IN.01!2!!TRUE!-!3588.75!5!FALSE!İMALAT!REZERV
+003!A!05.SNY!13.TEL!Bina  İçi Telefon!adet!IN.01!2!!TRUE!-!1307.34!90!FALSE!İMALAT!REZERV
+004!A!05.SNY!13.TEL!IP DECT Telefon!adet!IN.01!2!!TRUE!-!2182.4!50!FALSE!İMALAT!REZERV
+005!A!05.SNY!13.TEL!Baz İstasyonu!adet!IN.01!2!!TRUE!-!7338.99!10!FALSE!İMALAT!REZERV
+006!A!05.SNY!13.TEL!Yol Boyu Açık Hat Telefonu (temel ve direği dahil)!adet!IN.01!2!!TRUE!-!6531.67!95!FALSE!İMALAT!REZERV
+007!A!05.SNY!13.TEL!Ses Kayıt Sistemi!adet!IN.01!2!!TRUE!-!56533!2!FALSE!İMALAT!REZERV
+008!A!05.SNY!13.TEL!Telefon Sistemi Yönetimi!set!IN.01!2!!TRUE!-!39679.14!1!FALSE!İMALAT!REZERV
+009!A!05.SNY!13.TEL!Telefon Sistemi Projelendirmesi!götürü!IN.01!2!!TRUE!-!2343.9!1!FALSE!İMALAT!REZERV
+011!A!05.SNY!14.GSM!NSS Sistemine Entegrasyon!set!IN.01!2!!TRUE!-!411823.28!2!FALSE!İMALAT!REZERV
+021!A!05.SNY!14.GSM!Baz İstasyonu Kontrolü (BSC)!adet!IN.01!2!!TRUE!-!1039129.11!2!FALSE!İMALAT!REZERV
+022!A!05.SNY!14.GSM!TRAU!adet!IN.01!2!!TRUE!-!1039129.11!2!FALSE!İMALAT!REZERV
+023!A!05.SNY!14.GSM!Baz İstasyonu Alıcı ve Vericisi (BTS)!götürü!IN.01!2!!TRUE!-!10338162.72!1!FALSE!İMALAT!REZERV
+024!A!05.SNY!14.GSM!GSM-R Kuleleri (Uçak İkaz Sistemi. Temeli ve diğer aksesuarlar. Feeder ve Jumper Kablolar dahil)!götürü!IN.01!2!!TRUE!-!4687800.51!1!FALSE!İMALAT!REZERV
+025!A!05.SNY!14.GSM!GSM-R BTS Antenleri!götürü!IN.01!2!!TRUE!-!1207577.41!1!FALSE!İMALAT!REZERV
+026!A!05.SNY!14.GSM!Tünel Kapsaması için Tekrarlayıcı Ünite!götürü!IN.01!2!!TRUE!-!6596047.83!1!FALSE!İMALAT!REZERV
+027!A!05.SNY!14.GSM!Tekrarlayıcı Ana Üniteleri!götürü!IN.01!2!!TRUE!-!1836367.71!1!FALSE!İMALAT!REZERV
+028!A!05.SNY!14.GSM!Kaçaklı (Sızıntılı-Leaky Feeder)  Kablo Temini ve Tesisi!götürü!IN.01!2!!TRUE!-!12313119.56!1!FALSE!İMALAT!REZERV
+029!A!05.SNY!14.GSM!Tünel Kapsaması için Anten!götürü!IN.01!2!!TRUE!-!1191013.85!1!FALSE!İMALAT!REZERV
+030!A!05.SNY!14.GSM!OMC (Operations& Managemet Center-OMC-R. OMC-S)!set!IN.01!2!!TRUE!-!1250080.13!1!FALSE!İMALAT!REZERV
+031!A!05.SNY!14.GSM!Diğer BSS Ekipmanları ve İşleri!götürü!IN.01!2!!TRUE!-!93756.01!1!FALSE!İMALAT!REZERV
+041!A!05.SNY!14.GSM!Dispeçer PABX Sistemi!set!IN.01!2!!TRUE!-!1112556.6!1!FALSE!İMALAT!REZERV
+042!A!05.SNY!14.GSM!Dispeçer Konsolu!set!IN.01!2!!TRUE!-!154590.33!2!FALSE!İMALAT!REZERV
+043!A!05.SNY!14.GSM!Sim Kart!adet!IN.01!2!!TRUE!-!2578.29!70!FALSE!İMALAT!REZERV
+044!A!05.SNY!14.GSM!OPH!adet!IN.01!2!!TRUE!-!26315.32!10!FALSE!İMALAT!REZERV
+045!A!05.SNY!14.GSM!OPS!adet!IN.01!2!!TRUE!-!29132.25!10!FALSE!İMALAT!REZERV
+046!A!05.SNY!14.GSM!GPH!adet!IN.01!2!!TRUE!-!19130.5!50!FALSE!İMALAT!REZERV
+047!A!05.SNY!14.GSM!Kabin Radyo!adet!IN.01!2!!TRUE!-!474061.47!3!FALSE!İMALAT!REZERV
+048!A!05.SNY!14.GSM!Diğer DSS Sistemi ve Mobil Ekipmanlar. İşleri!götürü!IN.01!2!!TRUE!-!331491.91!1!FALSE!İMALAT!REZERV
+050!A!05.SNY!14.GSM!GSM-R Sistemi Projelendirmesi!götürü!IN.01!2!!TRUE!-!437528.05!1!FALSE!İMALAT!REZERV
+001!A!05.SNY!15.CCT!Blade Şasi!götürü!IN.01!2!!TRUE!-!810433.44!1!FALSE!İMALAT!REZERV
+002!A!05.SNY!15.CCT!Blade Server!götürü!IN.01!2!!TRUE!-!6279168.82!1!FALSE!İMALAT!REZERV
+003!A!05.SNY!15.CCT!Video Analiz Yazılımı!set!IN.01!2!!TRUE!-!2344115.27!1!FALSE!İMALAT!REZERV
+004!A!05.SNY!15.CCT!Kayıt.Yönetim ve İzleme Yazılımı!set!IN.01!2!!TRUE!-!1563486.32!1!FALSE!İMALAT!REZERV
+005!A!05.SNY!15.CCT!Fiber Kanallı Kayıt Depolama Birimi!set!IN.01!2!!TRUE!-!5479259.78!1!FALSE!İMALAT!REZERV
+006!A!05.SNY!15.CCT!Sıfır Çerçeve LCD LED Video Wall (Montaja ilişkin tüm bileşenler dahil)!adet!IN.01!2!!TRUE!-!362362.57!10!FALSE!İMALAT!REZERV
+007!A!05.SNY!15.CCT!LCD LED Video Wall için Kontrol Bilgisayarı!set!IN.01!2!!TRUE!-!42601.11!1!FALSE!İMALAT!REZERV
+008!A!05.SNY!15.CCT!İzleme ve Yönetim Amaçlı İş İstasyonu!adet!IN.01!2!!TRUE!-!37958.7!1!FALSE!İMALAT!REZERV
+009!A!05.SNY!15.CCT!Sabit Kamera!adet!IN.01!2!!TRUE!-!14958.55!321!FALSE!İMALAT!REZERV
+010!A!05.SNY!15.CCT!Hareketli Kamera!adet!IN.01!2!!TRUE!-!49897.4!17!FALSE!İMALAT!REZERV
+011!A!05.SNY!15.CCT!Sabit Kamera Lensi!adet!IN.01!2!!TRUE!-!2176.58!321!FALSE!İMALAT!REZERV
+012!A!05.SNY!15.CCT!A Tipi IR Spot!adet!IN.01!2!!TRUE!-!10243.25!221!FALSE!İMALAT!REZERV
+013!A!05.SNY!15.CCT!B Tipi IR Spot!adet!IN.01!2!!TRUE!-!7948.1!110!FALSE!İMALAT!REZERV
+014!A!05.SNY!15.CCT!Kamera Koruması!adet!IN.01!2!!TRUE!-!2963.98!321!FALSE!İMALAT!REZERV
+015!A!05.SNY!15.CCT!Kamera Direği Çelik ( Temel. Platform ve Diğer Aksesuarlar Dahil)!adet!IN.01!2!!TRUE!-!11562.11!338!FALSE!İMALAT!REZERV
+016!A!05.SNY!15.CCT!Rüzgar Sensörü yazılımı!set!IN.01!2!!TRUE!-!713326.98!1!FALSE!İMALAT!REZERV
+017!A!05.SNY!15.CCT!Rüzgar Sensörü!adet!IN.01!2!!TRUE!-!27359.51!21!FALSE!İMALAT!REZERV
+018!A!05.SNY!15.CCT!UTP Kablo (Bağlantı Elemanları Dahil)!götürü!IN.01!2!!TRUE!-!271398!1!FALSE!İMALAT!REZERV
+019!A!05.SNY!15.CCT!Kameralı Güvenlik ve İzleme Sistemi Projelendirmesi!götürü!IN.01!2!!TRUE!-!16984.79!1!FALSE!İMALAT!REZERV
+001!A!05.SNY!16.YNG!Kontrol Paneli!set!IN.01!2!!TRUE!-!24499.7!29!FALSE!İMALAT!REZERV
+002!A!05.SNY!16.YNG!Merkezi Grafik Yönetim Yazılımı ve Donanım (Montaja ilişkin tüm bileşenler dahil)!set!IN.01!2!!TRUE!-!390650.04!1!FALSE!İMALAT!REZERV
+003!A!05.SNY!16.YNG!Teknik Binanın Tüm Odaları İçin Akıllı İnteraktif Adresli Kombine Optik Duman ve Isı Dedektörleri!set!IN.01!2!!TRUE!-!42134.72!29!FALSE!İMALAT!REZERV
+004!A!05.SNY!16.YNG!Kapı Kilit Kontağı!set!IN.01!2!!TRUE!-!5580.91!29!FALSE!İMALAT!REZERV
+005!A!05.SNY!16.YNG!Keypad Şifreli Tuş Takımı!set!IN.01!2!!TRUE!-!80585.73!29!FALSE!İMALAT!REZERV
+006!A!05.SNY!16.YNG!Alarm ve İzleme Sistemi Projelendirmesi!götürü!IN.01!2!!TRUE!-!157873.71!1!FALSE!İMALAT!REZERV
+001!A!05.SNY!17.DPR!Sayısal Kuvvetli Yer Hareketi Kayıt Cihazı (Her cihaz; bir adet sayısal kayıt cihazı ile iki adet ivme ölçer ve gerekli tüm montaj bağlantı malzemelerini içerir.)!set!IN.01!2!!TRUE!-!242203.02!38!FALSE!İMALAT!REZERV
+002!A!05.SNY!17.DPR!Sayısal Tilt Sensörü ve Kayıt Cihazı( Her cihaz; bir adet sayısal kayıt cihazı ile bir adet tilt sensörü ve gerekli tüm  montaj bağlantı malzemelerini içerir)!set!IN.01!2!!TRUE!-!268876.61!18!FALSE!İMALAT!REZERV
+003!A!05.SNY!17.DPR!Rüzgar Sensörü ve Kayıt Cihazı!set!IN.01!2!!TRUE!-!334427.69!2!FALSE!İMALAT!REZERV
+004!A!05.SNY!17.DPR!İvmeölçer İstasyon Kabini!set!IN.01!2!!TRUE!-!85943.01!23!FALSE!İMALAT!REZERV
+005!A!05.SNY!17.DPR!Veri Depolama ve Kontrol Sistemi (Yazılımı Dahil)!set!IN.01!2!!TRUE!-!4062760.44!1!FALSE!İMALAT!REZERV
+006!A!05.SNY!17.DPR!Uydu Modem!set!IN.01!2!!TRUE!-!152353.51!5!FALSE!İMALAT!REZERV
+007!A!05.SNY!17.DPR!Hat Dışında Bulunan İvme Ölçer İstasyonu İçin Yedekli UPS!set!IN.01!2!!TRUE!-!32033.31!5!FALSE!İMALAT!REZERV
+008!A!05.SNY!17.DPR!Fiber Optik Dönüştürücü!set!IN.01!2!!TRUE!-!60628.89!38!FALSE!İMALAT!REZERV
+009!A!05.SNY!17.DPR!Sunucular!set!IN.01!2!!TRUE!-!1893246.37!1!FALSE!İMALAT!REZERV
+010!A!05.SNY!17.DPR!Deprem Erken Uyarı Sistemi Projelendirmesi!götürü!IN.01!2!!TRUE!-!5390970.58!1!FALSE!İMALAT!REZERV
+011!A!05.SNY!17.DPR!Diğer Deprem Erken Uyarı Sistemi Ekipmanları ve İşleri!götürü!IN.01!2!!TRUE!-!546910.06!1!FALSE!İMALAT!REZERV
+001!A!05.SNY!18.TDA!Anklaşman (Tüm Yardımcı Anklaşmanları dahil) ve LOC Sistemlerinin Test ve Hizmete Alınması (Ölçü cihazı. test dokümanı ve işçiliği dahil)!set!IN.01!2!!TRUE!-!923052.29!3!FALSE!İMALAT!REZERV
+002!A!05.SNY!18.TDA!CTC Kumanda Merkezi Sistemlerinin Test ve Hizmete Alınması (Ölçü cihazı. test dokümanı ve işçiliği dahil)!set!IN.01!2!!TRUE!-!1142456.33!1!FALSE!İMALAT!REZERV
+003!A!05.SNY!18.TDA!Tüm Yol Boyu Sinyalizasyon Ekipmanlarının (Makas Tahrik. Kilitleme ve Tahkik Sistemleri. Makas Isıtıcı Sistemleri. Hat Serbestliği Tespit Sistemleri. Yolboyu LED'li Sinyaller) Test ve Hizmete Alınması (Ölçü cihazı. test dokümanı ve işçiliği dahil)!set!IN.01!2!!TRUE!-!703647.71!1!FALSE!İMALAT!REZERV
+004!A!05.SNY!18.TDA!Tüm Enerji Besleme ve Dağıtım Sistemlerinin Test ve Hizmete Alınması (Ölçü cihazı. test dokümanı ve işçiliği dahil)!set!IN.01!2!!TRUE!-!358236.11!1!FALSE!İMALAT!REZERV
+005!A!05.SNY!18.TDA!Tüm Yol Boyu ETCS Sistemlerinin Test ve Hizmete Alınması (Ölçü cihazı. test dokümanı ve işçiliği dahil)!set!IN.01!2!!TRUE!-!3088709.93!1!FALSE!İMALAT!REZERV
+006!A!05.SNY!18.TDA!Araç Üstü ETCS Sistemlerinin Test ve Hizmete Alınması (Ölçü cihazı. test dokümanı ve işçiliği dahil)!set!IN.01!2!!TRUE!-!48833.42!3!FALSE!İMALAT!REZERV
+007!A!05.SNY!18.TDA!Tüm Tekerlek Dedektörü Sistemlerinin Test ve Hizmete Alınması (Ölçü cihazı. test dokümanı ve işçiliği dahil)!set!IN.01!2!!TRUE!-!81389.03!1!FALSE!İMALAT!REZERV
+008!A!05.SNY!18.TDA!Tüm Sinyal ve Enerji Kablolarının Test ve Hizmete Alınması (Ölçü cihazı. test dokümanı ve işçiliği dahil)!set!IN.01!2!!TRUE!-!81389.03!1!FALSE!İMALAT!REZERV
+009!A!05.SNY!18.TDA!Tüm Fiber Optik Kabloların Test ve Hizmete Alınması (Ölçü cihazı. test dokümanı ve işçiliği dahil)!set!IN.01!2!!TRUE!-!81389.03!1!FALSE!İMALAT!REZERV
+010!A!05.SNY!18.TDA!Ağ İletişim Sistemlerinin Tamamının Test ve Hizmete Alınması (Ölçü cihazı. test dokümanı ve işçiliği dahil)!set!IN.01!2!!TRUE!-!312520.03!1!FALSE!İMALAT!REZERV
+011!A!05.SNY!18.TDA!GSM-R Sisteminin (BSS. DSS ve Mobil Terminaller) TamamınınTest ve Hizmete Alınması (Ölçü cihazı. test dokümanı ve işçiliği dahil)!set!IN.01!2!!TRUE!-!156260.02!1!FALSE!İMALAT!REZERV
+012!A!05.SNY!18.TDA!NSS Sistemlerine Entegrasyonun Test ve Hizmete Alınması  (Ölçü cihazı. test dokümanı ve işçiliği dahil)!set!IN.01!2!!TRUE!-!144462.81!2!FALSE!İMALAT!REZERV
+013!A!05.SNY!18.TDA!Telefon Sistemlerinin Tamamının Test ve Hizmete Alınması (Ölçü cihazı. test dokümanı ve işçiliği dahil)!set!IN.01!2!!TRUE!-!121580.55!1!FALSE!İMALAT!REZERV
+014!A!05.SNY!18.TDA!Kameralı Güvenlik ve İzleme Sistemlerinin Tamamının Test ve Hizmete Alınması (Ölçü cihazı. test dokümanı ve işçiliği dahil)!set!IN.01!2!!TRUE!-!81389.03!1!FALSE!İMALAT!REZERV
+015!A!05.SNY!18.TDA!Alarm ve İzleme Sisteminin Tamamının Test ve Hizmete Alınması (Ölçü cihazı. test dokümanı ve işçiliği dahil)!set!IN.01!2!!TRUE!-!81389.03!1!FALSE!İMALAT!REZERV
+016!A!05.SNY!18.TDA!Deprem Erken Uyarı Sisteminin Tamamının Test ve Hizmete Alınması (Ölçü cihazı. test dokümanı ve işçiliği dahil)!set!IN.01!2!!TRUE!-!81389.03!1!FALSE!İMALAT!REZERV
+017!A!05.SNY!18.TDA!Teşhis ve Bakım Destek Sistemlerinin Tamamının Test ve Hizmete Alınması (Ölçü cihazı. test dokümanı ve işçiliği dahil)!set!IN.01!2!!TRUE!-!637099.29!1!FALSE!İMALAT!REZERV
+018!A!05.SNY!18.TDA!Yüksek Hızlı Tren Hat Kesimi Sinyalizasyon. ERTMS/ETCS Seviye 1 ve ERTMS/ETCS Seviye 2 Sistemleri ile Yapılacak Çift Hat-Çift Hat Arayüzün Test ve Hizmete Alınması (Ölçü cihazı. test dokümanı ve işçiliği dahil)!set!IN.01!2!!TRUE!-!236719.89!2!FALSE!İMALAT!REZERV
+019!A!05.SNY!18.TDA!Mevcut Yol Boyu Sinyalizasyon Sistemleri ile Yapılacak Çift Hat - Tek Hat Arayüzün Test ve Hizmete Alınması (Ölçü cihazı. test dokümanı ve işçiliği dahil)!set!IN.01!2!!TRUE!-!388883.53!1!FALSE!İMALAT!REZERV
+020!A!05.SNY!18.TDA!Telekomünikasyon (GSM-R Sistemi. Ağ İletişim Sistemi) ve Destek Sistemleri ile Yapılacak Arayüzün Tamamının Test ve Hizmete Alınması (Ölçü cihazı. test dokümanı ve işçiliği dahil)!set!IN.01!2!!TRUE!-!23711.39!1!FALSE!İMALAT!REZERV
+021!A!05.SNY!18.TDA!Tünel Aydınlatma Sistemi ile Yapılacak Arayüzlerin Tamamının Test ve Hizmete Alınması (Ölçü cihazı. test dokümanı ve işçiliği dahil)!set!IN.01!2!!TRUE!-!63472.28!1!FALSE!İMALAT!REZERV
+022!A!05.SNY!18.TDA!Deprem Erken Uyarı Sistemi ile Yapılacak Arayüzlerin Tamamının Test ve Hizmete Alınması (Ölçü cihazı. test dokümanı ve işçiliği dahil)!set!IN.01!2!!TRUE!-!23711.39!1!FALSE!İMALAT!REZERV
+023!A!05.SNY!18.TDA!Ankara'da Tesis Edilen Yolcu Bilgilendirme Yönetim Sistemi ile Yapılacak Arayüzün Test ve Hizmete Alınması (Ölçü cihazı. test dokümanı ve işçiliği dahil)!set!IN.01!2!!TRUE!-!160637.97!1!FALSE!İMALAT!REZERV
+024!A!05.SNY!18.TDA!İstasyon Yolcu Bilgilendirme Sistemi ile Yapılacak Arayüzün Test ve Hizmete Alınması (Ölçü cihazı. test dokümanı ve işçiliği dahil)!set!IN.01!2!!TRUE!-!122596.93!2!FALSE!İMALAT!REZERV
+001!A!05.SNY!19.EGT!Sinyalizasyon Sistemleri ve Alt Sistemleri Eğitimleri!set!IN.01!2!!TRUE!-!16984.79!1!FALSE!İMALAT!REZERV
+002!A!05.SNY!19.EGT!Telekomünikasyon Sistemleri. Destek Sistemleri ve Alt Sistemleri Eğitimleri!set!IN.01!2!!TRUE!-!312520.03!1!FALSE!İMALAT!REZERV
+003!A!05.SNY!19.EGT!ERTMS/ETCS Araç Üstü Sistemi Eğitimi!set!IN.01!2!!TRUE!-!20110.83!1!FALSE!İMALAT!REZERV
+004!A!05.SNY!19.EGT!Tekerlek Dedektör Sistemleri Eğitimi!set!IN.01!2!!TRUE!-!16984.79!1!FALSE!İMALAT!REZERV
+005!A!05.SNY!19.EGT!Sinyalizasyon Sistemleri ve Alt Sistemleri Dokümanları (Tasarım. Test ve Hizmete Alma Aşamasında Sunulacak Tüm Dokümanlar)!set!IN.01!2!!TRUE!-!8492.39!1!FALSE!İMALAT!REZERV
+006!A!05.SNY!19.EGT!Telekomünikasyon Sistemleri. Destek Sistemleri ve Alt Sistemleri Dokümanları (Tasarım. Test ve Hizmete Alma Aşamasında Sunulacak Tüm Dokümanlar)!set!IN.01!2!!TRUE!-!8492.39!1!FALSE!İMALAT!REZERV
+007!A!05.SNY!19.EGT!ERTMS/ETCS Araç Üstü Sistemi  Dokümanları (Tasarım. Test ve Hizmete Alma Aşamasında Sunulacak Tüm Dokümanlar)!set!IN.01!2!!TRUE!-!20110.83!1!FALSE!İMALAT!REZERV
+008!A!05.SNY!19.EGT!Tekerlek Dedektör Sistemleri  Dokümanları (Tasarım. Test ve Hizmete Alma Aşamasında Sunulacak Tüm Dokümanlar)!set!IN.01!2!!TRUE!-!8492.39!1!FALSE!İMALAT!REZERV
+001!A!05.SNY!20.BKM!Anklaşman Sistemleri İçin Bakım. Ölçme. Değerlendirme. Ayar Cihaz ve Teçhizatı!set!IN.01!2!!TRUE!-!3664.64!2!FALSE!İMALAT!REZERV
+002!A!05.SNY!20.BKM!Hat Serbestliği Algılama Sistemleri İçin Bakım. Ölçme. Değerlendirme. Ayar Cihaz ve Teçhizatı!set!IN.01!2!!TRUE!-!63907.61!2!FALSE!İMALAT!REZERV
+003!A!05.SNY!20.BKM!Hat Boyu Sinyalleri İçin Bakım. Ölçme. Değerlendirme. Ayar Cihaz ve Teçhizatı!set!IN.01!2!!TRUE!-!5362.88!2!FALSE!İMALAT!REZERV
+004!A!05.SNY!20.BKM!MTKT Sistemleri İçin Bakım. Ölçme. Değerlendirme. Ayar Cihaz ve Teçhizatı!set!IN.01!2!!TRUE!-!5362.88!2!FALSE!İMALAT!REZERV
+005!A!05.SNY!20.BKM!Araç Üstü ETCS Sistemi İçin Bakım. Ölçme. Değerlendirme. Ayar Cihaz ve Teçhizatı!set!IN.01!2!!TRUE!-!42903.05!2!FALSE!İMALAT!REZERV
+006!A!05.SNY!20.BKM!FO Kablo Sistemi İçin Bakım. Ölçme. Değerlendirme. Ayar Cihaz ve Teçhizatı!set!IN.01!2!!TRUE!-!60332.33!2!FALSE!İMALAT!REZERV
+007!A!05.SNY!20.BKM!Ağ İletişim Sistemi İçin Bakım. Ölçme. Değerlendirme. Ayar Cihaz ve Teçhizatı!set!IN.01!2!!TRUE!-!16088.62!2!FALSE!İMALAT!REZERV
+008!A!05.SNY!20.BKM!GSM-R Sistemi İçin Bakım. Ölçme. Değerlendirme. Ayar Cihaz ve Teçhizatı!set!IN.01!2!!TRUE!-!53628.73!2!FALSE!İMALAT!REZERV
+009!A!05.SNY!20.BKM!Kameralı Güvenlik ve İzleme Sistemi İçin Bakım. Ölçme. Değerlendirme. Ayar Cihaz ve Teçhizatı!set!IN.01!2!!TRUE!-!16088.62!2!FALSE!İMALAT!REZERV
+010!A!05.SNY!20.BKM!Alarm ve İzleme Sistemi İçin Bakım. Ölçme. Değerlendirme. Ayar Cihaz ve Teçhizatı!set!IN.01!2!!TRUE!-!16088.62!2!FALSE!İMALAT!REZERV
+011!A!05.SNY!20.BKM!Deprem Erken Uyarı Sistemi İçin Bakım. Ölçme. Değerlendirme. Ayar Cihaz ve Teçhizatı!set!IN.01!2!!TRUE!-!16088.62!2!FALSE!İMALAT!REZERV
+012!A!05.SNY!20.BKM!Tekerlek Dedektör Sistemi İçin Bakım. Ölçme. Değerlendirme. Ayar Cihaz ve Teçhizatı!set!IN.01!2!!TRUE!-!16088.62!1!FALSE!İMALAT!REZERV
+021!A!05.SNY!20.BKM!Sinyalizasyon Bakım İşleri!götürü!IN.01!2!!TRUE!-!4384012.74!1!FALSE!İMALAT!REZERV
+001!A!05.SNY!21.SRT!Sinyalizasyon Hat Emniyeti Ölçme &Test&Sertifikasyonu 1-352 arası Sıra No'lu pozlar için teklif edilen toplam tutarının %3 'inden az olmayacaktır.)!götürü!IN.01!2!!TRUE!-!20995615.31!1!FALSE!İMALAT!REZERV
+001!A!06.DGR!01.FTR!Faturalı Giderler!götürü!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!50000000!1!FALSE!İMALAT!REZERV
+005!A!11.ALT!02.SNT!İhzarat - Nervürlü Çelik Zati Bedeli!ton!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!13000!83862!FALSE!İHZARAT!SİPARİŞ
+029!A!11.ALT!02.SNT!İhzarat - Hasır Çelik Temini ve İşçiliği!ton!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!16000!7200!FALSE!İHZARAT!SİPARİŞ
+037!A!11.ALT!02.SNT!İhzarat - Zemin Çivisi ve Yerine Yerleştirilmesi!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!407.36!630000!FALSE!İHZARAT!SİPARİŞ
+014!A!11.ALT!03.KPR!İhzarat - Öngerme Çeliği Temin ve Yerine Koyma!ton!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!33000!1095.3!FALSE!İHZARAT!SİPARİŞ
+002!A!11.ALT!04.TNL!İhzarat - Tünellerde Çelik İksa Yapılması (Mlz.+İşç.)!ton!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!34248.07!17100!FALSE!İHZARAT!SİPARİŞ
+003!A!11.ALT!04.TNL!İhzarat - Süren - Tünel - Ø 3.5" - K. Delgili + Enjeks.!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!1440!843750!FALSE!İHZARAT!SİPARİŞ
+004!A!11.ALT!04.TNL!İhzarat - Süren - Tünel - Çelik Boru + Enjeks.!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!125!421875!FALSE!İHZARAT!SİPARİŞ
+005!A!11.ALT!04.TNL!İhzarat - Tünelde Hasır Çelik ile İksa!ton!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!28258.35!12600!FALSE!İHZARAT!SİPARİŞ
+007!A!11.ALT!04.TNL!İhzarat - Tünellerde SN Kaya Bulonu Yapılması!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!163!363756.4!FALSE!İHZARAT!SİPARİŞ
+009!A!11.ALT!04.TNL!İhzarat - Tünellerde IBO Bulonu Yapılması (Mlz.+İşç.)!m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!250!2503800!FALSE!İHZARAT!SİPARİŞ
+051!A!12.UST!01.GNL!İhzarat - Balast Temini ve Serilmesi - 1!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!410!329195.32!FALSE!İHZARAT!SİPARİŞ
+052!A!12.UST!01.GNL!İhzarat - Balast Temini ve Serilmesi - 2!m³!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!445!282591.28!FALSE!İHZARAT!SİPARİŞ
+071!A!12.UST!01.GNL!İhzarat - RAY - Balastlı Demiryolu Yapılması!hat-m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!4487!129236.63!FALSE!İHZARAT!SİPARİŞ
+072!A!12.UST!01.GNL!İhzarat - TRAVERS - Balastlı Demiryolu Yapılması!hat-m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!4487!129236.63!FALSE!İHZARAT!SİPARİŞ
+080!A!12.UST!01.GNL!İhzarat - Balastsız Demiryolu Yapılması!hat-m!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!7410!32392!FALSE!İHZARAT!SİPARİŞ
+130!A!12.UST!01.GNL!İhzarat - Makas - 120 km/sa - Temin ve Ferş!adet!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!4942000!24!FALSE!İHZARAT!SİPARİŞ
+140!A!12.UST!01.GNL!İhzarat - Makas - 120 km/sa - Temini!adet!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!4224000!8!FALSE!İHZARAT!SİPARİŞ
+150!A!12.UST!01.GNL!İhzarat - Makas - 120 km/sa - Dil Takımı & Göbek!set!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!2832000!8!FALSE!İHZARAT!SİPARİŞ
+160!A!12.UST!01.GNL!İhzarat - Makas - 100 km/sa - Temin ve Ferş!adet!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!3732000!17!FALSE!İHZARAT!SİPARİŞ
+170!A!12.UST!01.GNL!İhzarat - Makas - 100 km/sa - Temini!adet!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!3201000!5!FALSE!İHZARAT!SİPARİŞ
+180!A!12.UST!01.GNL!İhzarat - Makas - 100 km/sa - Dil Takımı & Göbek!set!IN.01!2!!TRUE!Direkt - t_Pozlar_ve_Keşif!2270000!5!FALSE!İHZARAT!SİPARİŞ
+001!A!30.FFK!01.GNL!Fiyat Farkı Geliri!götürü!IN.02!2!!FALSE!Fiyat Farkı Hesabı - Toplam Üzerinden!!!FALSE!İMALAT!YAPILACAK
+002!A!30.FFK!01.GNL!Fiyat Farkı Geliri!götürü!IN.02!2!!FALSE!Fiyat Farkı Hesabı - Toplam Üzerinden!!!FALSE!İHZARAT!SİPARİŞ
+001!D!01.ALT!01.TPR!Kazı - Yarma ve Yan Ariyet!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+002!D!01.ALT!01.TPR!Kazı - Ariyet Ocağı!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+003!D!01.ALT!01.TPR!Kazı - Sıyırma!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+004!D!01.ALT!01.TPR!Dolgu - İstifsiz Taş - Taban İyileştirme!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+005!D!01.ALT!01.TPR!Dolgu - Alttemel. Yaklaşım!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+006!D!01.ALT!01.TPR!Dolgu - Çimentolu. Yaklaşım!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+001!D!01.ALT!02.SNT!Kazı - Sanat Yapısı ( Köprü Hariç )!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+002!D!01.ALT!02.SNT!Beton - Demirsiz - Temel - Köprü Harici!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+003!D!01.ALT!02.SNT!Beton - Drenaj Hendeği. Tünel Dolgu!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+005!D!01.ALT!02.SNT!Nervürlü Çelik Zati Bedeli!ton!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+006!D!01.ALT!02.SNT!Moloz Taş İnşaat - Hazır Beton harcıyla!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+007!D!01.ALT!02.SNT!Dolgu - Kırmataş!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+008!D!01.ALT!02.SNT!Tünel Tipi Drenaj Borusu Döşenmesi!m!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+009!D!01.ALT!02.SNT!Prefabrik Drenaj ve Kontrol Bacası yap.!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+011!D!01.ALT!02.SNT!Koruge Drenaj Borusu - ø 400 mm!m!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+015!D!01.ALT!02.SNT!Fonttan Izgara. Kapak. Garguy!kg!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+018!D!01.ALT!02.SNT!Püskürtme Betonu Yapılması!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+021!D!01.ALT!02.SNT!Dökme Kazık - Ø 120 cm. - Köprü Hariç!m!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+023!D!01.ALT!02.SNT!Kırmataş Kolon - Ø 70 cm.!m!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+029!D!01.ALT!02.SNT!Hasır Çelik Temini ve İşçiliği!ton!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+030!D!01.ALT!02.SNT!Soilmixing Kolon - Ø 80 cm.!m!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+033!D!01.ALT!02.SNT!Dolgu - İstifsiz Taş!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+034!D!01.ALT!02.SNT!Su Tutucu Temini ve Yerine Konulması!kg!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+037!D!01.ALT!02.SNT!Zemin Çivisi ve Yerine Yerleştirilmesi!m!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+043!D!01.ALT!02.SNT!Barbakan Deliği - Geotekstil Sarımlı!m!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+441!D!01.ALT!02.SNT!Beton - Açıkta - Demirsiz!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+442!D!01.ALT!02.SNT!Beton - Tünelde - Demirli!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+001!D!01.ALT!03.KPR!Köprü Temeli Kazılması!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+008!D!01.ALT!03.KPR!Dökme Kazık - Ø 120 cm. - Köprü!m!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+010!D!01.ALT!03.KPR!Beton - Demirsiz - Temel - Köprü!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+011!D!01.ALT!03.KPR!Beton - Demirli - Köprü - C 30/37!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+013!D!01.ALT!03.KPR!Beton - Öngermeli Köprü Kirişlerinde!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+014!D!01.ALT!03.KPR!Öngerme Çeliği Temin ve Yerine Koyma!ton!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+015!D!01.ALT!03.KPR!Köprülerde Membran ile Su Yalıtımı!m²!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+016!D!01.ALT!03.KPR!Katran Badana Yapılması!m²!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+017!D!01.ALT!03.KPR!Köprülerde Genleşme Derzi ( Mlz. + İşç. )!m!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+018!D!01.ALT!03.KPR!Neopren Mesnet Temini ve Montajı!dm³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+019!D!01.ALT!03.KPR!Köprü Korkuluk - Profilden ( Mlz. + İşç. )!ton!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+022!D!01.ALT!03.KPR!Köprülerde Prekast Cephe Paneli (Mlz.+İşç.)!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+001!D!01.ALT!04.TNL!Tünel Kazısı Yapılması!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+002!D!01.ALT!04.TNL!Tünellerde Çelik İksa Yapılması (Mlz.+İşç.)!ton!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+003!D!01.ALT!04.TNL!Süren - Tünel - Ø 3.5" - K. Delgili + Enjeks.!m!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+004!D!01.ALT!04.TNL!Süren - Tünel - Çelik Boru + Enjeks.!m!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+005!D!01.ALT!04.TNL!Tünelde Hasır Çelik ile İksa!ton!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+006!D!01.ALT!04.TNL!Tünelde Püskürtme Betonu Yapılması!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+007!D!01.ALT!04.TNL!Tünellerde SN Kaya Bulonu Yapılması!m!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+009!D!01.ALT!04.TNL!Tünellerde IBO Bulonu Yapılması (Mlz.+İşç.)!m!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+010!D!01.ALT!04.TNL!Su Yalıtımı  - Tünellerde!m²!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+011!D!01.ALT!04.TNL!Tünellerde Nihai Beton Kaplaması - C25/30!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+013!D!01.ALT!04.TNL!Prekast Kablo Kanalı Yapılması!m!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+016!D!01.ALT!04.TNL!Tünelde Enjeksiyon Yapılması!ton!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+017!D!01.ALT!04.TNL!Enjeksiyon Amaçlı Delik Açılması!m!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+018!D!01.ALT!04.TNL!Beton - Demirsiz - Boşluk / Poroz!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+001!D!01.ALT!05.TKP!Plentmiks Alttemel ve Plentmiks Temel!ton!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+002!D!01.ALT!05.TKP!Bitümlü Sıcak Temel Yapılması!ton!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+003!D!01.ALT!05.TKP!Binder Tabakası Yapılması ( Bitüm yüklenici )!ton!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+004!D!01.ALT!05.TKP!Aşınma Tabakası Yapılması!ton!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+005!D!01.ALT!05.TKP!İki Tabaka Astarlı Bitümlü Sathi Kaplama Yp.!dekar!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+001!D!01.ALT!06.AAK!Altyapı Aktarımları!götürü!EX.09!1!!FALSE!Direkt - Pivot - P_Analizler!-50000000!!TRUE!İMALAT!YAPILACAK
+001!D!01.ALT!07.SRT!Altyapı Hat Emniyeti Sertifikasyonu!götürü!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!-250000000!!TRUE!İMALAT!YAPILACAK
+510!D!01.ALT!07.SRT!Altyapı Hat Emniyeti Sertifikasyonu!götürü!KNSLD!1!4_TŞ-9000-5210!FALSE!Direkt - Pivot - P_Analizler!-250000000!!TRUE!İMALAT!YAPILACAK
+010!D!02.UST!01.UST!Seçme Malz.nin Havalandırılması ve Serimi!plt-m!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+020!D!02.UST!01.UST!Balastaltı (Subbalast) Temini ve Serilmesi!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+030!D!02.UST!01.UST!Asfalt Betonu Binder Tabakası ( Mlz.+İşç. )!m²!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+040!D!02.UST!01.UST!BAM Temini ve Serilmesi!m²!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+051!D!02.UST!01.UST!Balast Temini ve Serilmesi - 1!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+052!D!02.UST!01.UST!Balast Temini ve Serilmesi - 2!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+071!D!02.UST!01.UST!RAY - Balastlı Demiryolu Yapılması!hat-m!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+072!D!02.UST!01.UST!TRAVERS - Balastlı Demiryolu Yapılması!hat-m!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+080!D!02.UST!01.UST!Balastsız Demiryolu Yapılması!hat-m!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+090!D!02.UST!01.UST!Seviye Ayarlama Tabakası Yap. (C25/30)!m³!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+130!D!02.UST!01.UST!Makas - 120 km/sa - Temin ve Ferş!adet!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+140!D!02.UST!01.UST!Makas - 120 km/sa - Temini!adet!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+150!D!02.UST!01.UST!Makas - 120 km/sa - Dil Takımı & Göbek!set!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+160!D!02.UST!01.UST!Makas - 100 km/sa - Temin ve Ferş!adet!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+170!D!02.UST!01.UST!Makas - 100 km/sa - Temini!adet!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+180!D!02.UST!01.UST!Makas - 100 km/sa - Dil Takımı & Göbek!set!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+340!D!02.UST!01.UST!Hat Muayenesi ve Raporlanması!hat-m!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+350!D!02.UST!01.UST!Ray Taşlama Makinesi ile Taşlama Yap.!hat-m!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+360!D!02.UST!01.UST!Hattın Yol Ölçüm Makinesi ile Ölçülmesi!hat-m!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+370!D!02.UST!01.UST!Hattın Periyodik Bakımı!götürü!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+380!D!02.UST!01.UST!Mevcut Demiryolu Hattının Sökülmesi!hat-m!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+390!D!02.UST!01.UST!Mevcut Makasların Sökülmesi!adet!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+400!D!02.UST!01.UST!Geçici Balastlı Demiryolu Yapımı!hat-m!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+410!D!02.UST!01.UST!Plentmiks Temel ve Sathi Kapl. - Servis Yolu!m²!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+420!D!02.UST!01.UST!Her Çeşit İhata Yapılması!m!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+001!D!02.UST!02.SRT!Üstyapı Hat Emniyeti Sertifikasyonu!götürü!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+001!D!03.IST!01.IST!Yenifakılı İstasyonu!götürü!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+002!D!03.IST!01.IST!Şefaatli İstasyonu!götürü!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+001!D!03.IST!02.SRT!İstasyon Hat Emniyeti Ölçme & Test & Sertifikasyonu!paçal!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+000!D!04.ELK!00.KNS!Elektrik İşleri - Konsolide!götürü!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+000!D!05.SNY!00.KNS!Sinyalizasyon İşleri - Konsolide!götürü!KNSLD!1!!FALSE!Direkt - Pivot - P_Analizler!!!TRUE!İMALAT!YAPILACAK
+101!D!06.PER!01.OPR!Beton Santrali / Plent Operatörü!adm×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+102!D!06.PER!01.OPR!Beton Santrali / Plent Operatör Yardımcısı!adm×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+105!D!06.PER!01.OPR!Beton Pompası Operatörü!adm×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+112!D!06.PER!01.OPR!Shotcrete Makinesi Operatörü!adm×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+115!D!06.PER!01.OPR!Forekazık & DKK & DSM Operatörü!adm×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+134!D!06.PER!01.OPR!Finişer Operatörü!adm×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+201!D!06.PER!01.OPR!Dozer Operatörü!adm×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+202!D!06.PER!01.OPR!Ekskavatör Operatörü!adm×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+204!D!06.PER!01.OPR!Loder Operatörü!adm×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+205!D!06.PER!01.OPR!Kamyon Şöförü!adm×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+206!D!06.PER!01.OPR!Greyder Operatörü!adm×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+208!D!06.PER!01.OPR!Silindir Operatörü!adm×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+211!D!06.PER!01.OPR!Jumbo / TAMOock Operatörü!adm×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+213!D!06.PER!01.OPR!Tır Şöförü!adm×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+220!D!06.PER!01.OPR!Vinç Operatörü!adm×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+101!D!06.PER!91.DGR!Düz İşçi!adm×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+111!D!06.PER!91.DGR!Tünel İşçisi!adm×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+121!D!06.PER!91.DGR!Ateşçi!adm×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+122!D!06.PER!91.DGR!Ateşçi Yardımcısı!adm×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+131!D!06.PER!91.DGR!Kaynakçı!adm×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+201!D!06.PER!91.DGR!Formen!adm×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+990!D!06.PER!91.DGR!Diğer Direkt İşçi Ücret ve Ödemeleri!adm×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.KMK!01.DZR!Kiralık Dozer - Komatsu - D155 - Operatörsüz!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+115!D!07.KMK!01.DZR!Kiralık Dozer - Komatsu - D155 - Operatörlü!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.KMK!02.GRD!Kiralık Greyder - Cat 14 H!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!D!07.KMK!02.GRD!Kiralık Greyder - Cat 140 M!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.KMK!03.EKS!Kiralık Ekskavatör - Cat 318D - Lastikli!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!D!07.KMK!03.EKS!Kiralık Ekskavatör - Cat 336 - Paletli!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+125!D!07.KMK!03.EKS!Kiralık Ekskavatör - Cat 336 - Paletli - Kırıcılı!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+210!D!07.KMK!03.EKS!Kiralık Ekskavatör - Liebherr 938 - Paletli!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+310!D!07.KMK!03.EKS!Kiralık Ekskavatör - Hidromek 220 - Paletli!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+410!D!07.KMK!03.EKS!Kiralık Ekskavatör - Sumitomo - Paletli - SH145X-6!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.KMK!04.LDR!Loder - Cat 950 L!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!D!07.KMK!04.LDR!Loder - Cat 962!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+130!D!07.KMK!04.LDR!Loder - Cat 966!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.KMK!05.BLD!Kiralık Beko Loder - Cat 444 F!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!D!07.KMK!05.BLD!Kiralık Beko Loder - Hidromek - 3CX!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+800!D!07.KMK!05.BLD!Kiralık Beko Loderler!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.KMK!06.KMY!Kiralık Kamyonlar - Mercedes - Actros 4850!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!D!07.KMK!06.KMY!Kiralık Kamyonlar - Mercedes - Axor 3228L!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.KMK!07.MKS!Kiralık Transmikserler - Mercedes - 12 m3!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.KMK!08.SLD!Kiralık Silindir - Hamm 3414!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.KMK!10.RDL!Atlas Rock D7!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.KMK!11.ARZ!Kiralık Arazözler!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+115!D!07.KMK!11.ARZ!Kiralık Arazözler - Çift Vardiya!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.KMK!12.SBS!Kiralık Silobas!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.KMK!13.BPM!Kiralık Beton Pompası - Putzmeister 36 - Opr. Hariç!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+115!D!07.KMK!13.BPM!Kiralık Beton Pompası - Putzmeister 36 - Opr. Dahil!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MBO!01.DZG!Dozer - Cat D7 / D8 - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+510!D!07.MBO!01.DZG!Greyder - CAT 14 - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!D!07.MBO!02.EKS!Ekskavatör - 20 / 25 ton - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+130!D!07.MBO!02.EKS!Ekskavatör - 26 / 35 ton - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+140!D!07.MBO!02.EKS!Ekskavatör - 46 / 55 ton - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+170!D!07.MBO!02.EKS!Ekskavatör - 66 / 75 ton - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+510!D!07.MBO!02.EKS!Hidrolik Kırıcı - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MBO!03.LDR!Loder - CAT 950L / 966L - Lastikli - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+510!D!07.MBO!03.LDR!Beko Loder - 4×4 - Eşit Teker - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MBO!04.KMY!Damperli Kamyon - 32 ton - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MBO!05.MKS!Beton Mikseri - 8 / 10 m³ - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MBO!11.FTD!DSM - DSM Makinası - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!D!07.MBO!11.FTD!Forekazık Makinesi - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+130!D!07.MBO!11.FTD!Taş Kolon Makinesi - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MBO!12.SLN!Silindir - Toprak - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MBO!13.JRD!Jumbo - Çift Kollu - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+210!D!07.MBO!13.JRD!Rock - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MBO!14.ARZ!Arazözler ( Su Tankerleri ) - 18 / 20 ton - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MBO!21.STS!Beton Santralleri - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+112!D!07.MBO!21.STS!Çimento Siloları - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!D!07.MBO!21.STS!Beton Santralleri - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+122!D!07.MBO!21.STS!Konik Kırıcılar - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+130!D!07.MBO!21.STS!Mekanik Plentler - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MBO!22.BPM!Mobil Beton Pompası - 24 / 26 m. - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!D!07.MBO!22.BPM!Sabit Beton Pompası - Elektrikli - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MBO!24.PMK!Püskürtme Makinesi - 30 m³/sa - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MBO!31.THL!Telehandler - 14 m. Bomlu Sepetli - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MBO!51.EPS!Enjeksiyon Seti - Muto Enjeksiyon 30 bar - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+030!D!07.MBO!52.JNR!Jeneratör - 300 kVA - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+050!D!07.MBO!52.JNR!Jeneratör - 500 kVA - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+165!D!07.MBO!52.JNR!Jeneratör - 1.650 kVA - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MBO!53.JFN!Tünel Jetfan - 110 / 150 kW - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MBO!54.PMP!Pompa - 2" - 6" arası - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MBO!55.TNK!Su Tankı - 50 ton - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MBO!61.FNS!Finişerler - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MBO!81.UST!Mikro Yükleyici - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!D!07.MBO!81.UST!Mini Ekskavatör - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+130!D!07.MBO!81.UST!Balast Vagonu - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+140!D!07.MBO!81.UST!Lokomotif - 1300 hp. 500 ton tp - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+150!D!07.MBO!81.UST!Balast Regülatörü - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+160!D!07.MBO!81.UST!Stabilizatör - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+170!D!07.MBO!81.UST!Tamping Makinesi - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+180!D!07.MBO!81.UST!Demiryolu Kamyonu - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+190!D!07.MBO!81.UST!Demiryolu Ekskavatörü - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+200!D!07.MBO!81.UST!Flat Vagon - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+210!D!07.MBO!81.UST!Raylı Kaynak Makinesi - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+220!D!07.MBO!81.UST!Raylı Isıtma Makinesi - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+230!D!07.MBO!81.UST!Kaynak Ekipmanları - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+240!D!07.MBO!81.UST!Detensioning Ekipmanları - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+250!D!07.MBO!81.UST!Aluminotermik Kaynak Ekipmanları - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+260!D!07.MBO!81.UST!Demiryolu Unimog - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+270!D!07.MBO!81.UST!Sleeper Üretim Tesisi - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+280!D!07.MBO!81.UST!Makas Buraj Makinesi - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+510!D!07.MBO!91.DGR!Tünel Kalıbı - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+520!D!07.MBO!91.DGR!Flüt Yapısı Kalıbı - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+530!D!07.MBO!91.DGR!Sığınma Cebi Kalıbı - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+540!D!07.MBO!91.DGR!Invert Alın Kalıbı - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+550!D!07.MBO!91.DGR!Güvenlik Tüneli Kalıp - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+560!D!07.MBO!91.DGR!Güvenlik Tüneli Flüt Kalıp - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+570!D!07.MBO!91.DGR!Güvenlik Tüneli Manevra Cep Kalıp - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+510!D!07.MBO!92.KNS!Direkt Makineler Konsolide - Bakım / Onarım!mak×ay!KNSLD!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MLS!01.DZG!Dozer - Cat D7 / D8!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+510!D!07.MLS!01.DZG!Greyder - CAT 14!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!D!07.MLS!02.EKS!Ekskavatör - 20 / 25 ton!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+130!D!07.MLS!02.EKS!Ekskavatör - 26 / 35 ton!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+140!D!07.MLS!02.EKS!Ekskavatör - 46 / 55 ton!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+170!D!07.MLS!02.EKS!Ekskavatör - 66 / 75 ton!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+510!D!07.MLS!02.EKS!Hidrolik Kırıcı!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MLS!03.LDR!Loder - CAT 950L / 966L - Lastikli!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+510!D!07.MLS!03.LDR!Beko Loder - 4×4 - Eşit Teker!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MLS!04.KMY!Damperli Kamyon - 32 ton!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MLS!05.MKS!Beton Mikseri - 8 / 10 m³!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MLS!11.FTD!DSM - DSM Makinası!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!D!07.MLS!11.FTD!Forekazık Makinesi!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+130!D!07.MLS!11.FTD!Taş Kolon Makinesi!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MLS!12.SLN!Silindir - Toprak!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MLS!13.JRD!Jumbo - Çift Kollu!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+210!D!07.MLS!13.JRD!Rock!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MLS!14.ARZ!Arazözler ( Su Tankerleri ) - 18 / 20 ton!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MLS!21.STS!Beton Santralleri!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+112!D!07.MLS!21.STS!Çimento Siloları!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!D!07.MLS!21.STS!Beton Santralleri!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+122!D!07.MLS!21.STS!Konik Kırıcılar!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+130!D!07.MLS!21.STS!Mekanik Plentler!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MLS!22.BPM!Mobil Beton Pompası - 24 / 26 m.!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!D!07.MLS!22.BPM!Sabit Beton Pompası - Elektrikli!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MLS!24.PMK!Püskürtme Makinesi - 30 m³/sa!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MLS!31.THL!Telehandler - 14 m. Bomlu Sepetli!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MLS!51.EPS!Enjeksiyon Seti - Muto Enjeksiyon 30 bar!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+030!D!07.MLS!52.JNR!Jeneratör - 300 kVA!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+050!D!07.MLS!52.JNR!Jeneratör - 500 kVA!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+165!D!07.MLS!52.JNR!Jeneratör - 1.650 kVA!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MLS!53.JFN!Tünel Jetfan - 110 / 150 kW!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MLS!54.PMP!Pompa - 2" - 6" arası!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MLS!55.TNK!Su Tankı - 50 ton!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MLS!61.FNS!Finişerler!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MLS!81.UST!Mikro Yükleyici!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!D!07.MLS!81.UST!Mini Ekskavatör!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+130!D!07.MLS!81.UST!Balast Vagonu!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+140!D!07.MLS!81.UST!Lokomotif - 1300 hp. 500 ton tp!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+150!D!07.MLS!81.UST!Balast Regülatörü!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+160!D!07.MLS!81.UST!Stabilizatör!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+170!D!07.MLS!81.UST!Tamping Makinesi!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+180!D!07.MLS!81.UST!Demiryolu Kamyonu!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+190!D!07.MLS!81.UST!Demiryolu Ekskavatörü!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+200!D!07.MLS!81.UST!Flat Vagon!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+210!D!07.MLS!81.UST!Raylı Kaynak Makinesi!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+220!D!07.MLS!81.UST!Raylı Isıtma Makinesi!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+230!D!07.MLS!81.UST!Kaynak Ekipmanları!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+240!D!07.MLS!81.UST!Detensioning Ekipmanları!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+250!D!07.MLS!81.UST!Aluminotermik Kaynak Ekipmanları!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+260!D!07.MLS!81.UST!Demiryolu Unimog!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+270!D!07.MLS!81.UST!Sleeper Üretim Tesisi!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+280!D!07.MLS!81.UST!Makas Buraj Makinesi!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+510!D!07.MLS!91.DGR!Tünel Kalıbı!mak×ay!KNSLD!0!1_MK-7110-0010!FALSE!!!!TRUE!İMALAT!YAPILACAK
+520!D!07.MLS!91.DGR!Flüt Yapısı Kalıbı!mak×ay!KNSLD!0!1_MK-7110-0020!FALSE!!!!TRUE!İMALAT!YAPILACAK
+530!D!07.MLS!91.DGR!Sığınma Cebi Kalıbı!mak×ay!KNSLD!0!1_MK-7110-0030!FALSE!!!!TRUE!İMALAT!YAPILACAK
+540!D!07.MLS!91.DGR!Invert Alın Kalıbı!mak×ay!KNSLD!0!1_MK-7110-0040!FALSE!!!!TRUE!İMALAT!YAPILACAK
+550!D!07.MLS!91.DGR!Güvenlik Tüneli Kalıp!mak×ay!KNSLD!0!1_MK-7110-0050!FALSE!!!!TRUE!İMALAT!YAPILACAK
+560!D!07.MLS!91.DGR!Güvenlik Tüneli Flüt Kalıp!mak×ay!KNSLD!0!1_MK-7110-0060!FALSE!!!!TRUE!İMALAT!YAPILACAK
+570!D!07.MLS!91.DGR!Güvenlik Tüneli Manevra Cep Kalıp!mak×ay!KNSLD!0!1_MK-7110-0070!FALSE!!!!TRUE!İMALAT!YAPILACAK
+510!D!07.MLS!92.KNS!Direkt Makineler Konsolide!mak×ay!KNSLD!0!1_MK-9000-9000!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MNK!01.DZG!Dozer - Cat D7 / D8!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+510!D!07.MNK!01.DZG!Greyder - CAT 14!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!D!07.MNK!02.EKS!Ekskavatör - 20 / 25 ton!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+130!D!07.MNK!02.EKS!Ekskavatör - 26 / 35 ton!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+140!D!07.MNK!02.EKS!Ekskavatör - 46 / 55 ton!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+170!D!07.MNK!02.EKS!Ekskavatör - 66 / 75 ton!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+510!D!07.MNK!02.EKS!Hidrolik Kırıcı!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MNK!03.LDR!Loder - CAT 950L / 966L - Lastikli!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+510!D!07.MNK!03.LDR!Beko Loder - 4×4 - Eşit Teker!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MNK!04.KMY!Damperli Kamyon - 32 ton!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MNK!05.MKS!Beton Mikseri - 8 / 10 m³!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MNK!11.FTD!DSM - DSM Makinası!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!D!07.MNK!11.FTD!Forekazık Makinesi!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+130!D!07.MNK!11.FTD!Taş Kolon Makinesi!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MNK!12.SLN!Silindir - Toprak!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MNK!13.JRD!Jumbo - Çift Kollu!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+210!D!07.MNK!13.JRD!Rock!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MNK!14.ARZ!Arazözler ( Su Tankerleri ) - 18 / 20 ton!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MNK!21.STS!Beton Santralleri!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+112!D!07.MNK!21.STS!Çimento Siloları!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!D!07.MNK!21.STS!Beton Santralleri!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+122!D!07.MNK!21.STS!Konik Kırıcılar!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+130!D!07.MNK!21.STS!Mekanik Plentler!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MNK!22.BPM!Mobil Beton Pompası - 24 / 26 m.!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!D!07.MNK!22.BPM!Sabit Beton Pompası - Elektrikli!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MNK!24.PMK!Püskürtme Makinesi - 30 m³/sa!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MNK!31.THL!Telehandler - 14 m. Bomlu Sepetli!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MNK!51.EPS!Enjeksiyon Seti - Muto Enjeksiyon 30 bar!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+030!D!07.MNK!52.JNR!Jeneratör - 300 kVA!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+050!D!07.MNK!52.JNR!Jeneratör - 500 kVA!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+165!D!07.MNK!52.JNR!Jeneratör - 1.650 kVA!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MNK!53.JFN!Tünel Jetfan - 110 / 150 kW!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MNK!54.PMP!Pompa - 2" - 6" arası!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MNK!55.TNK!Su Tankı - 50 ton!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MNK!61.FNS!Finişerler!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!07.MNK!81.UST!Mikro Yükleyici!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!D!07.MNK!81.UST!Mini Ekskavatör!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+130!D!07.MNK!81.UST!Balast Vagonu!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+140!D!07.MNK!81.UST!Lokomotif - 1300 hp. 500 ton tp!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+150!D!07.MNK!81.UST!Balast Regülatörü!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+160!D!07.MNK!81.UST!Stabilizatör!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+170!D!07.MNK!81.UST!Tamping Makinesi!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+180!D!07.MNK!81.UST!Demiryolu Kamyonu!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+190!D!07.MNK!81.UST!Demiryolu Ekskavatörü!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+200!D!07.MNK!81.UST!Flat Vagon!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+210!D!07.MNK!81.UST!Raylı Kaynak Makinesi!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+220!D!07.MNK!81.UST!Raylı Isıtma Makinesi!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+230!D!07.MNK!81.UST!Kaynak Ekipmanları!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+240!D!07.MNK!81.UST!Detensioning Ekipmanları!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+250!D!07.MNK!81.UST!Aluminotermik Kaynak Ekipmanları!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+260!D!07.MNK!81.UST!Demiryolu Unimog!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+270!D!07.MNK!81.UST!Sleeper Üretim Tesisi!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+280!D!07.MNK!81.UST!Makas Buraj Makinesi!mak×ay!KNSLD!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+510!D!07.MNK!91.DGR!Tünel Kalıbı!mak×ay!KNSLD!0!1_MK-7110-0010!FALSE!!!!TRUE!İMALAT!YAPILACAK
+520!D!07.MNK!91.DGR!Flüt Yapısı Kalıbı!mak×ay!KNSLD!0!1_MK-7110-0020!FALSE!!!!TRUE!İMALAT!YAPILACAK
+530!D!07.MNK!91.DGR!Sığınma Cebi Kalıbı!mak×ay!KNSLD!0!1_MK-7110-0030!FALSE!!!!TRUE!İMALAT!YAPILACAK
+540!D!07.MNK!91.DGR!Invert Alın Kalıbı!mak×ay!KNSLD!0!1_MK-7110-0040!FALSE!!!!TRUE!İMALAT!YAPILACAK
+550!D!07.MNK!91.DGR!Güvenlik Tüneli Kalıp!mak×ay!KNSLD!0!1_MK-7110-0050!FALSE!!!!TRUE!İMALAT!YAPILACAK
+560!D!07.MNK!91.DGR!Güvenlik Tüneli Flüt Kalıp!mak×ay!KNSLD!0!1_MK-7110-0060!FALSE!!!!TRUE!İMALAT!YAPILACAK
+570!D!07.MNK!91.DGR!Güvenlik Tüneli Manevra Cep Kalıp!mak×ay!KNSLD!0!1_MK-7110-0070!FALSE!!!!TRUE!İMALAT!YAPILACAK
+510!D!07.MNK!92.KNS!Direkt Makineler Konsolide!mak×ay!KNSLD!0!1_MK-9000-9000!FALSE!!!!TRUE!İMALAT!YAPILACAK
+014!D!08.MLZ!01.ANA!Hazır Beton - C14!m³!EX.04!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+016!D!08.MLZ!01.ANA!Hazır Beton - C16!m³!EX.04!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+020!D!08.MLZ!01.ANA!Hazır Beton - C20!m³!EX.04!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+025!D!08.MLZ!01.ANA!Hazır Beton - C25 / 30!m³!EX.04!1!3_ML-1100-2110!FALSE!!!!TRUE!İMALAT!YAPILACAK
+030!D!08.MLZ!01.ANA!Hazır Beton - C30!m³!EX.04!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+080!D!08.MLZ!01.ANA!Hazır Beton - Püskürtme Betonu!m³!EX.04!1!3_ML-1100-2120!FALSE!!!!TRUE!İMALAT!YAPILACAK
+090!D!08.MLZ!01.ANA!Beton - Katkı - Akışkanlaştırıcı / Priz Hızlandırıcı!kg!EX.04!1!3_ML-1100-1110!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!08.MLZ!01.ANA!Nervürlü Demir!ton!EX.04!1!3_ML-1100-3110!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!D!08.MLZ!01.ANA!Hasır Çelik!ton!EX.04!1!3_ML-1100-3210!FALSE!!!!TRUE!İMALAT!YAPILACAK
+130!D!08.MLZ!01.ANA!Paspayı!götürü!EX.04!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+140!D!08.MLZ!01.ANA!Öngerme Çelik (Köprüler İçin)!ton!EX.04!1!3_ML-1100-3410!FALSE!!!!TRUE!İMALAT!YAPILACAK
+150!D!08.MLZ!01.ANA!Profil Demir!ton!EX.04!1!3_ML-1100-3310!FALSE!!!!TRUE!İMALAT!YAPILACAK
+210!D!08.MLZ!01.ANA!Kum / Agrega!ton!EX.04!1!3_ML-1100-1060!FALSE!!!!TRUE!İMALAT!YAPILACAK
+220!D!08.MLZ!01.ANA!Taş!m³!EX.04!1!3_ML-1100-1070!FALSE!!!!TRUE!İMALAT!YAPILACAK
+310!D!08.MLZ!01.ANA!Dökme Çimento!ton!EX.04!1!3_ML-1100-1010!FALSE!!!!TRUE!İMALAT!YAPILACAK
+320!D!08.MLZ!01.ANA!Torba Çimento!ton!EX.04!1!3_ML-1100-1030!FALSE!!!!TRUE!İMALAT!YAPILACAK
+410!D!08.MLZ!01.ANA!Bitüm!ton!EX.04!1!3_ML-1000-1010!FALSE!!!!TRUE!İMALAT!YAPILACAK
+610!D!08.MLZ!01.ANA!Kalıp Kereste / Plywood!götürü!EX.04!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+620!D!08.MLZ!01.ANA!Profil Çelik (Kutu. L. NPI vs.)!ton!EX.04!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+710!D!08.MLZ!01.ANA!Akaryakıt - Motorin!lt!EX.05!1!3_ML-1000-5010!FALSE!!!!TRUE!İMALAT!YAPILACAK
+720!D!08.MLZ!01.ANA!Akaryakıt - Benzin!lt!EX.05!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+730!D!08.MLZ!01.ANA!Akaryakıt - Adblue!lt!EX.05!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+740!D!08.MLZ!01.ANA!Makine Yağı!lt!EX.05!1!3_ML-1000-0040!FALSE!!!!TRUE!İMALAT!YAPILACAK
+790!D!08.MLZ!01.ANA!Diğer Akaryakıt ve Yağlar!götürü!EX.05!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+810!D!08.MLZ!01.ANA!Elektrik!kwh!EX.05!1!3_ML-1000-0020!FALSE!!!!TRUE!İMALAT!YAPILACAK
+820!D!08.MLZ!01.ANA!LNG!m³!EX.05!1!3_ML-1000-0030!FALSE!!!!TRUE!İMALAT!YAPILACAK
+111!D!08.MLZ!03.PTI!Anfo!adet!EX.04!1!3_ML-3100-1110!FALSE!!!!TRUE!İMALAT!YAPILACAK
+112!D!08.MLZ!03.PTI!Anfo - Sulu!adet!EX.04!1!3_ML-3100-1120!FALSE!!!!TRUE!İMALAT!YAPILACAK
+121!D!08.MLZ!03.PTI!Dinamit!adet!EX.04!1!3_ML-3100-1210!FALSE!!!!TRUE!İMALAT!YAPILACAK
+122!D!08.MLZ!03.PTI!Kapsüle Duyarlı Patlayıcı - 38 ×370!adet!EX.04!1!3_ML-3100-1220!FALSE!!!!TRUE!İMALAT!YAPILACAK
+132!D!08.MLZ!03.PTI!Elektrikli Kapsül - 1.50 mt.!adet!EX.04!1!3_ML-3100-1315!FALSE!!!!TRUE!İMALAT!YAPILACAK
+140!D!08.MLZ!03.PTI!Elektriksiz Kapsül!adet!EX.04!1!3_ML-3100-1400!FALSE!!!!TRUE!İMALAT!YAPILACAK
+141!D!08.MLZ!03.PTI!Elektriksiz Kapsül - 4.00 mt.!adet!EX.04!1!3_ML-3100-1404!FALSE!!!!TRUE!İMALAT!YAPILACAK
+142!D!08.MLZ!03.PTI!Elektriksiz Kapsül - 12.00 mt.!adet!EX.04!1!3_ML-3100-1412!FALSE!!!!TRUE!İMALAT!YAPILACAK
+151!D!08.MLZ!03.PTI!Zil Teli!m!EX.04!1!3_ML-3100-1510!FALSE!!!!TRUE!İMALAT!YAPILACAK
+161!D!08.MLZ!03.PTI!İnfilaklı Fitil - 5 gr. - PETN / mt.!m!EX.04!1!3_ML-3100-1605!FALSE!!!!TRUE!İMALAT!YAPILACAK
+168!D!08.MLZ!03.PTI!İnfilaklı Fitil - 80 gr. PETN / mt.!m!EX.04!1!3_ML-3100-1680!FALSE!!!!TRUE!İMALAT!YAPILACAK
+800!D!08.MLZ!03.PTI!Patlayıcı Madde ve Ateşleme Sistemleri Temini!götürü!EX.04!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+111!D!08.MLZ!04.DST!Plaka ( Bulon - 150 × 150 × 15 )!m!EX.04!1!3_ML-3200-1110!FALSE!!!!TRUE!İMALAT!YAPILACAK
+112!D!08.MLZ!04.DST!Plaka ( Bulon - 200 × 200 × 15 ) - Ibo!m!EX.04!1!3_ML-3200-1120!FALSE!!!!TRUE!İMALAT!YAPILACAK
+113!D!08.MLZ!04.DST!Plaka ( Bulon - 200 × 200 × 20 )!m!EX.04!1!3_ML-3200-1130!FALSE!!!!TRUE!İMALAT!YAPILACAK
+131!D!08.MLZ!04.DST!R32N Bulon ( 6+3 mt )!m!EX.04!1!3_ML-3200-1310!FALSE!!!!TRUE!İMALAT!YAPILACAK
+132!D!08.MLZ!04.DST!R32 Somun ( m² )!m!EX.04!1!3_ML-3200-1320!FALSE!!!!TRUE!İMALAT!YAPILACAK
+133!D!08.MLZ!04.DST!R32 Manşon!m!EX.04!1!3_ML-3200-1330!FALSE!!!!TRUE!İMALAT!YAPILACAK
+134!D!08.MLZ!04.DST!R32 Cros Bit!m!EX.04!1!3_ML-3200-1340!FALSE!!!!TRUE!İMALAT!YAPILACAK
+142!D!08.MLZ!04.DST!2.0" Çelik Boru!m!EX.04!1!3_ML-3200-1420!FALSE!!!!TRUE!İMALAT!YAPILACAK
+151!D!08.MLZ!04.DST!M27 Somun!m!EX.04!1!3_ML-3200-1510!FALSE!!!!TRUE!İMALAT!YAPILACAK
+213!D!08.MLZ!04.DST!Ring Bit - 88.9 mm Robit!m²!EX.04!1!3_ML-3200-2130!FALSE!!!!TRUE!İMALAT!YAPILACAK
+215!D!08.MLZ!04.DST!Pilot Bit ( 88.9R )!adet!EX.04!1!3_ML-3200-2150!FALSE!!!!TRUE!İMALAT!YAPILACAK
+216!D!08.MLZ!04.DST!Pilot Bit - 88.9R - Tij / Rod ( 6.40 + 3.00 m.)!adet!EX.04!1!3_ML-3200-2160!FALSE!!!!TRUE!İMALAT!YAPILACAK
+226!D!08.MLZ!04.DST!Sabitleme Çivisi!adet!EX.04!1!3_ML-3200-2260!FALSE!!!!TRUE!İMALAT!YAPILACAK
+511!D!08.MLZ!04.DST!IBO Bulon!m!EX.04!1!3_ML-3200-5110!FALSE!!!!TRUE!İMALAT!YAPILACAK
+521!D!08.MLZ!04.DST!NPI. plaka. aks vs.!ton!EX.04!1!3_ML-3200-5210!FALSE!!!!TRUE!İMALAT!YAPILACAK
+542!D!08.MLZ!04.DST!1.5" Çelik Boru!m²!EX.04!1!3_ML-3200-5415!FALSE!!!!TRUE!İMALAT!YAPILACAK
+544!D!08.MLZ!04.DST!3.5" Çelik Boru!m!EX.04!1!3_ML-3200-5435!FALSE!!!!TRUE!İMALAT!YAPILACAK
+810!D!08.MLZ!04.DST!IBO Bulon. Bulon Manşon. Somun. Plaka!götürü!EX.04!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!08.MLZ!05.MEK!Endüstriyel Boru - Süren!m!EX.04!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+210!D!08.MLZ!05.MEK!Pis Su Boruları!m!EX.04!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+220!D!08.MLZ!05.MEK!Tesisat Boruları!m!EX.04!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+290!D!08.MLZ!05.MEK!Boru Aksesuarları!götürü!EX.04!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+310!D!08.MLZ!05.MEK!Vanalar!götürü!EX.04!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+990!D!08.MLZ!05.MEK!Diğer İnşaat Mekanik Malzemeleri!götürü!EX.04!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+800!D!08.MLZ!06.ELK!İnşaat Elektrik Malzemeleri - Konsolide!götürü!EX.04!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+800!D!08.MLZ!07.YDK!Yedek Parçalar - Konsolide!götürü!EX.04!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!08.MLZ!08.DGR!Ankraj Demir Plaka!adet!EX.04!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!D!08.MLZ!08.DGR!Su Tutucu Bant!m!EX.04!1!3_ML-1200-1720!FALSE!!!!TRUE!İMALAT!YAPILACAK
+130!D!08.MLZ!08.DGR!Neopren Mesnet!m!EX.04!1!3_ML-1200-4010!FALSE!!!!TRUE!İMALAT!YAPILACAK
+140!D!08.MLZ!08.DGR!Genleşme Derzi!m!EX.04!1!3_ML-1200-4110!FALSE!!!!TRUE!İMALAT!YAPILACAK
+150!D!08.MLZ!08.DGR!Font Izgara!m!EX.04!1!3_ML-1200-4320!FALSE!!!!TRUE!İMALAT!YAPILACAK
+160!D!08.MLZ!08.DGR!Geotekstil Keçe!m!EX.04!1!3_ML-1200-5210!FALSE!!!!TRUE!İMALAT!YAPILACAK
+210!D!08.MLZ!08.DGR!Beton Baca Gövdesi!adet!EX.04!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+220!D!08.MLZ!08.DGR!Prekast Kablo Kanalı ve Kapakları!m!EX.04!1!3_ML-1200-2110!FALSE!!!!TRUE!İMALAT!YAPILACAK
+310!D!08.MLZ!08.DGR!Katran Badana!m²!EX.04!1!3_ML-1100-1710!FALSE!!!!TRUE!İMALAT!YAPILACAK
+410!D!08.MLZ!08.DGR!Membran - Bitümlü!m²!EX.04!1!3_ML-1200-1110!FALSE!!!!TRUE!İMALAT!YAPILACAK
+420!D!08.MLZ!08.DGR!Membran - PVC - 2 mm.!m!EX.04!1!3_ML-1200-1120!FALSE!!!!TRUE!İMALAT!YAPILACAK
+510!D!08.MLZ!08.DGR!HDPE Boru - Ø 400!götürü!EX.04!1!3_ML-2200-1040!FALSE!!!!TRUE!İMALAT!YAPILACAK
+520!D!08.MLZ!08.DGR!PVC Barbakan Boru Ø 50!götürü!EX.04!1!3_ML-2200-1280!FALSE!!!!TRUE!İMALAT!YAPILACAK
+530!D!08.MLZ!08.DGR!Drenaj Borusu Ø 200!götürü!EX.04!1!3_ML-2200-1320!FALSE!!!!TRUE!İMALAT!YAPILACAK
+540!D!08.MLZ!08.DGR!Enjeksiyon/Hava Alma Amaçlı Boru 12 mm.!götürü!EX.04!1!3_ML-2200-1410!FALSE!!!!TRUE!İMALAT!YAPILACAK
+550!D!08.MLZ!08.DGR!Fanduct - 6500 mt.!götürü!EX.04!1!3_ML-2200-2110!FALSE!!!!TRUE!İMALAT!YAPILACAK
+570!D!08.MLZ!08.DGR!PVC Boru - Ø 50 - Perfore!götürü!EX.04!1!3_ML-2200-5205!FALSE!!!!TRUE!İMALAT!YAPILACAK
+610!D!08.MLZ!08.DGR!Elektrik Pano!götürü!EX.04!1!3_ML-2200-2510!FALSE!!!!TRUE!İMALAT!YAPILACAK
+990!D!08.MLZ!08.DGR!Tüm Diğer Malzemeler!götürü!EX.04!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+800!D!08.MLZ!09.TMK!Taşeron Malzeme Kesintileri (Tutar olarak)!götürü!EX.04!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!D!09.TSR!10.MHZ!Bulonlarda Diş Açımı İşleri - 28 mm!m!EX.02!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!D!09.TSR!10.MHZ!Bulonlarda Diş Açımı İşleri - 32 mm!m!EX.02!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+880!D!09.TSR!80.MHZ!Genel Taşeronlar - Konsolide!götürü!EX.02!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+001!E!01.PRS!01.MAA!Üst Yönetim Grubu Maaş Giderleri!adm×ay!EX.01!0!!FALSE!Ortalama - Toplam Tutar / Toplam Miktar!!!FALSE!İMALAT!YAPILACAK
+002!E!01.PRS!01.MAA!Teknik Ofis Grubu Maaş Giderleri!adm×ay!EX.01!0!!FALSE!Ortalama - Toplam Tutar / Toplam Miktar!!!FALSE!İMALAT!YAPILACAK
+003!E!01.PRS!01.MAA!Tasarım Grubu Maaş Giderleri!adm×ay!EX.01!0!!FALSE!Ortalama - Toplam Tutar / Toplam Miktar!!!FALSE!İMALAT!YAPILACAK
+004!E!01.PRS!01.MAA!Etüd Proje ve Kamulaştırma Grubu Maaş Gd.!adm×ay!EX.01!0!!FALSE!Ortalama - Toplam Tutar / Toplam Miktar!!!FALSE!İMALAT!YAPILACAK
+005!E!01.PRS!01.MAA!Çevre ve Sosyal Uyum Grubu Maaş Giderleri!adm×ay!EX.01!0!!FALSE!Ortalama - Toplam Tutar / Toplam Miktar!!!FALSE!İMALAT!YAPILACAK
+006!E!01.PRS!01.MAA!Finans ve Muhasebe Grubu Maaş Giderleri!adm×ay!EX.01!0!!FALSE!Ortalama - Toplam Tutar / Toplam Miktar!!!FALSE!İMALAT!YAPILACAK
+007!E!01.PRS!01.MAA!Satınalma Grubu Maaş Giderleri!adm×ay!EX.01!0!!FALSE!Ortalama - Toplam Tutar / Toplam Miktar!!!FALSE!İMALAT!YAPILACAK
+008!E!01.PRS!01.MAA!İnsan Kaynakları ve EYS Maaş Giderleri!adm×ay!EX.01!0!!FALSE!Ortalama - Toplam Tutar / Toplam Miktar!!!FALSE!İMALAT!YAPILACAK
+009!E!01.PRS!01.MAA!Destek / Hizmet Grubu Maaş Giderleri!adm×ay!EX.01!0!!FALSE!Ortalama - Toplam Tutar / Toplam Miktar!!!FALSE!İMALAT!YAPILACAK
+010!E!01.PRS!01.MAA!Toprak İşleri Grubu Maaş Giderleri!adm×ay!EX.01!0!!FALSE!Ortalama - Toplam Tutar / Toplam Miktar!!!FALSE!İMALAT!YAPILACAK
+011!E!01.PRS!01.MAA!Sanat Yapıları Grubu Maaş Giderleri!adm×ay!EX.01!0!!FALSE!Ortalama - Toplam Tutar / Toplam Miktar!!!FALSE!İMALAT!YAPILACAK
+012!E!01.PRS!01.MAA!Tünel İmalatları Grubu Maaş Giderleri!adm×ay!EX.01!0!!FALSE!Ortalama - Toplam Tutar / Toplam Miktar!!!FALSE!İMALAT!YAPILACAK
+013!E!01.PRS!01.MAA!Üstyapı ve Diğer İmalatlar Gr. Maaş Gd.!adm×ay!EX.01!0!!FALSE!Ortalama - Toplam Tutar / Toplam Miktar!!!FALSE!İMALAT!YAPILACAK
+014!E!01.PRS!01.MAA!Genel Saha İşleri Grubu Maaş Giderleri!adm×ay!EX.01!0!!FALSE!Ortalama - Toplam Tutar / Toplam Miktar!!!FALSE!İMALAT!YAPILACAK
+015!E!01.PRS!01.MAA!Makine Grubu Maaş Giderleri!adm×ay!EX.01!0!!FALSE!Ortalama - Toplam Tutar / Toplam Miktar!!!FALSE!İMALAT!YAPILACAK
+016!E!01.PRS!01.MAA!Kalite Kontrol Grubu Maaş Giderleri!adm×ay!EX.01!0!!FALSE!Ortalama - Toplam Tutar / Toplam Miktar!!!FALSE!İMALAT!YAPILACAK
+017!E!01.PRS!01.MAA!ISG Grubu Maaş Giderleri!adm×ay!EX.01!0!!FALSE!Ortalama - Toplam Tutar / Toplam Miktar!!!FALSE!İMALAT!YAPILACAK
+021!E!01.PRS!01.MAA!İdare Grubu Maaş Giderleri!adm×ay!EX.01!0!!FALSE!Ortalama - Toplam Tutar / Toplam Miktar!!!FALSE!İMALAT!YAPILACAK
+800!E!01.PRS!01.MAA!Maaş Giderleri Genel (SAP Gerçekleşme Girişi)!götürü!EX.01!0!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+990!E!01.PRS!90.DGR!Endirekt Personel Diğer Giderler!götürü!EX.03!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+010!E!02.MAK!01.AMR!AMR - Kantar!mak×ay!EX.31!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+020!E!02.MAK!01.AMR!AMR - Akaryakıt İstasyonu!mak×ay!EX.31!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+030!E!02.MAK!01.AMR!AMR - Tır - Çekici!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+041!E!02.MAK!01.AMR!AMR - Lowbed - 120 ton - Ön yüklemeli - Vinçli!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+042!E!02.MAK!01.AMR!AMR - Lowbed - 120 ton - Ön yüklemeli!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+043!E!02.MAK!01.AMR!AMR - Lowbed - 60 ton - Sal tipi arka yüklemeli!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+044!E!02.MAK!01.AMR!AMR - Sal Dorse - Kapaklı - L: 13.60 m.!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+050!E!02.MAK!01.AMR!AMR - Ekskavatör - Lastikli - 20 ton!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+061!E!02.MAK!01.AMR!AMR - Mobil Vinç - Rough Terrain - 30 ton!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+062!E!02.MAK!01.AMR!AMR - Mobil Vinç - Rough Terrain - 50 ton!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+063!E!02.MAK!01.AMR!AMR - Mobil Vinç - Rough Terrain - 70 ton / 90 ton!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+064!E!02.MAK!01.AMR!AMR - Mobil Vinç - All Terrain - 100 ton!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+065!E!02.MAK!01.AMR!AMR - Mobil Vinç - All Terrain - 130 ton!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+066!E!02.MAK!01.AMR!AMR - Mobil Vinç - All Terrain - 160 ton!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+067!E!02.MAK!01.AMR!AMR - Vinçli Kamyon (Hi-up)!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+080!E!02.MAK!01.AMR!AMR - Forklift - 5  ton!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+081!E!02.MAK!01.AMR!AMR - Forklift - 10 ton!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+090!E!02.MAK!01.AMR!AMR - Mazot Tankeri - 20 ton!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+095!E!02.MAK!01.AMR!AMR - Su Tankeri - 20 ton!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+100!E!02.MAK!01.AMR!AMR - Vidanjör!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+105!E!02.MAK!01.AMR!AMR - Çöp Kamyonu!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+106!E!02.MAK!01.AMR!AMR - Tehlikeli Madde Taşıma Kamyonu!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+110!E!02.MAK!01.AMR!AMR - Bakım Aracı!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+111!E!02.MAK!01.AMR!AMR - Lastik Aracı!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+121!E!02.MAK!01.AMR!AMR - Jeneratör - 300 kVA!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+122!E!02.MAK!01.AMR!AMR - Jeneratör - 500 kVA!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+123!E!02.MAK!01.AMR!AMR - Jeneratör - 1650 kVA!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+140!E!02.MAK!01.AMR!AMR - Kamyonüstü Jeneratör - 650 kVA!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+150!E!02.MAK!01.AMR!AMR - Kompresör - Elektrikli - 20 m³/dak. 13 bar!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+160!E!02.MAK!01.AMR!AMR - Hidrofor!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+170!E!02.MAK!01.AMR!AMR - Yakıt Tankı - 50 ton!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+180!E!02.MAK!01.AMR!AMR - Hava Tankı - 10 m³!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+190!E!02.MAK!01.AMR!AMR - Su Tankı - 25 ton!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+200!E!02.MAK!01.AMR!AMR - Işık Kulesi - Jeneratörlü!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+210!E!02.MAK!01.AMR!AMR - Atölye Ekipmanları!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+215!E!02.MAK!01.AMR!AMR - Profil Bükme Makinesi!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+220!E!02.MAK!01.AMR!AMR - Topoğrafik Ölçüm Aletleri!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+510!E!02.MAK!01.AMR!AMR - Arazi Aracı - Duster - 4×4!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+511!E!02.MAK!01.AMR!AMR - Arazi Aracı - Duster - 4×4 - Satınalma!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+512!E!02.MAK!01.AMR!AMR - Arazi Aracı - Nissan - 4×4 - Satınalma!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+520!E!02.MAK!01.AMR!AMR - Arazi Aracı - Duster - 4×4 - İdare!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+530!E!02.MAK!01.AMR!AMR - Minibüs!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+531!E!02.MAK!01.AMR!AMR - Binek Araç - Doblo!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+532!E!02.MAK!01.AMR!AMR - Binek Araç - Egea!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+540!E!02.MAK!01.AMR!AMR - Pikap - 4×4!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+551!E!02.MAK!01.AMR!AMR - Premium Binek Araç - 3lt. üzeri - İdare!mak×ay!EX.12!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+552!E!02.MAK!01.AMR!AMR - Premium Binek Araç - Superb!mak×ay!EX.30!1!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+810!E!02.MAK!01.AMR!AMR - Tesis. Makine ve Cihazlar!götürü!EX.30!1!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+010!E!02.MAK!01.MLS!MLS - Kantar!mak×ay!EX.31!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+020!E!02.MAK!01.MLS!MLS - Akaryakıt İstasyonu!mak×ay!EX.31!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+030!E!02.MAK!01.MLS!MLS - Tır - Çekici!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+041!E!02.MAK!01.MLS!MLS - Lowbed - 120 ton - Ön yüklemeli - Vinçli!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+042!E!02.MAK!01.MLS!MLS - Lowbed - 120 ton - Ön yüklemeli!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+043!E!02.MAK!01.MLS!MLS - Lowbed - 60 ton - Sal tipi arka yüklemeli!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+044!E!02.MAK!01.MLS!MLS - Sal Dorse - Kapaklı - L: 13.60 m.!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+050!E!02.MAK!01.MLS!MLS - Ekskavatör - Lastikli - 20 ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+061!E!02.MAK!01.MLS!MLS - Mobil Vinç - Rough Terrain - 30 ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+062!E!02.MAK!01.MLS!MLS - Mobil Vinç - Rough Terrain - 50 ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+063!E!02.MAK!01.MLS!MLS - Mobil Vinç - Rough Terrain - 70 ton / 90 ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+064!E!02.MAK!01.MLS!MLS - Mobil Vinç - All Terrain - 100 ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+065!E!02.MAK!01.MLS!MLS - Mobil Vinç - All Terrain - 130 ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+066!E!02.MAK!01.MLS!MLS - Mobil Vinç - All Terrain - 160 ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+067!E!02.MAK!01.MLS!MLS - Vinçli Kamyon (Hi-up)!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+080!E!02.MAK!01.MLS!MLS - Forklift - 5  ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+081!E!02.MAK!01.MLS!MLS - Forklift - 10 ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+090!E!02.MAK!01.MLS!MLS - Mazot Tankeri - 20 ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+095!E!02.MAK!01.MLS!MLS - Su Tankeri - 20 ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+100!E!02.MAK!01.MLS!MLS - Vidanjör!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+105!E!02.MAK!01.MLS!MLS - Çöp Kamyonu!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+106!E!02.MAK!01.MLS!MLS - Tehlikeli Madde Taşıma Kamyonu!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+110!E!02.MAK!01.MLS!MLS - Bakım Aracı!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+111!E!02.MAK!01.MLS!MLS - Lastik Aracı!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+121!E!02.MAK!01.MLS!MLS - Jeneratör - 300 kVA!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+122!E!02.MAK!01.MLS!MLS - Jeneratör - 500 kVA!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+123!E!02.MAK!01.MLS!MLS - Jeneratör - 1650 kVA!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+140!E!02.MAK!01.MLS!MLS - Kamyonüstü Jeneratör - 650 kVA!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+150!E!02.MAK!01.MLS!MLS - Kompresör - Elektrikli - 20 m³/dak. 13 bar!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+160!E!02.MAK!01.MLS!MLS - Hidrofor!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+170!E!02.MAK!01.MLS!MLS - Yakıt Tankı - 50 ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+180!E!02.MAK!01.MLS!MLS - Hava Tankı - 10 m³!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+190!E!02.MAK!01.MLS!MLS - Su Tankı - 25 ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+200!E!02.MAK!01.MLS!MLS - Işık Kulesi - Jeneratörlü!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+210!E!02.MAK!01.MLS!MLS - Atölye Ekipmanları!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+215!E!02.MAK!01.MLS!MLS - Profil Bükme Makinesi!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+220!E!02.MAK!01.MLS!MLS - Topoğrafik Ölçüm Aletleri!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+510!E!02.MAK!01.MLS!MLS - Arazi Aracı - Duster - 4×4!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+511!E!02.MAK!01.MLS!MLS - Arazi Aracı - Duster - 4×4 - Satınalma!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+512!E!02.MAK!01.MLS!MLS - Arazi Aracı - Nissan - 4×4 - Satınalma!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+520!E!02.MAK!01.MLS!MLS - Arazi Aracı - Duster - 4×4 - İdare!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+530!E!02.MAK!01.MLS!MLS - Minibüs!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+531!E!02.MAK!01.MLS!MLS - Binek Araç - Doblo!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+532!E!02.MAK!01.MLS!MLS - Binek Araç - Egea!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+540!E!02.MAK!01.MLS!MLS - Pikap - 4×4!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+551!E!02.MAK!01.MLS!MLS - Premium Binek Araç - 3lt. üzeri - İdare!mak×ay!EX.12!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+552!E!02.MAK!01.MLS!MLS - Premium Binek Araç - Superb!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+810!E!02.MAK!01.MLS!MLS - Tesis. Makine ve Cihazlar!götürü!EX.30!0!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+010!E!02.MAK!01.MNK!MNK - Kantar!mak×ay!EX.31!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+020!E!02.MAK!01.MNK!MNK - Akaryakıt İstasyonu!mak×ay!EX.31!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+030!E!02.MAK!01.MNK!MNK - Tır - Çekici!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+041!E!02.MAK!01.MNK!MNK - Lowbed - 120 ton - Ön yüklemeli - Vinçli!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+042!E!02.MAK!01.MNK!MNK - Lowbed - 120 ton - Ön yüklemeli!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+043!E!02.MAK!01.MNK!MNK - Lowbed - 60 ton - Sal tipi arka yüklemeli!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+044!E!02.MAK!01.MNK!MNK - Sal Dorse - Kapaklı - L: 13.60 m.!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+050!E!02.MAK!01.MNK!MNK - Ekskavatör - Lastikli - 20 ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+061!E!02.MAK!01.MNK!MNK - Mobil Vinç - Rough Terrain - 30 ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+062!E!02.MAK!01.MNK!MNK - Mobil Vinç - Rough Terrain - 50 ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+063!E!02.MAK!01.MNK!MNK - Mobil Vinç - Rough Terrain - 70 ton / 90 ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+064!E!02.MAK!01.MNK!MNK - Mobil Vinç - All Terrain - 100 ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+065!E!02.MAK!01.MNK!MNK - Mobil Vinç - All Terrain - 130 ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+066!E!02.MAK!01.MNK!MNK - Mobil Vinç - All Terrain - 160 ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+067!E!02.MAK!01.MNK!MNK - Vinçli Kamyon (Hi-up)!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+080!E!02.MAK!01.MNK!MNK - Forklift - 5  ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+081!E!02.MAK!01.MNK!MNK - Forklift - 10 ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+090!E!02.MAK!01.MNK!MNK - Mazot Tankeri - 20 ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+095!E!02.MAK!01.MNK!MNK - Su Tankeri - 20 ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+100!E!02.MAK!01.MNK!MNK - Vidanjör!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+105!E!02.MAK!01.MNK!MNK - Çöp Kamyonu!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+106!E!02.MAK!01.MNK!MNK - Tehlikeli Madde Taşıma Kamyonu!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+110!E!02.MAK!01.MNK!MNK - Bakım Aracı!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+111!E!02.MAK!01.MNK!MNK - Lastik Aracı!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+121!E!02.MAK!01.MNK!MNK - Jeneratör - 300 kVA!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+122!E!02.MAK!01.MNK!MNK - Jeneratör - 500 kVA!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+123!E!02.MAK!01.MNK!MNK - Jeneratör - 1650 kVA!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+140!E!02.MAK!01.MNK!MNK - Kamyonüstü Jeneratör - 650 kVA!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+150!E!02.MAK!01.MNK!MNK - Kompresör - Elektrikli - 20 m³/dak. 13 bar!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+160!E!02.MAK!01.MNK!MNK - Hidrofor!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+170!E!02.MAK!01.MNK!MNK - Yakıt Tankı - 50 ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+180!E!02.MAK!01.MNK!MNK - Hava Tankı - 10 m³!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+190!E!02.MAK!01.MNK!MNK - Su Tankı - 25 ton!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+200!E!02.MAK!01.MNK!MNK - Işık Kulesi - Jeneratörlü!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+210!E!02.MAK!01.MNK!MNK - Atölye Ekipmanları!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+215!E!02.MAK!01.MNK!MNK - Profil Bükme Makinesi!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+220!E!02.MAK!01.MNK!MNK - Topoğrafik Ölçüm Aletleri!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+510!E!02.MAK!01.MNK!MNK - Arazi Aracı - Duster - 4×4!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+511!E!02.MAK!01.MNK!MNK - Arazi Aracı - Duster - 4×4 - Satınalma!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+512!E!02.MAK!01.MNK!MNK - Arazi Aracı - Nissan - 4×4 - Satınalma!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+520!E!02.MAK!01.MNK!MNK - Arazi Aracı - Duster - 4×4 - İdare!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+530!E!02.MAK!01.MNK!MNK - Minibüs!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+531!E!02.MAK!01.MNK!MNK - Binek Araç - Doblo!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+532!E!02.MAK!01.MNK!MNK - Binek Araç - Egea!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+540!E!02.MAK!01.MNK!MNK - Pikap - 4×4!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+551!E!02.MAK!01.MNK!MNK - Premium Binek Araç - 3lt. üzeri - İdare!mak×ay!EX.12!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+552!E!02.MAK!01.MNK!MNK - Premium Binek Araç - Superb!mak×ay!EX.30!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+810!E!02.MAK!01.MNK!MNK - Tesis. Makine ve Cihazlar!götürü!EX.30!0!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+060!E!02.MAK!02.KRA!Kira - Mobil Vinç - 35 ton!mak×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+100!E!02.MAK!02.KRA!Kira - Vidanjör - 18 ton!adm×ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+710!E!02.MAK!02.KRA!Kira - Personel Servisi!ay!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+750!E!02.MAK!02.KRA!Kira - Binek Oto!götürü!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+800!E!02.MAK!02.KRA!Kiralık Makine - Konsolide!götürü!EX.08!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+030!E!02.MAK!03.YKT!YKT - Tır - Çekici!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+050!E!02.MAK!03.YKT!YKT - Ekskavatör - Lastikli - 20 ton!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+061!E!02.MAK!03.YKT!YKT - Mobil Vinç - Rough Terrain - 30 ton!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+062!E!02.MAK!03.YKT!YKT - Mobil Vinç - Rough Terrain - 50 ton!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+063!E!02.MAK!03.YKT!YKT - Mobil Vinç - Rough Terrain - 70 ton / 90 ton!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+064!E!02.MAK!03.YKT!YKT - Mobil Vinç - All Terrain - 100 ton!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+065!E!02.MAK!03.YKT!YKT - Mobil Vinç - All Terrain - 130 ton!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+066!E!02.MAK!03.YKT!YKT - Mobil Vinç - All Terrain - 160 ton!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+067!E!02.MAK!03.YKT!YKT - Vinçli Kamyon (Hi-up)!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+080!E!02.MAK!03.YKT!YKT - Forklift - 5  ton!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+081!E!02.MAK!03.YKT!YKT - Forklift - 10 ton!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+090!E!02.MAK!03.YKT!YKT - Mazot Tankeri - 20 ton!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+095!E!02.MAK!03.YKT!YKT - Su Tankeri - 20 ton!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+100!E!02.MAK!03.YKT!YKT - Vidanjör!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+105!E!02.MAK!03.YKT!YKT - Çöp Kamyonu!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+110!E!02.MAK!03.YKT!YKT - Bakım Aracı!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+111!E!02.MAK!03.YKT!YKT - Lastik Aracı!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+121!E!02.MAK!03.YKT!YKT - Jeneratör - 300 kVA!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+122!E!02.MAK!03.YKT!YKT - Jeneratör - 500 kVA!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+123!E!02.MAK!03.YKT!YKT - Jeneratör - 1650 kVA!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+140!E!02.MAK!03.YKT!YKT - Kamyonüstü Jeneratör - 650 kVA!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+150!E!02.MAK!03.YKT!YKT - Kompresör - Elektrikli - 20 m³/dak. 13 bar!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+200!E!02.MAK!03.YKT!YKT - Işık Kulesi - Jeneratörlü!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+510!E!02.MAK!03.YKT!YKT - Arazi Aracı - Duster - 4×4!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+511!E!02.MAK!03.YKT!YKT - Arazi Aracı - Duster - 4×4 - Satınalma!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+512!E!02.MAK!03.YKT!YKT - Arazi Aracı - Nissan - 4×4 - Satınalma!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+520!E!02.MAK!03.YKT!YKT - Arazi Aracı - Duster - 4×4 - İdare!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+530!E!02.MAK!03.YKT!YKT - Minibüs!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+531!E!02.MAK!03.YKT!YKT - Binek Araç - Doblo!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+532!E!02.MAK!03.YKT!YKT - Binek Araç - Egea!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+540!E!02.MAK!03.YKT!YKT - Pikap - 4×4!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+551!E!02.MAK!03.YKT!YKT - Premium Binek Araç - 3lt. üzeri - İdare!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+552!E!02.MAK!03.YKT!YKT - Premium Binek Araç - Superb!mak×ay!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+800!E!02.MAK!03.YKT!YKT - Binek Oto Yakıt Giderleri - Konsolide!götürü!EX.05!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+030!E!02.MAK!04.BKM!BKM - Tır - Çekici!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+050!E!02.MAK!04.BKM!BKM - Ekskavatör - Lastikli - 20 ton!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+061!E!02.MAK!04.BKM!BKM - Mobil Vinç - Rough Terrain - 30 ton!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+062!E!02.MAK!04.BKM!BKM - Mobil Vinç - Rough Terrain - 50 ton!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+063!E!02.MAK!04.BKM!BKM - Mobil Vinç - Rough Terrain - 70 ton / 90 ton!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+064!E!02.MAK!04.BKM!BKM - Mobil Vinç - All Terrain - 100 ton!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+065!E!02.MAK!04.BKM!BKM - Mobil Vinç - All Terrain - 130 ton!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+066!E!02.MAK!04.BKM!BKM - Mobil Vinç - All Terrain - 160 ton!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+067!E!02.MAK!04.BKM!BKM - Vinçli Kamyon (Hi-up)!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+080!E!02.MAK!04.BKM!BKM - Forklift - 5  ton!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+081!E!02.MAK!04.BKM!BKM - Forklift - 10 ton!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+090!E!02.MAK!04.BKM!BKM - Mazot Tankeri - 20 ton!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+105!E!02.MAK!04.BKM!BKM - Çöp Kamyonu!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+110!E!02.MAK!04.BKM!BKM - Bakım Aracı!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+111!E!02.MAK!04.BKM!BKM - Lastik Aracı!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+121!E!02.MAK!04.BKM!BKM - Jeneratör - 300 kVA!mak×ay!EX.14!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+122!E!02.MAK!04.BKM!BKM - Jeneratör - 500 kVA!mak×ay!EX.14!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+123!E!02.MAK!04.BKM!BKM - Jeneratör - 1650 kVA!mak×ay!EX.14!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+140!E!02.MAK!04.BKM!BKM - Kamyonüstü Jeneratör - 650 kVA!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+150!E!02.MAK!04.BKM!BKM - Kompresör - Elektrikli - 20 m³/dak. 13 bar!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+510!E!02.MAK!04.BKM!BKM - Arazi Aracı - Duster - 4×4!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+511!E!02.MAK!04.BKM!BKM - Arazi Aracı - Duster - 4×4 - Satınalma!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+512!E!02.MAK!04.BKM!BKM - Arazi Aracı - Nissan - 4×4 - Satınalma!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+520!E!02.MAK!04.BKM!BKM - Arazi Aracı - Duster - 4×4 - İdare!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+530!E!02.MAK!04.BKM!BKM - Minibüs!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+531!E!02.MAK!04.BKM!BKM - Binek Araç - Doblo!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+532!E!02.MAK!04.BKM!BKM - Binek Araç - Egea!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+540!E!02.MAK!04.BKM!BKM - Pikap - 4×4!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+551!E!02.MAK!04.BKM!BKM - Premium Binek Araç - 3lt. üzeri - İdare!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+552!E!02.MAK!04.BKM!BKM - Premium Binek Araç - Superb!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+810!E!02.MAK!04.BKM!BKM - İş Makineleri Bakım - Onarım Giderleri - Konsolide!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+820!E!02.MAK!04.BKM!BKM - Binek Oto Bakım - Onarım Giderleri - Konsolide!mak×ay!EX.07!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+030!E!02.MAK!05.OPS!OPS - Tır - Çekici!adm×ay!EX.03!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+050!E!02.MAK!05.OPS!OPS - Ekskavatör - Lastikli - 20 ton!adm×ay!EX.03!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+061!E!02.MAK!05.OPS!OPS - Mobil Vinç - Rough Terrain - 30 ton!adm×ay!EX.03!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+062!E!02.MAK!05.OPS!OPS - Mobil Vinç - Rough Terrain - 50 ton!adm×ay!EX.03!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+063!E!02.MAK!05.OPS!OPS - Mobil Vinç - Rough Terrain - 70 ton / 90 ton!adm×ay!EX.03!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+067!E!02.MAK!05.OPS!OPS - Vinçli Kamyon (Hi-up)!adm×ay!EX.03!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+080!E!02.MAK!05.OPS!OPS - Forklift - 5  ton!adm×ay!EX.03!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+081!E!02.MAK!05.OPS!OPS - Forklift - 10 ton!adm×ay!EX.03!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+090!E!02.MAK!05.OPS!OPS - Mazot Tankeri - 20 ton!adm×ay!EX.03!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+095!E!02.MAK!05.OPS!OPS - Arazöz - 20 ton!adm×ay!EX.03!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+105!E!02.MAK!05.OPS!OPS - Çöp Kamyonu!adm×ay!EX.03!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+110!E!02.MAK!05.OPS!OPS - Bakım Aracı!adm×ay!EX.03!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+111!E!02.MAK!05.OPS!OPS - Lastik Aracı!adm×ay!EX.03!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+140!E!02.MAK!05.OPS!OPS - Kamyonüstü Jeneratör - 650 kVA!adm×ay!EX.03!0!!FALSE!Direkt - Pivot - P_End_Mak!!!FALSE!İMALAT!YAPILACAK
+111!E!03.TSR!80.GNL!Genel Tasarım İşleri!götürü!EX.09!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!E!04.DNS!01.SEC!Çevre Danışmanlık ve ÇSED İşleri ( Rapor ve Monitoring Harici )!ay!EX.19!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!E!04.DNS!01.SEC!ÇSED Raporu!götürü!EX.19!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+125!E!04.DNS!01.SEC!ÇSED Monitoring Hizmeti!ay!EX.19!1!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+130!E!04.DNS!01.SEC!ÇSED Commitment Fee!götürü!EX.19!1!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+210!E!04.DNS!01.SEC!ÇSED Kapsamındaki YYEP Ve GKİP Hazırlanması!götürü!EX.19!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+220!E!04.DNS!01.SEC!ÇSED - Kültürel Miras Çalışmaları İşleri Danışmanlık İşleri!götürü!EX.19!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+230!E!04.DNS!01.SEC!Saha Ölçüm Ve Çevresel İzlemelerin Yapılması!götürü!EX.19!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+240!E!04.DNS!01.SEC!ÇSED - Sosyal Çalışmalar - 01!götürü!EX.19!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+250!E!04.DNS!01.SEC!ÇSED - Sosyal Çalışmalar - 02!götürü!EX.19!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+260!E!04.DNS!01.SEC!ÇSED Kapsamındaki Yeraltı Suyu Sürdürülebilirlik  Raporu!götürü!EX.19!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+270!E!04.DNS!01.SEC!ÇSED Kapsamında Kuş Gözlemi Yapılması İşi!götürü!EX.19!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!E!04.DNS!02.PRJ!Proje Yapımı ( & Jeodezik Ölçümler )!götürü!EX.09!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!E!04.DNS!03.TKN!Teknik Müşavirlik!götürü!EX.19!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!E!04.DNS!04.ZMN!Sondajlar!götürü!EX.19!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!E!04.DNS!04.ZMN!Zemin Etüdü!götürü!EX.19!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+130!E!04.DNS!04.ZMN!Araştırma İşleri ( Derin Kuyu )!götürü!EX.19!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!E!04.DNS!90.DGR!MUFG Danışmanlık!ay!EX.19!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+210!E!04.DNS!90.DGR!Hukuk Müşavirliği / Danışmanlığı!ay!EX.19!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+220!E!04.DNS!90.DGR!Tercüme!götürü!EX.19!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+310!E!04.DNS!90.DGR!İzin ve Ruhsatların Takibi!ay!EX.19!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+410!E!04.DNS!90.DGR!Kamulaştırma İşleri!götürü!EX.19!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+510!E!04.DNS!90.DGR!Tehlikeli Madde / Patlatma Hizmet / Danışmanlık!götürü!EX.19!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+610!E!04.DNS!90.DGR!Etüd Araştırma ve Kalite Kontrol Hizmeti!götürü!EX.19!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+650!E!04.DNS!90.DGR!Nakliye Organizasyon / Gümrük İşleri!götürü!EX.19!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+710!E!04.DNS!90.DGR!Finansal Danışmanlık / Mali Müşavirlik!götürü!EX.19!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+800!E!04.DNS!90.DGR!Diğer Tüm Hizmet / Danışmanlık!götürü!EX.19!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!E!05.GNL!01.YMK!Yemek ve İçme Suyu Giderleri - Mavi Yaka ( Yemekhane )!ay!EX.03!11!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+120!E!05.GNL!01.YMK!Yemek ve İçme Suyu Giderleri - Beyaz Yaka ( Yemek Kartı )!ay!EX.03!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+210!E!05.GNL!01.YMK!Mutfak LPG Giderleri!ay!EX.03!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+310!E!05.GNL!01.YMK!Çay Ocağı Masrafları!götürü!EX.03!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+510!E!05.GNL!01.YMK!İDARE - Yemek Giderleri!ay!EX.12!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+800!E!05.GNL!01.YMK!Yemek / Mutfak Giderleri - Konsolide!götürü!EX.03!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+110!E!05.GNL!02.TMZ!Temizlik Giderleri!ay!EX.50!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+110!E!05.GNL!03.ISG!ISG Teşvik Programı!ay!EX.26!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+210!E!05.GNL!03.ISG!OSGB Hizmeti (& Personelleri)!ay!EX.26!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+215!E!05.GNL!03.ISG!İlaç Giderleri!ay!EX.26!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+310!E!05.GNL!03.ISG!İç ve Dış Denetim ve Ziyaretler!ay!EX.26!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+410!E!05.GNL!03.ISG!Hayat Hattı Malzemeleri!götürü!EX.26!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+420!E!05.GNL!03.ISG!Korkuluk Malzemeleri!götürü!EX.26!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+430!E!05.GNL!03.ISG!Yer Kaplama Malzemeleri!götürü!EX.26!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+440!E!05.GNL!03.ISG!İşaretlendirme / Sınırlandırma Ekipmanları!götürü!EX.26!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+450!E!05.GNL!03.ISG!Yangın Güvenliği Ekipmanları!götürü!EX.26!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+460!E!05.GNL!03.ISG!Trafik Güvenliği Ekipmanları!götürü!EX.26!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+480!E!05.GNL!03.ISG!Sağlık Malzemeleri!götürü!EX.26!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+490!E!05.GNL!03.ISG!ISG Destek Ekip Ekipman ve Sarf Malzemeleri!götürü!EX.26!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+510!E!05.GNL!03.ISG!Kişisel Koruyucu Ekipmanlar - Beyaz Yaka!adet!EX.26!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+520!E!05.GNL!03.ISG!Kişisel Koruyucu Ekipmanlar - Mavi Yaka!adet!EX.26!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+530!E!05.GNL!03.ISG!Kişisel Koruyucu Ekipmanlar - Misafir!adet!EX.26!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+540!E!05.GNL!03.ISG!Kişisel Koruyucu Ekipmanlar - İşe Özel!adet!EX.26!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+610!E!05.GNL!03.ISG!Eğitim Faaliyetleri Ekipmanları!götürü!EX.13!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+620!E!05.GNL!03.ISG!Eğitim Faaliyetleri!ay!EX.13!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+800!E!05.GNL!03.ISG!ISG Malzemeleri - Konsolide!götürü!EX.26!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+810!E!05.GNL!03.ISG!Sağlık Giderleri - Konsolide!götürü!EX.26!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+990!E!05.GNL!03.ISG!İş Güvenliği Giderleri - Genel!götürü!EX.26!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+000!E!05.GNL!04.KKT!Kalite Kontrol / Lab Giderleri!götürü!EX.50!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+110!E!05.GNL!05.ISI!Isıtma / Soğutma Giderleri!ay!EX.25!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+110!E!05.GNL!06.ESU!Elektrik Giderleri - Ana Şantiyeler!ay!EX.25!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+120!E!05.GNL!06.ESU!Elektrik Giderleri - Koltuk Şantiyeler!ay!EX.25!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+210!E!05.GNL!06.ESU!Su Giderleri!ay!EX.25!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+510!E!05.GNL!06.ESU!İDARE - Elektrik / Su Giderleri!ay!EX.25!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+810!E!05.GNL!06.ESU!Elektrik / Doğalgaz Giderleri - Konsolide!götürü!EX.25!1!!FALSE!Direkt - Pivot - P_End_Mak!!!TRUE!İMALAT!YAPILACAK
+800!E!05.GNL!07.ITG!IT Giderleri - Konsolide!götürü!EX.20!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!E!05.GNL!08.ILT!Telefon Giderleri!ay!EX.21!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!E!05.GNL!08.ILT!Internet Giderleri!ay!EX.21!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!E!05.GNL!10.KRT!Ofis / Kırtasiye / Kargo Giderleri - Şantiye!götürü!EX.22!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+210!E!05.GNL!10.KRT!Ofis / Kırtasiye / Kargo Giderleri - Ankara!ay!EX.22!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+800!E!05.GNL!10.KRT!Ofis / Kırtasiye / Kargo Giderleri - Genel!götürü!EX.22!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!E!05.GNL!11.YLC!Yolculuk Giderleri!götürü!EX.23!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!E!05.GNL!11.YLC!Teknik Geziler!adm×ay!EX.18!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+210!E!05.GNL!11.YLC!Konaklama Giderleri!götürü!EX.18!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+310!E!05.GNL!11.YLC!Yurtdışı Yol / Konaklama Giderleri!götürü!EX.18!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+520!E!05.GNL!11.YLC!İDARE - Teknik Geziler!adm×ay!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!E!05.GNL!12.AGR!Temsil ve Ağırlama Giderleri - Şantiye!ay!EX.24!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+210!E!05.GNL!12.AGR!Temsil ve Ağırlama Giderleri - Ankara Ofis!ay!EX.24!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+810!E!05.GNL!12.AGR!Temsil ve Ağırlama Giderleri - Konsolide!götürü!EX.24!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!E!05.GNL!13.TBK!Tesis / Bina Bakım Onarım Giderleri!ay!EX.14!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+510!E!05.GNL!13.TBK!İDARE - Tesis Bakım Giderleri!ay!EX.14!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+000!E!05.GNL!14.OLC!Ölçüm Giderleri ( Ekipman Vs. )!götürü!EX.50!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!E!05.GNL!15.GUV!Güvenlik Giderleri!ay!EX.27!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+810!E!05.GNL!16.EGT!Eğitim / Staj / Seminer Giderleri - Konsolide!götürü!EX.13!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+000!E!05.GNL!17.YRD!Bağış / Yardım Giderleri!götürü!EX.50!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+810!E!05.GNL!18.MNT!Mahmeke / Noter Giderleri!götürü!EX.50!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!E!05.GNL!19.TNT!Fotoğraf / Video / Drone Çekim Giderleri!ay!EX.50!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!E!05.GNL!19.TNT!Halk Tanıtım Organizasyonları!ay!EX.24!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!E!05.GNL!20.CVR!Çöplerin Uzaklaştırılması!ay!EX.50!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!E!05.GNL!20.CVR!Çevresel Ortam Ölçümleri!ay!EX.26!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+810!E!05.GNL!20.SEÇ!SEÇ Giderleri - Konsolide!götürü!EX.26!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+800!E!05.GNL!50.NAK!Nakliye Giderleri - Konsolide!götürü!EX.16!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!E!05.GNL!99.DGR!Servis Giderleri!götürü!EX.03!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+210!E!05.GNL!99.DGR!Küçük Ekipmanlar ve Sarf Malzemeleri!götürü!EX.04!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+310!E!05.GNL!99.DGR!Eğlence ve Çeşitli Sarflar!ay!EX.03!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+510!E!05.GNL!99.DGR!İDARE - Servis. Telefon Bağlantıları. İşletme Giderleri!ay!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+010!E!06.MBL!01.MKB!Prefabrik Bina Temel İşleri!m³!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+022!E!06.MBL!01.MKB!Bina Betonları!m³!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+030!E!06.MBL!01.MKB!Kazı İşleri!m³!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+040!E!06.MBL!01.MKB!Dolgu İşleri!m³!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+510!E!06.MBL!01.MKB!İDARE - Ofis Taban Betonu!m³!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!E!06.MBL!02.ARK!Ana Şantiye - Düver!ay!EX.15!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!E!06.MBL!02.ARK!Ana Şantiye - CakCak!ay!EX.15!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+130!E!06.MBL!02.ARK!Koltuk Şantiye!ay!EX.15!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+210!E!06.MBL!02.ARK!Mera (Ot) Bedeli - Depo Sahaları!m²!EX.15!1!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+220!E!06.MBL!02.ARK!Mera (Ot) Bedeli - Ocaklar!m²!EX.15!1!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+310!E!06.MBL!02.ARK!Ocak ve Ariyet İzin!götürü!EX.15!1!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+410!E!06.MBL!02.ARK!Ankara Ofis Kira / Aidat Bedeli!ay!EX.15!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+810!E!06.MBL!02.ARK!Gayrimenkul Kirası - Konsolide!götürü!EX.15!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+001!E!06.MBL!03.PRF!Ofis!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+002!E!06.MBL!03.PRF!Atölyeler!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+003!E!06.MBL!03.PRF!Modüler Sistem Ambar!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+006!E!06.MBL!03.PRF!İşçi Yatakhanesi!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+007!E!06.MBL!03.PRF!İşçi - Formen Lokal!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+008!E!06.MBL!03.PRF!Mekanik Bina!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+011!E!06.MBL!03.PRF!VIP Yatakhane!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+012!E!06.MBL!03.PRF!Mühendis Yatakhane!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+013!E!06.MBL!03.PRF!Formen Yatakhane!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+014!E!06.MBL!03.PRF!VIP Lokal!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+015!E!06.MBL!03.PRF!Mühendis Lokal!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+021!E!06.MBL!03.PRF!Mutfak - Yemekhane!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+022!E!06.MBL!03.PRF!Spor Salonu!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+023!E!06.MBL!03.PRF!Revir!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+024!E!06.MBL!03.PRF!Çamaşırhane!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+025!E!06.MBL!03.PRF!Mescit!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+031!E!06.MBL!03.PRF!Kazan Dairesi!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+032!E!06.MBL!03.PRF!Konteyner Tipi Saha Ofis!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+033!E!06.MBL!03.PRF!WC Konteyner!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+039!E!06.MBL!03.PRF!Genel Konteyner - %50 Amortismanlı!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+111!E!06.MBL!03.PRF!İDARE - Ofis!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+151!E!06.MBL!03.PRF!İDARE - Saha Ofisleri - 20 m²!götürü!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+810!E!06.MBL!03.PRF!Prefabrik Binalar - Genel!götürü!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+000!E!06.MBL!05.INC!İnce İşler!götürü!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!E!06.MBL!06.TSS!Su Arıtma Paket Sistem!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!E!06.MBL!06.TSS!Su Arıtma İşletme Gideri!ay!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+130!E!06.MBL!06.TSS!Pissu Tesisatı Paket Sistem!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+135!E!06.MBL!06.TSS!Pissu Tesisatı Bağlantısı!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+140!E!06.MBL!06.TSS!Pissu Tesisatı İşletme Gideri!ay!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+210!E!06.MBL!06.TSS!Su Bağlantısı!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+220!E!06.MBL!06.TSS!Depo ve Tanklar!m³!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+310!E!06.MBL!06.TSS!Yangın Güvenliği Sistemi!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+510!E!06.MBL!06.TSS!İDARE - Elektrik - Su Bağlantısı!götürü!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+810!E!06.MBL!06.TSS!Genel Mekanik Tesisat İşleri!götürü!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!E!06.MBL!07.ELK!Elektrik İşleri ( Tüm Trafolar ve Bağlantıları )!götürü!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+210!E!06.MBL!07.ELK!Telefon Bağlantısı!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+001!E!06.MBL!08.MBE!Ofis Mobilyaları!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+005!E!06.MBL!08.MBE!Laboratuar Ekipmanları!götürü!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+011!E!06.MBL!08.MBE!Revir Sağlık Gereçleri!götürü!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+012!E!06.MBL!08.MBE!Çamaşırhane Ekipmanları!götürü!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+013!E!06.MBL!08.MBE!Mutfak Ekipmanları!götürü!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+021!E!06.MBL!08.MBE!Klimalar - Ofis!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+022!E!06.MBL!08.MBE!Klimalar - Ofis Harici!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+041!E!06.MBL!08.MBE!Mühendis / VIP Yatakhanesi Mobilyaları!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+042!E!06.MBL!08.MBE!Formen Yatakhanesi Mobilyaları!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+043!E!06.MBL!08.MBE!İşçi Yatakhanesi Mobilyaları!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+044!E!06.MBL!08.MBE!Mühendis / VIP Lokali Mobilyaları!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+045!E!06.MBL!08.MBE!Formen / İşçi Lokali Mobilyaları!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+046!E!06.MBL!08.MBE!Revir Mobilya / Demirbaşları!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+047!E!06.MBL!08.MBE!Spor Salonu Mobilya / Demirbaşları!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+048!E!06.MBL!08.MBE!Mescit Mobilya / Demirbaşları!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+049!E!06.MBL!08.MBE!Mutfak / Yemekhane Mobilya / Demirbaşları!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+710!E!06.MBL!08.MBE!SEÇ Ekipmanları - Fotoğraf Makinesi!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+720!E!06.MBL!08.MBE!SEÇ Ekipmanları - Gaz Dedektörü!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+730!E!06.MBL!08.MBE!SEÇ Ekipmanları - Işık Ölçer!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+740!E!06.MBL!08.MBE!SEÇ Ekipmanları - İlan Panosu!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+750!E!06.MBL!08.MBE!SEÇ Ekipmanları - Şarjlı El Feneri!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+760!E!06.MBL!08.MBE!SEÇ Ekipmanları - Megafon!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+770!E!06.MBL!08.MBE!SEÇ Ekipmanları - İskele Örtüsü!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+810!E!06.MBL!08.MBE!Mobilya ve Demirbaşlar - Konsolide!götürü!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+111!E!06.MBL!09.MBE!İDARE - Ofis Mobilyaları!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+112!E!06.MBL!09.MBE!İDARE - Diğer Tefrişat!m²!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+121!E!06.MBL!09.MBE!İDARE - Klimalar!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+016!E!06.MBL!10.OFE!Fotoğraf Makinaları!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+017!E!06.MBL!10.OFE!Projeksiyon Cihazları!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+018!E!06.MBL!10.OFE!Büyük Ekran LCD Tvler!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+019!E!06.MBL!10.OFE!UPSler!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+021!E!06.MBL!10.OFE!Telefonlar - Telsiz!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+022!E!06.MBL!10.OFE!Telefonlar - Mobil!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+011!E!06.MBL!10.OFE!Yazıcılar!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+012!E!06.MBL!10.OFE!Fotokopi Makinaları!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+013!E!06.MBL!10.OFE!Plotterlar!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+014!E!06.MBL!10.OFE!Fax Makinaları!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+015!E!06.MBL!10.OFE!Bilgisayarlar!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!E!06.MBL!10.OFE!Ankara Ofis - Desktop / Laptop!adet!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+111!E!06.MBL!11.OFE!İDARE - Yazıcılar!adet!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+112!E!06.MBL!11.OFE!İDARE - Fotokopi Makinaları!adet!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+115!E!06.MBL!11.OFE!İDARE - Bilgisayarlar!adet!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+116!E!06.MBL!11.OFE!İDARE - Fotoğraf Makinaları!adet!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+117!E!06.MBL!11.OFE!İDARE - Projeksiyon Cihazları!adet!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+118!E!06.MBL!11.OFE!İDARE - Büyük Ekran LCD Tvler!adet!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+119!E!06.MBL!11.OFE!İDARE - UPSler!adet!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+121!E!06.MBL!11.OFE!İDARE - Telefonlar - Telsiz!adet!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+122!E!06.MBL!11.OFE!İDARE - Telefonlar - Mobil!adet!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+131!E!06.MBL!11.OFE!İDARE - Geniş Kapasiteli Cilt Makineleri!adet!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+132!E!06.MBL!11.OFE!İDARE - Evrak İmha Makineleri!adet!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+134!E!06.MBL!11.OFE!İDARE - İş İlerleme Dijital Pano!adet!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+135!E!06.MBL!11.OFE!İDARE - Drone!adet!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+136!E!06.MBL!11.OFE!İDARE - Telefon Hattıyla Yazıcı / Fotokopi / Fax / Tarayıcı!adet!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+137!E!06.MBL!11.OFE!İDARE - Kamera - CCTV!adet!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+111!E!06.MBL!12.ITE!Santral!adet!EX.20!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+112!E!06.MBL!12.ITE!Switch!adet!EX.20!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+113!E!06.MBL!12.ITE!Router!adet!EX.20!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+114!E!06.MBL!12.ITE!Kablolama!götürü!EX.20!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+115!E!06.MBL!12.ITE!Kabinet!adet!EX.20!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+121!E!06.MBL!12.ITE!IT Sistemi ( Doğuş )!götürü!EX.20!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+131!E!06.MBL!12.ITE!IOVA Lisans!adet!EX.20!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+132!E!06.MBL!12.ITE!IOVA Bakım!adet!EX.20!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+133!E!06.MBL!12.ITE!IOVA Geliştirme!adet!EX.20!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+141!E!06.MBL!12.ITE!Adobe Acrobat Professional!adet!EX.20!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+142!E!06.MBL!12.ITE!AutoCAD Abonelik!yıl!EX.20!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+143!E!06.MBL!12.ITE!AutoCAD LT Abonelik!yıl!EX.20!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+144!E!06.MBL!12.ITE!NetCAD!adet!EX.20!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+145!E!06.MBL!12.ITE!Primavera!adet!EX.20!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+146!E!06.MBL!12.ITE!Tilos Abonelik!yıl!EX.20!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+210!E!06.MBL!12.ITE!Ankara Ofis - SAP!adet!EX.20!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+220!E!06.MBL!12.ITE!Ankara Ofis - EBA!adet!EX.20!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+230!E!06.MBL!12.ITE!Ankara Ofis - Microsoft Office!adet!EX.20!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+240!E!06.MBL!12.ITE!Ankara Ofis - AutoCAD!ay!EX.20!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+250!E!06.MBL!12.ITE!Ankara Ofis - NetCAD!adet!EX.20!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+260!E!06.MBL!12.ITE!Ankara Ofis - Primavera!adet!EX.20!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+310!E!06.MBL!12.ITE!Ankara Ofis - WAN / Kablolama / Sistem Odası!götürü!EX.20!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+810!E!06.MBL!12.ITE!IT Yazılım ve Hizmetleri - Konsolide!götürü!EX.20!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+820!E!06.MBL!12.ITE!IT Ekipmanları - Konsolide!götürü!EX.20!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+112!E!06.MBL!13.ITE!Switch!adet!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+113!E!06.MBL!13.ITE!Router!adet!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+114!E!06.MBL!13.ITE!Kablolama!götürü!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+115!E!06.MBL!13.ITE!Kabinet!adet!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+116!E!06.MBL!13.ITE!Sunucu!adet!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+117!E!06.MBL!13.ITE!Sistem Odası (+ Klima / Yangın Söndürme )!adet!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+118!E!06.MBL!13.ITE!WAN İlk Yatırım Maliyet!götürü!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+141!E!06.MBL!13.ITE!Adobe Acrobat Professional!adet!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+142!E!06.MBL!13.ITE!AutoCAD Abonelik!yıl!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+146!E!06.MBL!13.ITE!Tilos Abonelik!yıl!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+151!E!06.MBL!13.ITE!Proje Takip Bilgi Sistemi Yazılımı!adet!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+152!E!06.MBL!13.ITE!Microsoft Office Lisans!adet!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+153!E!06.MBL!13.ITE!Microsoft Visio Lisans!adet!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+154!E!06.MBL!13.ITE!Antivirüs Lisans!adet!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!E!06.MBL!21.CVR!Tanıtım Levhası!adet!EX.50!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!E!06.MBL!21.CVR!İşaretlemeler!götürü!EX.26!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+130!E!06.MBL!21.CVR!Servis Yolları Bakımı!ay!EX.14!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+210!E!06.MBL!21.CVR!Çit / Çevre Duvarı!m!EX.27!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+220!E!06.MBL!21.CVR!Güvenlik Kapısı / Güvenlik Klübesi!adet!EX.27!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+310!E!06.MBL!21.CVR!Çevre İzin ve Lisanslar!adet!EX.50!1!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+420!E!06.MBL!21.CVR!Tehlikeli ve Tıbbı Atıkların Bertarafı!ay!EX.50!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+430!E!06.MBL!21.CVR!Atık Toplama Alanları!adet!EX.50!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+440!E!06.MBL!21.CVR!Tekerlek Yıkama Ünitesi!adet!EX.26!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+450!E!06.MBL!21.CVR!Yağ Tutucu ve Emici Bez Seti!adet!EX.26!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+810!E!06.MBL!21.CVR!Çevre Düzenlemesi / Yollar!götürü!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!E!06.MBL!80.DMB!Sahanın Temizlenmesi ve Tamiri!götürü!EX.14!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+120!E!06.MBL!80.DMB!Kabul ve Bakım Giderleri!götürü!EX.14!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+130!E!06.MBL!80.DMB!Tesislerin Kaldırılması!götürü!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+140!E!06.MBL!80.DMB!Bozulan Köy / Şehir Yollarının Yapılması!götürü!EX.14!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+210!E!06.MBL!80.DMB!Demobilizasyon - Nakliye Dahil!götürü!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+110!E!06.MBL!90.DGR!Yurtdışı Ofis Kurulumu!götürü!EX.50!1!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+810!E!06.MBL!90.DGR!Mobilizasyon Giderleri - Konsolide!götürü!EX.11!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+820!E!06.MBL!90.DGR!İşveren Mobilizasyon ve Satınalma Giderleri!götürü!EX.12!1!!FALSE!!!!TRUE!İMALAT!YAPILACAK
+010!E!07.FIN!01.TEM!Kati Teminat Mektubu Masrafı!götürü!EX.10!0!!FALSE!408.000.000 + 306.000.000 × 2!!!FALSE!İMALAT!YAPILACAK
+020!E!07.FIN!01.TEM!İhzarat Teminat Mektubu Masrafı!götürü!EX.10!0!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+030!E!07.FIN!01.TEM!Fiyat Farkı Teminat Mektubu Masrafı!götürü!EX.10!0!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+040!E!07.FIN!01.TEM!Nakit Kesinti Mektup Masrafı!götürü!EX.10!0!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+050!E!07.FIN!01.TEM!Kesin Hesap Teminat Mektubu Masrafı!götürü!EX.10!0!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+810!E!07.FIN!01.TEM!Teminat Mektubu Komisyonları - Konsolide!götürü!EX.10!0!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+010!E!07.FIN!20.VGR!Gelir Vergisi!götürü!EX.28!0!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+110!E!07.FIN!20.VGR!Belediye Vergi ve Resimleri!götürü!EX.28!0!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+120!E!07.FIN!20.VGR!Damga Vergisi!götürü!EX.28!0!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+130!E!07.FIN!20.VGR!Motorlu Taşıt Vergisi!götürü!EX.28!0!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+210!E!07.FIN!20.VGR!İngiltere Gelir Vergisi!götürü!EX.28!0!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+220!E!07.FIN!20.VGR!Polonya Gelir Vergisi!götürü!EX.28!0!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+990!E!07.FIN!20.VGR!Diğer Vergi. Resim ve Harçlar!götürü!EX.28!0!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+110!E!07.FIN!90.GNL!Banka Masrafları!götürü!EX.29!0!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+810!E!07.FIN!90.GNL!Genel Finansal Giderler!götürü!EX.10!0!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+001!E!08.SGR!01.ALL!All Risk Sigortası!götürü!EX.17!1!!FALSE!( ( 2094181.98 + 1780617.47 ) + (  104709.1 + 89030.87 ) + 155000 )  *  pp_EUR_TRY!!!FALSE!İMALAT!YAPILACAK
+001!E!08.SGR!02.KSK!Plakalı Trafik / Kasko Sigortası!götürü!EX.17!1!!FALSE!Plakalı Makineler *  0.03  *  (  1  +  (1-(0.7/5)*1) + (1-(0.7/5)*2) + (1-(0.7/5)*3) + (1-(0.7/5)*4)  )!!!FALSE!İMALAT!YAPILACAK
+001!E!08.SGR!03.ANA!Plakasız Ana Ekipman Sigortası!götürü!EX.17!1!!FALSE!Plakasız Makineler *  0.045  *  (  1  +  (1-(0.7/5)*1) + (1-(0.7/5)*2) + (1-(0.7/5)*3) + (1-(0.7/5)*4)  )!!!FALSE!İMALAT!YAPILACAK
+001!E!08.SGR!04.NKL!Nakliye Sigortası!götürü!EX.17!1!!FALSE!Toplam Makine Alım Bedeli × 0.06 % × 2!!!FALSE!İMALAT!YAPILACAK
+001!E!08.SGR!05.PRS!Personel Ferdi Kaza Sigortası!götürü!EX.17!1!!FALSE!Senelik Kişi Başı 20 $ - Miktarlar Senelik Ortalama Personel Sayısı!!!FALSE!İMALAT!YAPILACAK
+810!E!08.SGR!06.MMS!İşveren Mali Mesuliyet Sigortası!götürü!EX.17!1!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+110!E!08.SGR!90.DGR!Tehlikeli Madde Mali Mesuliyet Sigortası!ay!EX.17!1!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+990!E!08.SGR!90.DGR!Diğer Sigorta Giderleri!götürü!EX.17!1!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+110!E!09.MGD!10.MGP!Merkez Gider Payı - Doğuş İnşaat!götürü!EX.10!0!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+120!E!09.MGD!10.MGP!Merkez Gider Payı - Çelikler İnşaat!götürü!EX.10!0!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+130!E!09.MGD!10.MGP!Merkez Gider Payı - Özkar İnşaat!götürü!EX.10!0!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+880!E!09.MGD!10.MGP!Merkez Gider Payları ( Konsolide )!götürü!EX.10!0!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+810!E!09.MGD!70.ONG!Öngörülmeyen Giderler - Konsolide!götürü!EX.50!0!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+110!E!09.MGD!90.DGR!Yurtdışı Şirket Gideri!ay!EX.50!0!!FALSE!!!!FALSE!İMALAT!YAPILACAK
+990!E!09.MGD!90.DGR!Diğer Endirekt Giderler - Konsolide!götürü!EX.50!0!!FALSE!!!!TRUE!İMALAT!YAPILACAK
