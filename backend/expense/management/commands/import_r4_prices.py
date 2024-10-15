@@ -30,9 +30,9 @@ class Command(BaseCommand):
             unit_dict = {str(unit.unit).upper(): unit for unit in Unit.objects.all()}  # Adjust 'name' to your Unit model's unique field
             rep_month_dict = {str(rep_month.rep_month).upper(): rep_month for rep_month in RepMonth.objects.all()}  # Adjust 'name' to your RepMonth model's unique field   
             # Read the Excel file using pandas
-            df = pd.read_excel(file_path, sheet_name='R4Prices', dtype={'Rep_Month': str, 'R1 Code': str, 'R2 Code': str, 'R3 Code': str, 'M2 Code': str, 'T1 Code': str, 'R4 Code': str, 'Description': str, 'Unit': str, 'Currency': str, 'Origin': str, 'Price': float, 'Price Date': str,  'Price Adjustment Type': str, ' Depreciation Price': float, 'Depreciation': bool, 'Depreciation Type': str, 'Energy Type':str,'Finance Type':str, 'Operator R4 Code': str, 'Customs': bool, 'Content Constant': float, 'Machine ID': str, 'Depreciation_Qty': float,'Consumption': float, 'Consumption_Unit': str, 'Capacity': float, 'Capacity_Unit': str,'Operator M2 Code': str,'Operator T1 Code': str, 'Rep Month': str})
+            df = pd.read_excel(file_path, sheet_name='R4Prices', dtype={'Rep_Month': str, 'R1 Code': str, 'R2 Code': str, 'R3 Code': str, 'M2 Code': str, 'T1 Code': str, 'R4 Code': str, 'Description': str, 'Unit': str, 'Currency': str, 'Origin': str, 'Price': float, 'Price Date': str,  'Price Adjustment Type': str, ' Depreciation Price': float, 'Depreciation': bool, 'Depreciation Type': str, 'Energy Type':str,'Finance Type':str, 'Operator R4 Code': str, 'Customs': bool, 'Content Constant': float, 'Machine ID': str, 'Depreciation_Qty': float,'Consumption': float, 'Consumption_Unit': str, 'Capacity': float, 'Capacity_Unit': str,'Operator M2 Code': str,'Operator T1 Code': str, 'Rep Month': str, 'Finance Model': str, 'Finance Ratio': float})
 
-            required_columns = {'R1 Code', 'R2 Code', 'R3 Code', 'R4 Code', 'Description', 'Unit', 'Currency', 'Origin', 'Finance Type', 'Customs', 'Price Date', 'Price', 'Price Adjustment Type', 'Depreciation', 'Depreciation Type', 'Energy Type', 'Operator R4 Code', 'Content Constant', 'Machine ID','Depreciation_Qty','Consumption','Consumption_Unit','Capacity','Capacity_Unit','M2 Code','T1 Code','Rep Month', 'Operator M2 Code', 'Operator T1 Code'}
+            required_columns = {'R1 Code', 'R2 Code', 'R3 Code', 'R4 Code', 'Description', 'Unit', 'Currency', 'Origin', 'Finance Type', 'Customs', 'Price Date', 'Price', 'Price Adjustment Type', 'Depreciation', 'Depreciation Type', 'Energy Type', 'Operator R4 Code', 'Content Constant', 'Machine ID','Depreciation_Qty','Consumption','Consumption_Unit','Capacity','Capacity_Unit','M2 Code','T1 Code','Rep Month', 'Operator M2 Code', 'Operator T1 Code', 'Finance Model', 'Finance Ratio'}
 
             file_columns = set(df.columns)
             
@@ -93,7 +93,8 @@ class Command(BaseCommand):
                     capacity = row['Capacity'] if pd.notna(row['Capacity']) else None
                     capacity_unit = unit_dict.get(str(row['Capacity_Unit']).upper()) if pd.notna(row['Capacity_Unit']) else None
                     energy_unit = unit_dict.get(str(row['Consumption_Unit']).upper()) if pd.notna(row['Consumption_Unit']) else None
-
+                    finance_model = str(row['Finance Model']).upper() if pd.notna(row['Finance Model']) else None
+                    finance_ratio = row['Finance Ratio'] if pd.notna(row['Finance Ratio']) else None
                     created_by_id = '12f4aa11-b6fc-482f-894d-0962ad5f4313'
 
                         # Create the R4Price instance
@@ -124,6 +125,8 @@ class Command(BaseCommand):
                             t1_code_id=t1_code.id if t1_code else None,
                             operator_m2_code_id=operator_m2_code.id if operator_m2_code else None,
                             operator_t1_code_id=operator_t1_code.id if operator_t1_code else None,
+                            fin_model=finance_model,
+                            fin_model_ratio=finance_ratio,
 
                             created_by_id=created_by_id,
                             updated_by_id=created_by_id

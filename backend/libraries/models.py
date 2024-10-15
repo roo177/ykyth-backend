@@ -281,6 +281,7 @@ class R4Code(Common):
         code_comb = models.CharField(max_length=255, editable=True, blank=True)
         machine_id = models.CharField(max_length=100, null=True, blank=True)
 
+
         def save(self, *args, **kwargs):
             if self.r3_code:
                 self.code_comb = f"{self.r3_code.r2_code.r1_code.r1_code}-{self.r3_code.r2_code.r2_code}-{self.r3_code.r3_code}-{self.r4_code}"

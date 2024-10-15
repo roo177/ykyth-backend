@@ -72,6 +72,8 @@ class R4Price(Common):
     capacity_unit = models.ForeignKey(Unit, null=True, on_delete=models.PROTECT, verbose_name='Capacity Unit name', blank=True, related_name='capacity_unit_r4_prices')
     m2_code = models.ForeignKey(M2Code, on_delete=models.PROTECT, verbose_name='M2 Code',null=True, blank=True)
     t1_code = models.ForeignKey(T1Code, on_delete=models.PROTECT, verbose_name='T1 Code',null=True, blank=True)
+    fin_model = models.CharField(max_length=6, null=True, blank=True)
+    fin_model_ratio = models.FloatField(null=True, blank=True)
 
     class Meta:
         ordering = ['price_date']
@@ -129,6 +131,8 @@ class ExpenseQuantity(Common):
     exp_qty = models.FloatField(default=0)
     m2_code = models.ForeignKey(M2Code, on_delete=models.PROTECT, verbose_name='M2 Code', related_name='m2_code_expense_qty')
     t1_code = models.ForeignKey(T1Code, on_delete=models.PROTECT, verbose_name='T1 Code', related_name='t1_code_expense_qty')
+    qty_type = models.BooleanField(default=True)
+
 
     class Meta:
         ordering = ['l4_code']
