@@ -17,11 +17,12 @@ class Command(BaseCommand):
         file_path = kwargs['file_path']
 
         try:
-            df = pd.read_excel(file_path, sheet_name='Gider Miktar', usecols=lambda col: col not in ['Sözleşme Miktar', 'Kalan Miktar', 'Toplam Miktar', 'Kalan Dağılan Fark','L4 Desc','M2 Desc','T1 Desc'])
+            df = pd.read_excel(file_path, sheet_name='Gider Miktar', usecols=lambda col: col not in ['Sözleşme Miktar', 'Kalan Miktar', 'Toplam Miktar', 'Kalan Dağılan Fark','L4 Desc','M2 Desc','T1 Desc','KIRMATAŞ','SU TEMİNİ','TAŞ','BAĞLANTI'])
 
-            file_columns = set(df.columns)
+            file_columns = set(df.columns)  
 
             rep_month_dict = {rep_month.rep_month: rep_month.id for rep_month in RepMonth.objects.all()}
+
             l4_code_dict = {
                 f"{l4_code.code_comb}".strip(): str(l4_code.id)
                 for l4_code in L4Code.objects.filter(aygm_code__isnull=True)
@@ -46,9 +47,11 @@ class Command(BaseCommand):
             # Unpivot DataFrame
 
             # Convert 'month' to datetime and handle 'qty'
-            df_melted['month'] = pd.to_datetime(df_melted['month'], format='%Y-%m-%d %H:%M:%S').dt.date
+            df_melted['month'] = pd.to_datetime(df_melted['month'], format='%d.%m.%Y', dayfirst=True).dt.date
+
             df_melted['qty'] = pd.to_numeric(df_melted['qty'], errors='coerce')
             df_melted.dropna(subset=['qty'], inplace=True)
+            print(df_melted.count())
             # Prepare data for bulk insertion
             expense_records = []
             df_melted['L4 Code'] = df_melted['L4 Code'].astype(str)
@@ -56,6 +59,7 @@ class Command(BaseCommand):
             df_melted['M2 Code'] = df_melted['M2 Code'].astype(str)
             df_melted['T1 Code'] = df_melted['T1 Code'].astype(str)
             df_melted['FFAK'] = df_melted['FFAK'].astype(str)
+            df_melted['Taşeron Kod'] = df_melted['Taşeron Kod'].astype(str)
 
             for _, row in df_melted.iterrows():
                 l4_code_value = str(row['L4 Code']).strip() 
@@ -63,7 +67,7 @@ class Command(BaseCommand):
                 rep_month_id = rep_month_dict.get(str(row['Rep Month']))
                 m2_code_id = m2_code_dict.get(str(row['M2 Code']))
                 t1_code_id = t1_code_dict.get(str(row['T1 Code']) + "-"+str(row['FFAK']))
-
+                qty_type = True if row['Taşeron Kod'] != 'MALZEME DAĞILIM İÇİN' else False
                 # Print for debugging
                 # print(f"Rep Month ID: {rep_month_id}, L4 Code ID: {l4_code_id}, Quantity: {row['qty']}")
                 if row['qty'] == 'nan' or row['qty'] == 'NaN' or row['qty'] == 0:
@@ -76,7 +80,8 @@ class Command(BaseCommand):
                             exp_month=row['month'],
                             exp_qty=row['qty'],
                             m2_code_id=m2_code_id,
-                            t1_code_id=t1_code_id
+                            t1_code_id=t1_code_id,
+                            qty_type=qty_type
                         )
                     )
 

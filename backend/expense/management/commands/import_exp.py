@@ -17,7 +17,7 @@ class Command(BaseCommand):
         file_path = kwargs['file_path']
         print("File Path: ", file_path)
         try:
-            df = pd.read_excel(file_path, sheet_name='Expense', usecols=lambda col: col not in ['L4 Desc', 'R4 Desc', 'R4 Subc Code'])
+            df = pd.read_excel(file_path, sheet_name='Expense', usecols=lambda col: col not in ['L4 Desc', 'R4 Desc', 'R4 Subc Code','DESC2'])
 
             file_columns = set(df.columns)
 
@@ -95,6 +95,7 @@ class Command(BaseCommand):
                 # print(f"Rep Month ID: {rep_month_id}, L4 Code ID: {l4_code_id}, Quantity: {row['qty']}")
                 if row['Qty'] == 'nan' or row['Qty'] == 'NaN' or row['Expense'] == 'nan' or row['Expense'] == 'NaN' or row['Expense'] == 0:
                     continue
+
                 if rep_month_id and l4_code_id:
                     expense_records.append(
                         Expense(
@@ -113,7 +114,7 @@ class Command(BaseCommand):
 
                         )
                     )
-
+                    # print(row['Currency'])
             with transaction.atomic():
                 # Delete existing records for the given rep_month_id (if needed)
                 print("Expense Quantity to be appended: ", len(expense_records))
