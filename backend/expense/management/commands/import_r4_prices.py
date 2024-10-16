@@ -17,7 +17,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **kwargs):
         file_path = kwargs['file_path']
-
+        index_num = None
         try:
             # Create a dictionary of R3 Codes for lookup
             r4_code_dict = {str(r4_code.code_comb).upper(): r4_code for r4_code in R4Code.objects.all()}  # Adjust 'name' to your R4Code model's unique field
@@ -45,6 +45,7 @@ class Command(BaseCommand):
                 R4Price.objects.filter(rep_month__rep_month=rep_month_delete).delete()  # Clear existing data
                 
                 for index, row in df.iterrows():
+                    index_num = index
                     rep_month = rep_month_dict.get(str(row['Rep Month']).upper()) if pd.notna(row['Rep Month']) else None
                     
                     r1_code = str(row['R1 Code']).upper() if pd.notna(row['R1 Code']) else None
@@ -134,8 +135,11 @@ class Command(BaseCommand):
                         #print(f'R4 Code {r1_code + "-" + r2_code_code + "-" + r3_code_code + "-" + r4_code_code+" / "+m2_code.code_comb + "/" + t1_code.code_comb + "-" +t1_code.price_adjustment} imported successfully')
 
 
-                self.stdout.write(self.style.SUCCESS('R4 Prices imported successfully'))
+                self.stdout.write(self.style.SUCCESS('R4 Prices has been imported successfully'))
         except FileNotFoundError:
             raise CommandError(f'File not found at {file_path}')
         except Exception as e:
-            raise CommandError(f'Error: {str(e) + " " + str(index)+ " " + f"{r1_code}-{r2_code_code}-{r3_code_code}-{r4_code_code}"}')
+            if index_num is not None:
+                raise CommandError(f'Error: {str(e) + " " + str(index_num)+ " " + f"{r1_code}-{r2_code_code}-{r3_code_code}-{r4_code_code}"}')
+            else:
+                raise CommandError(f'Error: {str(e)}')
