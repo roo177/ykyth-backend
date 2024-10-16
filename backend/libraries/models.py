@@ -59,6 +59,7 @@ class T1Code(Common):
         ('OZD.01', 'OZD.01'),
         ('OZD.02', 'OZD.02'),
         ('-', '-'),
+        ('GFF AK', 'GFF AK'),
     ]  
 
     t1_code = models.CharField(max_length=100)
