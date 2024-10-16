@@ -115,7 +115,7 @@ class Command(BaseCommand):
                     ExpenseMachineryOperatorDistribution.objects.filter(rep_month_id=rep_month_id).delete()
                     ExpenseMachineryOperatorDistribution.objects.bulk_create(expense_records)
                     
-                self.stdout.write(self.style.SUCCESS('Machinery Dist - Operator Data imported successfully'))
+                self.stdout.write(self.style.SUCCESS('Machinery Dist - Operator Data has been imported successfully'))
 
         except FileNotFoundError:
             raise CommandError(f'File not found at {file_path}')
