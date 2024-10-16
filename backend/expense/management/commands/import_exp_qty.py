@@ -92,7 +92,7 @@ class Command(BaseCommand):
                     ExpenseQuantity.objects.filter(rep_month_id=rep_month_id).delete()
                     ExpenseQuantity.objects.bulk_create(expense_records)
                     
-                self.stdout.write(self.style.SUCCESS('Exp Quantity Data imported successfully'))
+                self.stdout.write(self.style.SUCCESS('Exp Quantity Data has been imported successfully'))
 
         except FileNotFoundError:
             raise CommandError(f'File not found at {file_path}')

@@ -122,7 +122,7 @@ class Command(BaseCommand):
                     Expense.objects.filter(rep_month_id=rep_month_id).delete()
                     Expense.objects.bulk_create(expense_records)
                     
-                    self.stdout.write(self.style.SUCCESS('Expense Data imported successfully'))
+                    self.stdout.write(self.style.SUCCESS('Expense Data has been imported successfully'))
 
         except FileNotFoundError:
             raise CommandError(f'File not found at {file_path}')
