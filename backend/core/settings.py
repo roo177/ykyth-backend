@@ -91,12 +91,12 @@ WSGI_APPLICATION = 'core.wsgi.application'
 
 DATABASES = {
     'default': {
-        'NAME': config('POSTGRES_NAME'),
+        'NAME': config('ISIMTESCIL_NAME'),
         'ENGINE': 'django.db.backends.postgresql',
-        'HOST': config('POSTGRES_HOST'),
-        'PORT': config('POSTGRES_PORT', cast=int),
-        'USER': config('POSTGRES_USER'),
-        'PASSWORD': config('POSTGRES_PASSWORD'),
+        'HOST': config('ISIMTESCIL_HOST'),
+        'PORT': config('ISIMTESCIL_PORT', cast=int),
+        'USER': config('ISIMTESCIL_USER'),
+        'PASSWORD': config('ISIMTESCIL_PASSWORD'),
         'OPTIONS': {
             'options': '-c client_encoding=UTF8',
         },
