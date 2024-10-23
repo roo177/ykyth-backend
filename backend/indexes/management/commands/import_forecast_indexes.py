@@ -22,9 +22,9 @@ class Command(BaseCommand):
 
             # Assuming rep_month needs to be unique or specific identifier
             try:
-                rep_month = RepMonth.objects.get(rep_month='2409')
+                rep_month = RepMonth.objects.get(rep_month='2410')
             except RepMonth.DoesNotExist:
-                self.stdout.write(self.style.ERROR(f'RepMonth with rep_month "2409" does not exist.'))
+                self.stdout.write(self.style.ERROR(f'RepMonth with rep_month "2410" does not exist.'))
                 continue
 
             # Create or update the IndexIncRates entry

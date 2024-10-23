@@ -53,12 +53,12 @@ class Month(Common):
     month_no = models.IntegerField()
     year_no = models.IntegerField()
     class Meta:
-        ordering = ['month_no']
+        ordering = ['-year_no', 'month_no']
         db_table = 't_month'
 
         
     def __str__(self):
-        return self.month
+        return str(self.month)
     
 
 class Update(Common):

@@ -37,6 +37,7 @@ class R4Price(Common):
         ('SABİT TESİS', 'SABİT TESİS'),
         ('ARAÇ', 'ARAÇ'),
         ('DİĞER EKİPMANLAR', 'DİĞER EKİPMANLAR'),
+        ('ZEMİN', 'ZEMİN'),
         ('-', '-'),
     ]
     ENERGY_TYPES = [
@@ -79,7 +80,7 @@ class R4Price(Common):
         ordering = ['price_date']
         db_table = 't_r4_price'
         unique_together = ['r4_code', 'rep_month', 'm2_code', 't1_code', 'price_adjustment_type']
-
+        verbose_name_plural = 'R4 Prices Test'
     def __str__(self):
         return str(self.rep_month) + ' - ' + self.r4_code.code_comb
     

@@ -94,7 +94,7 @@ class Command(BaseCommand):
                         )
                     else:
                         missing_code = r4_code is None and f'Code {str(row['L4 Code']).upper() + "-" + str(row['R4 Code']).upper() }'
-                        raise CommandError(f'{missing_code} not found.')
+                        raise CommandError(f'{missing_code} not found. Row: {index + 2}')
 
                 self.stdout.write(self.style.SUCCESS('Analysis Data has been imported successfully'))
         except FileNotFoundError:

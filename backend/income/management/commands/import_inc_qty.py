@@ -18,8 +18,8 @@ class Command(BaseCommand):
         file_path = kwargs['file_path']
 
         try:
-            df = pd.read_excel(file_path, sheet_name='t_Aylik_Mkt_Gelir')
-
+            df = pd.read_excel(file_path, sheet_name='t_Aylik_Mkt_Gelir',usecols=lambda col: col not in ['toplam'])
+            print(len(df), 'records found')
             # Create mappings for foreign key fields
             rep_month_dict = {rep_month.rep_month: rep_month.id for rep_month in RepMonth.objects.all()}
 
@@ -41,8 +41,8 @@ class Command(BaseCommand):
             # Unpivot DataFrame
             df_melted = pd.melt(df, id_vars=['rep_month', 'aygm_poz', 'tip', 'detay'], 
                                 var_name='month', value_name='qty')
-            
-
+            print(len(df_melted), 'records after melting')
+            df_melted['rep_month'] = df_melted['rep_month'].astype(int).astype(str)
             # Convert 'month' to datetime and handle 'qty'
             df_melted['month'] = pd.to_datetime(df_melted['month'], format='%Y-%m-%d %H:%M:%S').dt.date
             df_melted['qty'] = pd.to_numeric(df_melted['qty'], errors='coerce')
@@ -52,11 +52,18 @@ class Command(BaseCommand):
             income_records = []
 
             for _, row in df_melted.iterrows():
-                
+                #print(row['rep_month'])
                 rep_month_id = rep_month_dict.get(str(row['rep_month']))
-
+                #print(rep_month_id)
                 l4_code_id = l4_code_dict.get(f"{str(row['aygm_poz'])}-{str(row['tip'])}")
                 activity_detail_id = activity_detail_dict.get(str(row['detay']))
+                if _ % 1000 == 0:
+                    print(f'{_} records processed')
+                    #print(f'Row: {row}')
+                    #print(f'Rep Month ID: {rep_month_id}')
+                    #print(f'L4 Code ID: {l4_code_id}')
+                    #print(f'Activity Detail ID: {activity_detail_id}')
+
 
                 if row['qty'] == 'nan' or row['qty'] == 'NaN' or row['qty'] == 0:
 
