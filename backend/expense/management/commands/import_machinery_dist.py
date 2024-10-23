@@ -17,7 +17,7 @@ class Command(BaseCommand):
         file_path = kwargs['file_path']
 
         try:
-            df = pd.read_excel(file_path, sheet_name='MAK-OPER')
+            df = pd.read_excel(file_path, sheet_name='MAK-OPER-2410', usecols=lambda col: col not in ['Machine ID'])
 
             file_columns = set(df.columns)
 
@@ -46,6 +46,8 @@ class Command(BaseCommand):
             df_melted = pd.melt(df, id_vars=['Rep Month', 'L4 Code','R4 Code','Machine R4 Code','M2 Code','T1 Code','FFAK','R4 Desc','R4 Desc2','OPERATÖR R4 Code'], 
                                 var_name='month', value_name='qty')
             df.columns = df.iloc[0]  # Set headers from the first row
+            #print(df.columns)
+            #print(len(df_melted))
             # df = df[1:]  # Skip the header row
 
             # Unpivot DataFrame
@@ -69,27 +71,31 @@ class Command(BaseCommand):
 
 
             for _, row in df_melted.iterrows():
-                
+                 
                 l4_code_value = str(row['L4 Code']).strip() 
                 l4_code_id = l4_code_dict.get(l4_code_value)
                 r4_code_value = str(row['R4 Code']).strip()
                 r4_code_id = r4_code_dict.get(r4_code_value)
-
+                #print(r4_code_id, r4_code_value, l4_code_id, l4_code_value)
                 machine_r4_code_id = None
                 m2_code_id = m2_code_dict.get(str(row['M2 Code']).strip())
                 t1_code_id = t1_code_dict.get(str(row['T1 Code']+"-"+row['FFAK']).strip())
                 r4_usage_desc = str(row['R4 Desc2']).strip()
+
                 if not r4_code_id:
                     raise CommandError(f'R4 Code not found: {r4_code_value} for L4 Code: {l4_code_value} at row: {row.name}')
-
+                if not l4_code_id:
+                    raise CommandError(f'L4 Code not found: {l4_code_value} for L4 Code: {l4_code_value} at row: {row.name}')
+                
                 if str(row['Machine R4 Code']).strip():
                     machine_r4_code_value = str(row['Machine R4 Code']).strip()
                     machine_r4_code_id = r4_code_dict.get(machine_r4_code_value)
 
                 rep_month_id = rep_month_dict.get(str(row['Rep Month']))
-
-
                 if rep_month_id and l4_code_id and row['qty'] != 0 and not pd.isnull(row['qty']):
+                    #print(row)
+
+                    #print("Adding record")
                     r4_usage_desc = row['R4 Desc2']
                     if r4_usage_desc == 'nan' or r4_usage_desc == 'NaN' or r4_usage_desc == 'Nan':
                         r4_usage_desc = None

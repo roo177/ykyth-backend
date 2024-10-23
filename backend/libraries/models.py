@@ -119,7 +119,7 @@ class ActivityTypeDetailIncome(Common):
         return self.description
 class L1Code(Common):
 
-    l1_code = models.CharField(max_length=100)
+    l1_code = models.CharField(max_length=1)
     description = models.CharField(max_length=100)
     code_comb = models.CharField(max_length=255, editable=True, blank=True)
     
@@ -138,7 +138,7 @@ class L1Code(Common):
     
 class L2Code(Common):
     
-    l2_code = models.CharField(max_length=100)
+    l2_code = models.CharField(max_length=6)
     l1_code = models.ForeignKey(L1Code, on_delete=models.PROTECT, verbose_name='L1 Code')
     description = models.CharField(max_length=100)
     code_comb = models.CharField(max_length=255, editable=True, blank=True)
@@ -158,7 +158,7 @@ class L2Code(Common):
     
 class L3Code(Common):
         
-        l3_code = models.CharField(max_length=100)
+        l3_code = models.CharField(max_length=6)
         l2_code = models.ForeignKey(L2Code, on_delete=models.PROTECT, verbose_name='L2 Code')
         description = models.CharField(max_length=100)
         code_comb = models.CharField(max_length=255, editable=True, blank=True)
@@ -179,7 +179,7 @@ class L3Code(Common):
 
 class L4Code(Common):
         
-        l4_code = models.CharField(max_length=100)
+        l4_code = models.CharField(max_length=3)
         l3_code = models.ForeignKey(L3Code, on_delete=models.PROTECT, verbose_name='L3 Code')
         description = models.CharField(max_length=255)
         unit = models.ForeignKey(Unit, null=True, on_delete=models.PROTECT, verbose_name='Unit')
