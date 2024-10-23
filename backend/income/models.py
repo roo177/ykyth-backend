@@ -44,6 +44,7 @@ class IncomeQuantitybyPPR(Common):
 class IncomeIndexes(Common):
     inc_month = models.DateField()
     inc_index = models.FloatField(default=0)
+    inc_inc_w_otv = models.FloatField(default=0)
     ppr_no  = models.IntegerField(default=0)
     class Meta:
         ordering = ['inc_month']

@@ -29,6 +29,7 @@ class Command(BaseCommand):
                         IncomeIndexes(
                             inc_month=row['Month'],
                             inc_index=row['Index'],
+                            inc_inc_w_otv=row['Inc w OTV'],
                             ppr_no=row['PPR No.']
                         )
                     )

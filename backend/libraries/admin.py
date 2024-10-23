@@ -66,6 +66,7 @@ class L4CodesAdmin(CommonAdmin):
         'description', 
         'aygm_code', 
         'aygm_group', 
+        'code_comb',
     )
 
 
@@ -135,11 +136,10 @@ class R3CodeAdmin(CommonAdmin):
     ordering = ('-created_at',)  # Add code_comb to ordering
 @admin.register(R4Code)
 class R4CodeAdmin(CommonAdmin):
-    list_display = ('r4_code', 'r3_code', 'description', 'code_comb') + CommonAdmin.list_display
+    list_display = ('r4_code', 'r3_code', 'description', 'code_comb', 'machine_id') + CommonAdmin.list_display
     search_fields = ('r4_code', 'r3_code__r3_code', 'description', 'code_comb')
     list_filter = ('is_active', 'is_deleted') + CommonAdmin.list_filter
-
-    ordering = ('-created_at',)  # Add code_comb to ordering
+    list_editable = ('machine_id',)
 @admin.register(M1Code)
 class M1CodeAdmin(CommonAdmin):
     list_display = ('m1_code', 'description', 'code_comb') + CommonAdmin.list_display
